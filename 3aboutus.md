@@ -9,7 +9,7 @@ tags: [aboutus, gvenck]
 ---
 
 <center>
-<img src="../images/logo1.png" height="150" width="auto">
+<img src="../images/logo1.png" height="100" width="auto">
 </center>
 <br>
   
