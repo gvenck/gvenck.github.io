@@ -12,7 +12,7 @@ tags: [events, gvenck]
 ### II INTERNATIONAL MEETING ON PLANT BREEDING
 *"Advances in Experimental Design and Statistical Analysis in Plant Breeding and Genetics"*  
 #### October 3-5th, 2018
-[More informations]()  
+[More informations coming soon]()  
 <br>
 
 <center><hr></center>
@@ -21,5 +21,5 @@ tags: [events, gvenck]
 ### I INTERNATIONAL MEETING ON PLANT BREEDING
 *"Combining classical and novel breeding approaches to overcome yield plateau"*  
 #### October 4-5th, 2017
-[More informations]()  
+[More informations](../1impb/)  
 
