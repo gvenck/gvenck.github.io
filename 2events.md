@@ -15,7 +15,7 @@ tags: [events, gvenck]
 [More informations]()  
 <br>
 
--------------------------------------------
+<center><hr></center>
 
 <br>
 ### I INTERNATIONAL MEETING ON PLANT BREEDING
