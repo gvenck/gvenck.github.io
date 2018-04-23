@@ -19,7 +19,7 @@ Our main activities are:<br>
 <li> Organization of scientific events;</li>
 <li> Promote discussions on relevant Genetic and Plant Breeding issues;</li>
 <li> Technical visits to companies and public research institutions;</li>
-<li> Promote the guidance of young talents under training from the “voice of the graduates”, in which the alumni with consolidated careers will share professional experiences;</li>
+<li> Promote the guidance of young talents under training from the “alumni voice”, in which the alumni with consolidated careers will share professional experiences;</li>
 <li> Promote interaction opportunities between students, professors and researchers outside the University;</li>
 <li> Partnerships with companies and public institutions.</li>
 </ul>
