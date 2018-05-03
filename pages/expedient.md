@@ -1,6 +1,6 @@
 ---
 layout: about
-permalink: /expedient/
+permalink: /pages/expedient/
 title: 
 description: "Description of GVENCK proceedings expedient"
 modified: 2018-04-18
@@ -8,7 +8,7 @@ tags: [events, gvenck]
 
 ---
 
-### Proceedings expedient
+<h3>Proceedings expedient</h3>
 
 **Editor:**  
 Prof. Dr. José Baldin Pinheiro (Coordinator)  

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /1impb/
+permalink: /pages/1impb/
 title: 
 description: "Description of GVENCK 1st event"
 modified: 2018-04-20

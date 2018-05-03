@@ -11,9 +11,9 @@ tags: [events, gvenck]
 #### Proceedings of the I INTERNATIONAL MEETING ON PLANT BREEDING
 *"Combining classical and novel breeding approaches to overcome yield plateau"*  
 ##### October 4-5th, 2017
-[More informations](../1impb/)  
-[Rules for abstract submission](../abstract-rules/)  
-[Expedient](../expedient/)
+[More informations](../pages/1impb/)  
+[Rules for abstract submission](../pages/abstract-rules/)  
+[Expedient](../pages/expedient/)
 
 <center><hr></center>
 

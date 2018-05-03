@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /abstract-rules/
+permalink: /pages/abstract-rules/
 title: 
 description: "Description of GVENCK abstract submission rules"
 modified: 2018-04-18
