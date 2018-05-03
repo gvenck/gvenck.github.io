@@ -8,7 +8,7 @@ tags: [events, gvenck]
 
 ---
 
-### Rules for abstract submissions
+<h2>Rules for abstract submissions</h2>
 
 Abstracts must have the following components:  
   

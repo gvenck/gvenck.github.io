@@ -8,7 +8,7 @@ tags: [events, gvenck]
 
 ---
 
-<h3>Proceedings expedient</h3>
+<h2>Proceedings expedient</h2>
 
 **Editor:**  
 Prof. Dr. José Baldin Pinheiro (Coordinator)  
