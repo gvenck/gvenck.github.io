@@ -1,14 +1,14 @@
 ---
 layout: page
 permalink: /pages/abstract-rules/
-title: Rules for abstract submissions
+title: 
 description: "Description of GVENCK abstract submission rules"
 modified: 2018-04-18
 tags: [events, gvenck]
 
 ---
 
-<h2>Rules for abstract submissions</h2>
+<h1>Rules for abstract submissions</h1>
 
 Abstracts must have the following components:  
   
