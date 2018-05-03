@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /pages/abstract-rules/
-title: 
+title: Rules for abstract submissions
 description: "Description of GVENCK abstract submission rules"
 modified: 2018-04-18
 tags: [events, gvenck]
