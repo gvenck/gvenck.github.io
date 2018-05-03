@@ -164,14 +164,15 @@ pre {
   font-weight: 300;
   line-height: 56px;
   letter-spacing: -1px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  float: left; }
   .site-title, .site-title:visited {
     color: #424242; }
 
 .site-nav {
   line-height: 56px;
   display: inline-block;
-  padding-left: 150px;
+  padding-left: 100px;
   vertical-align: middle; }
   .site-nav .menu-icon {
     display: none; }

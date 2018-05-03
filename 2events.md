@@ -22,4 +22,5 @@ tags: [events, gvenck]
 *"Combining classical and novel breeding approaches to overcome yield plateau"*  
 #### October 4-5th, 2017
 [More informations](../1impb/)  
+[Proceedings](../proceedings/)  
 
