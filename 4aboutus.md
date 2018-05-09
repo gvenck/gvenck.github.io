@@ -32,6 +32,12 @@ Our main activities are:<br>
 Associate Professor  
 Genetics and Plant Breeding  
 [View Lattes](http://lattes.cnpq.br/7363206320020147)  
+
+<img src="../images/filipe.jpg" height="120">{: .image-pull-right}  
+**Filipe Inácio Matias**  
+PhD candidate in Genetics and Plant Breeding  
+Polypoid Forage Breeding and Genetics  
+[View Lattes](http://lattes.cnpq.br/2242773660025987)  
   
 <img src="../images/renan.jpg" height="120">{: .image-pull-right}  
 **Renan Silva e Souza**  
@@ -44,12 +50,6 @@ Soybean Breeding
 PhD student in Genetics and Plant Breeding  
 Biotic Stress in Eucalyptus and Doubled Haploids in maize  
 [View Lattes](http://lattes.cnpq.br/1740606517629321)  
-  
-<img src="../images/iris.jpg" height="120">{: .image-pull-right}  
-**Iris Satie Hayashi Shimano**  
-MSc student in Genetics and Plant Breeding  
-Plant Breeding and Genetic Resources  
-[View Lattes](http://lattes.cnpq.br/3068271452797038)  
   
 <img src="../images/mari.jpg" height="120">{: .image-pull-right}  
 **Mariana Niederheitmann**  
@@ -93,18 +93,6 @@ MSc student in Plant Breeding and Genetics
 Soybean Breeding  
 [View Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4326218Y6)  
   
-<img src="../images/danilo.jpg" height="120">{: .image-pull-right}  
-**Danilo Hottis Lyra**  
-PhD in Plant Breeding and Genetics  
-Maize Breeding  
-[View Lattes](http://lattes.cnpq.br/1120995152722477)  
-  
-<img src="../images/gabriel2.jpg" height="120">{: .image-pull-right}  
-**Gabriel Lourenço Lopes**  
-MSc student in Genetics and Plant Breeding  
-Vegetable Breeding  
-[View Lattes](http://lattes.cnpq.br/7797799966961507)  
-  
 <img src="../images/carol.jpg" height="120">{: .image-pull-right}  
 **Carolina Hayashibara**  
 PhD student in Genetics and Plant Breeding  
@@ -122,11 +110,6 @@ Vegetable Breeding
 PhD candidate in Genetics and Plant Breeding  
 Abiotic Stress in Solanaceae  
 [View Lattes](http://lattes.cnpq.br/3135445773945978)  
-  
-<img src="../images/lucas.jpg" height="120">{: .image-pull-right}  
-**Lucas Rabelo Campos**  
-Undergraduate student in Agricultural Engineering  
-[View Lattes](http://lattes.cnpq.br/4233275413122074)  
   
 <img src="../images/amanda.jpg" height="120">{: .image-pull-right}  
 **Amanda Avelar**  
@@ -151,3 +134,46 @@ Bioinformatics
 PhD candidate in Bioenergy  
 Bioinformatics  
 [View Lattes](http://lattes.cnpq.br/3794292798447973)  
+
+<img src="../images/gleicy.jpg" height="120">{: .image-pull-right}  
+**Gleicy Kelly de Oliveira**  
+PhD student in Genetics and Plant Breeding  
+Plant Cytogenetics  
+[View Lattes](http://lattes.cnpq.br/8635589966513152)
+
+<img src="../images/letycia.jpg" height="120">{: .image-pull-right}  
+**Ana Letycia Basso Garcia**  
+PhD student in Genetics and Plant Breeding  
+Bioinformatics applied to Bioenergy  
+[View Lattes](http://lattes.cnpq.br/0852214262732752)
+
+<img src="../images/leonardo.jpg" height="120">{: .image-pull-right}  
+**Leonardo F. Gotardi**  
+Undergraduate student in Agricultural Engineering  
+Abiotic Stress and Vegetable Breeding  
+[View Lattes](http://lattes.cnpq.br/8897290888698862)  
+
+## Former Students
+
+<img src="../images/danilo.jpg" height="120">{: .image-pull-right}  
+**Danilo Hottis Lyra**  
+PhD in Plant Breeding and Genetics  
+Maize Breeding  
+[View Lattes](http://lattes.cnpq.br/1120995152722477)  
+
+<img src="../images/iris.jpg" height="120">{: .image-pull-right}  
+**Iris Satie Hayashi Shimano**  
+MSc student in Genetics and Plant Breeding  
+Plant Breeding and Genetic Resources  
+[View Lattes](http://lattes.cnpq.br/3068271452797038)  
+  
+<img src="../images/gabriel2.jpg" height="120">{: .image-pull-right}  
+**Gabriel Lourenço Lopes**  
+MSc student in Genetics and Plant Breeding  
+Vegetable Breeding  
+[View Lattes](http://lattes.cnpq.br/7797799966961507)  
+
+<img src="../images/lucas.jpg" height="120">{: .image-pull-right}  
+**Lucas Rabelo Campos**  
+Undergraduate student in Agricultural Engineering  
+[View Lattes](http://lattes.cnpq.br/4233275413122074)  
