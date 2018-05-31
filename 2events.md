@@ -10,7 +10,7 @@ tags: [events, gvenck]
 
 ### R INTRODUCTION AND DATA ANALYSIS 
 *"Course"*
-### June 6-8th, 2018
+#### June 6-8th, 2018
 [More informations](cursoR/Intro.md)
 <br>
 
