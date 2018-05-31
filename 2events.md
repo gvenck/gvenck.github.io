@@ -8,7 +8,15 @@ tags: [events, gvenck]
 
 ---
 
+### R INTRODUCTION AND DATA ANALYSIS 
+*"Course"*
+### June 6-8th, 2018
+[More informations](cursoR/Intro.md)
+<br>
 
+<center><hr></center>
+
+<br>
 ### II INTERNATIONAL MEETING ON PLANT BREEDING
 *"Advances in Experimental Design and Statistical Analysis in Plant Breeding and Genetics"*  
 #### October 3-5th, 2018
