@@ -32,11 +32,12 @@ c) Calcule a variância das alturas;
 | Geraldo    | 63        | 1,72       |
 | Pedro      | 92        | 1,98       |
 
-a)Calcule o IMC de cada aluno, segundo a fórmula: $IMC = \frac{peso}{altura}$ 
+a)Calcule o IMC de cada aluno, segundo a fórmula: $IMC = \frac{peso}{altura^2}$ 
 b)Calcule o IMC médio da sala.
-c) Calcule a variância e desvio padrão do IMC.
+c) Calcule a variância do IMC. 
+d) Calcule o desvio padrão do IMC.
 
-3 - Resolva a equação: $4x^2 + 8x + 6 = 0$, utilizando a fórmula de Bhaskara. Lembrando que:
+3 - Resolva a equação: $2x^2 + 8x + 6 = 0$, utilizando a fórmula de Bhaskara. Lembrando que:
 $x = \frac{-b\pm\sqrt{\Delta}}{2a}$; $\Delta=b^2 - 4ac$
 
 #Classe de objetos
