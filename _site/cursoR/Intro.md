@@ -3,3 +3,7 @@ This course will be held June 6-8, 2018. Here you can access all tutorials, data
 #### [R and RStudio instalation](Tutorial_instalacao.html)
 
 #### [Start form](https://goo.gl/forms/JyDVx1jde05Go7P32)
+
+#### [Main tutorial](cursoR.html)
+
+#### [Exercises](Exercicios.html)

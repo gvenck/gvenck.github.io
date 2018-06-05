@@ -1,11 +1,3 @@
----
-date: "`r Sys.Date()`"
-author: "[GVENCK](https://gvenck.github.io/) <br/>  Luiz de Queiroz College of Agriculture <br/> University of São Paulo"
-output:
-    rmdformats::readthedown:
-      css: readthedowngvenk.css
----
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
