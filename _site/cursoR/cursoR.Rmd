@@ -1,11 +1,3 @@
----
-date: "`r Sys.Date()`"
-author: "[GVENCK](https://gvenck.github.io/) <br/>  Luiz de Queiroz College of Agriculture <br/> University of São Paulo"
-output:
-    rmdformats::readthedown:
-      css: readthedowngvenk.css
----
-
 # Introdução e Análise de Dados em R
 
 Esse material foi elaborado para o treinamento *INTRODUÇÃO E ANÁLISE DE DADOS EM R
