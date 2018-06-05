@@ -952,15 +952,101 @@ Para saber mais sobre desenvolvimento de funções acesse [aqui](https://www.r-b
 
 Para outros dados coletados, vamos gerar alguns gráficos simples utilizando as funções básicas do R. Existem pacotes como o `ggplot2`, `plotly` e `shiny` que possuem ferramentas muito poderosas para construção de gráficos, mas exigem um pouco mais de tempo para aprendizagem de sua sintaxe.
 
-Vamos iniciar com um simples gráfico de frequências (ou histograma) para os dados de `idade`.
+Os tipos mais comuns já possuem funções próprias, mas outros gráficos podem ser customizados de acordo com a necessidade do usuário. Vamos iniciar com um simples gráfico de frequências (ou histograma) para os dados de `Altura`.
 
 ```{r, eval=FALSE}
-hist(dados$Idade)
+hist(dados$Altura)
 ```
 
 Vamos adicionar alguns argumentos para dar uma personalizada:
 
 * `breaks` para definir os intervalos para cada barra; 
+
+```{r, eval=FALSE}
+#### Histograma ####
+#Utiliza um vetor de valores para obter as frequências
+hist(dados$Altura)
+hist(dados$Altura, breaks = 2)
+hist(dados$Altura, breaks = 15) 
+
+```
+
+Agora tente fazer o histograma para o peso, aproveite para tentar alterar alguns parâmetros. Em seguida, serão apresentados outros gráficos que poderão ser utilizados.
+
+```{r}
+#### Bar plot ####
+#É um gráfico interessante quando possuímos resultados da função table
+gen <- table(dados$Genero)
+barplot(gen)
+
+```
+```{r eval=FALSE}
+#Alterando o eixo
+barplot(gen, horiz = TRUE)
+
+#Mais informações podem ser combinadas
+nota_gen <- table(dados$ConhecimentoR, dados$Genero)
+barplot(nota_gen)
+
+```
+
+Busque uma maneira de colocar a nota do R no eixo x e o gênero nas cores.
+
+```{r echo=FALSE}
+nota_gen <- table(dados$ConhecimentoR, dados$Genero)
+barplot(t(nota_gen))
+```
+
+```{r eval=FALSE}
+#### Pizza!!! ####
+#Requer um vetor de contagens e os rótulos associados
+pie(gen, names(gen))
+
+#Tente criar o gráfico de pizza com a nota do R
+
+```
+
+```{r eval=FALSE}
+#### Dot plots ####
+#Utilizaremos um vetor de valores e um vetor de rótulos
+dotchart(results$Altura, labels = results$Cidade)
+#Também é possível criar grupos
+dotchart(results$Altura, labels = results$Cidade, groups = results$Genero)
+
+dados$color[dados$Area=="Exatas"] <- "darkblue"
+dados$color[dados$Area=="Biológicas"] <- "darkgreen"
+dados$color[dados$Area=="Humanas"] <- "orange"
+dados$color[dados$Area=="Interdiciplinar"] <- "red"
+dados$color[dados$Area=="Agrárias"] <- "black"
+dotchart(dados$Altura, labels = dados$Cidade, groups = dados$Area, color = dados$color)
+
+#Crie um objeto que corresponda ao data.frame 'dados' ordenado de acordo com a Altura (ou peso, como desejar!)
+#Em seguida, tente criar o dot plot.
+
+#### Curve ####
+#Utiliza uma expressão/função 
+curve(x^2 + 3*x)
+curve(2*x, add = TRUE, col="red")
+
+#### Boxplot ####
+#Necessita de um vetor de valores ou uma expressão
+boxplot(dados$Altura)
+boxplot(dados$Altura~dados$Genero)
+
+#Explore o bloxplot de outros atributos, podendo combiná-los
+#Desafio: faça o boxplot da altura pela combinação dos grupos Genero e Area
+boxplot(Altura~Genero*Area, data = dados)
+
+#### Scatter plot ####
+#Utilizaremos coordenadas de pontos.
+plot(x = dados$Peso, y= dados$Altura)
+
+```
+
+##Parâmetros gráficos
+
+É possível customizar os gráficos alterando seus eixos, cores, fontes, etc. Começaremos através do gráfico de pontos.
+
 * `col` para adicionar cor;
 * `xlab` alterar título do eixo x;
 * `ylab` alterar título do eixo y;
@@ -968,7 +1054,7 @@ Vamos adicionar alguns argumentos para dar uma personalizada:
 
 ```{r, eval=FALSE}
 hist(dados$Idade, breaks=6, col="blue", xlab="Idades", 
-     ylab="Frequencia", main="Histograma das Idades (Lab StatGen 2017)")
+     ylab="Frequencia", main="Histograma das Idades (Curso 2018)")
 ```
 
 Se preferir, podemos usar um gráfico de densidades de Kernel como:
@@ -980,108 +1066,138 @@ plot(d, col="blue", xlab="Idades",
      ylab="Densidade", main="Densidade das Idades (Lab StatGen 2017)")
 ```
 
-Alguns argumentos são específicos para cada função, busque mais informações sobre cada uma delas para entender sobre seus argumentos.
+Vamos explorar um pouco mais o gráfico de pontos. Sabe- se que existe uma correlação entre o peso e a altura das pessoas, e que, a distribuição dessas características configura uma bimodal se não considerarmos os gênero dos indivíduos avaliados. Vamos avaliar a correlação entre essas caraterísticas com:
 
-Podemos também fazer um gráfico de barras para a resposta `Area` usando:
+```{r}
+#Busque explorar mais parâmetros no gráfico a seguir:
+##Dica: tente alterar o nome dos eixos
+plot(x = dados$Peso, y= dados$Altura)
 
-```{r, eval=FALSE}
-contagens <- table(dados$Area)
-barplot(contagens, col= "red", main="Gráfico das Áreas")
-```
+#Linha de ajuste
+abline(lm(Altura ~ Peso, data = dados), col="red")
 
-Com esse tipo de gráfico é possível diferenciar colorações para diferentes categorias, como:
-
-```{r, eval=FALSE}
-contagens <- table(dados$Genero, dados$Area)
-barplot(contagens, col= c("yellow", "green", "red"), main="Gráfico de Áreas por gênero",
-        legend = rownames(contagens))
-```
-
-Ou podem ser gerados lado a lado:
-
-```{r, eval=FALSE}
-contagens <- table(dados$Genero, dados$Area)
-barplot(contagens, col= c("yellow", "green"), main="Gráfico de idades por gênero",
-        legend = rownames(contagens), beside = TRUE)
-```
-
-Na horizontal:
-
-```{r, eval=FALSE}
-contagens <- table(dados$Genero, dados$Area)
-barplot(contagens, col= c("yellow", "green"), main="Gráfico de idades por gênero",
-        legend = rownames(contagens), beside = TRUE, horiz = TRUE)
-```
-
-Vamos utilizar um boxplot para avaliar as `Nota`:
-
-```{r, eval=FALSE}
-boxplot(dados$Nota)
-```
-
-Sabe- se que existe uma correlação entre o peso e a altura das pessoas, e que, a distribuição dessas características configura uma bimodal se não considerarmos os gênero dos indivíduos avaliados. Vamos avaliar a correção entre essas caraterísticas com:
-
-```{r, eval=FALSE}
-plot(dados$Altura, dados$Peso, main = "Altura x Peso", xlab = "Altura", ylab = "Peso")
-```
-
-Verificando o valor da correlação:
-
-```{r, eval=FALSE}
+#Verificar a correlação:
 cor(dados$Altura, dados$Peso)
 ```
 
-Agora vamos verificar a distribuição delas, primeiro com todos os gêneros e posteriormente separando masculino e feminino.
+Alguns argumentos são específicos para cada função, busque mais informações sobre cada uma delas para entender sobre seus argumentos. Outros parâmetros gráficos mais recorrentes são os relacionados com:
 
-```{r, results='hide', eval=FALSE}
+* O tamanho de texto e símbolos, chamados de `cex`; 
+* Os símbolos de plotagem (25 ao todo), através do parâmetro `pch`;
+* Há os relacionados com a fonte (`font` e `family`);
+* Cores (`col`, `bg`, `fg`);
 
-Alt_total <- density(dados$Altura, na.rm = TRUE)  # Todos os dados de altura
-plot(Alt_total, main="Altura")
+```{r eval=FALSE}
+#Tamanho, pontos e cores
+plot(x = dados$Peso, y= dados$Altura, 
+     main = "Peso  x Altura", #Título principal 
+     xlab = "Peso", #Eixo x
+     ylab = "Altura", #Eixo y
+     cex=2,
+     cex.axis=1.5)
 
-pos_fem <- which(dados$Genero=="Feminino")   # Linhas referentes ao genero feminino
-pos_masc <- which(dados$Genero=="Masculino") # Linhas referentes ao genero masculino
+#Agora, busque alterar o nome dos rótulos (lab) e do título (main)
+#Utilize o parâmetro 'pch=' e coloque um número de 0 a 25
+#De maneira similar ao tamanho, trabalhe com as cores (utilize o color() para ver todas as cores disponíveis) 
+
+# Fontes e linhas #
+plot(x = dados$Peso, y= dados$Altura, 
+     main = "Peso  x Altura", #Título principal 
+     xlab = "Peso", #Eixo x
+     ylab = "Altura", #Eixo y
+     font=3,
+     family="serif", #Fonte do seu computador (Windows: "TT Courier New")
+     bg="red")
+abline(lm(Altura ~ Peso, data = dados), col="red", lty=3)
 
 
-Alt_fem <- density(dados$Altura[pos_fem], na.rm = TRUE)   # Somente dados de altura de mulheres
-plot(Alt_fem, main="Altura de mulheres")
+#Incrementando:
+plot(x = dados$Peso, y= dados$Altura, 
+     main = "Peso  x Altura", #Título principal 
+     xlab = "Peso", #Eixo x
+     ylab = "Altura", #Eixo y
+     col = dados$Genero
+     )
 
-Alt_masc <- density(dados$Altura[pos_masc], na.rm = TRUE) # Somente dados de altura de homens
-plot(Alt_masc, main="Altura de homens")
+#Nesse mesmo gráfico, procure mudar a forma dos pontos de acordo com a nota do R.
 
-plot(Alt_total, col="black",ylim=c(0,10),xlim=c(1,2.5), main="Alturas")
-lines(Alt_fem, col="red")
-lines(Alt_masc, col="green")
+#### Legenda ####
+plot(x = dados$Peso, y= dados$Altura, 
+     main = "Peso  x Altura", #Título principal 
+     xlab = "Peso", #Eixo x
+     ylab = "Altura", #Eixo y
+     col = dados$Genero,
+     pch=10)
 
-### Fazendo o mesmo gráfico para peso
-
-Peso_total <- density(dados$Peso, na.rm = TRUE)   # Todos os dados de peso
-plot(Peso_total, main="Peso")
-
-Peso_fem <- density(dados$Peso[pos_fem], na.rm = TRUE)   # Peso das mulheres
-Peso_masc <- density(dados$Peso[pos_masc], na.rm = TRUE) # Peso dos homens
-
-plot(Peso_total, col="black",ylim=c(0,0.2),xlim=c(40,120), main="Peso")
-lines(Peso_fem, col="red")
-lines(Peso_masc, col="green")
-
+legend("bottomright", legend = c("Feminino", "Masculino"), col=1:2, pch=10)
 ```
 
-Ajuste os eixos `xlim` e `ylim` da forma que achar conveniente. Obtidos todos esses gráficos, pode ser bom para visualização tê-los lado a lado.
-
+ Obtidos todos esses gráficos, pode ser bom para visualização tê-los lado a lado.
+ 
 ```{r, eval=FALSE}
+ #### Mais de um gráfico? Claro! ####
 par(mfrow=c(1,2))
+hist(dados$Altura)
+hist(dados$Peso)
 
-plot(Alt_total, col="black",ylim=c(0,10),xlim=c(1,2.5), main="Alturas")
-lines(Alt_fem, col="red")
-lines(Alt_masc, col="green")
+#Lembrar:
+par(mfrow=c(1,1))
+```
 
-plot(Peso_total, col="black",ylim=c(0,0.2),xlim=c(40,120), main="Peso")
-lines(Peso_fem, col="red")
-lines(Peso_masc, col="green")
+##Desafio!!!
 
+* Dicas: 'beside', 'legend', 'bty = 'n'
+
+
+```{r echo=FALSE}
+par(mfrow=c(1,2))
+nota_gen <- table(dados$Area, dados$Genero)
+
+barplot(t(nota_gen), beside = TRUE, col = c("wheat", "tomato2"), 
+        main = "Distribuição das pessoas \n de acordo com área e nota do R",
+        xlab = "Nota do R")
+legend("topright", title = "Gênero", legend=c("F","M"),
+       fill = c("wheat", "tomato2"), bty = "n", cex = 0.7)
+
+dados$color[dados$Area=="Exatas"] <- "darkblue"
+dados$color[dados$Area=="Biológicas"] <- "darkgreen"
+dados$color[dados$Area=="Humanas"] <- "orange"
+dados$color[dados$Area=="Interdiciplinar"] <- "red"
+dados$color[dados$Area=="Agrárias"] <- "black"
+dados <- dados[order(dados$Peso),]
+dotchart(dados$Peso, labels = dados$Cidade, groups = dados$Area, color = dados$color,
+         font=2,
+         main = "Peso de acordo com as cidades, \n agrupando por área",
+         xlab = "Peso", pch = 7)
+par(mfrow=c(1,1))
 
 ```
 
+##Salvar gráficos
+
+Os gráficos podem ser salvos através dos menus disponíveis no RStudio, ou através de funções que permitem salvar em formatos específicos. Algumas delas são: pdf(); png(); jpeg(); bitmap(). De maneira geral, o parâmetro primordial é fornecer o nome do arquivo que será gerado (contendo sua extensão). Após abrir a função gráfica, deve-se gerar o gráfico de interesse. Por fim, utiliza-se o comando dev.off() para que saída gráfica volte para o console.
+
+```{r eval=FALSE}
+png(filename = "grafico_pontos.png")
+plot(x = dados$Peso, y= dados$Altura, 
+     main = "Peso  x Altura", #Título principal 
+     xlab = "Peso", #Eixo x
+     ylab = "Altura", #Eixo y
+     col = dados$Genero,
+     pch=10)
+dev.off()
+
+png(filename = "grafico_pontos.png", width = 1500, height = 1500, res= 300)
+plot(x = dados$Peso, y= dados$Altura, 
+     main = "Peso  x Altura", #Título principal 
+     xlab = "Peso", #Eixo x
+     ylab = "Altura", #Eixo y
+     col = dados$Genero,
+     pch=10)
+dev.off()
+```
+
+Agora, gere um gráfico e salve-o no formato de seu interesse. Em seguida, crie diversos gráficos dentro de uma mesma função gráfica e estude a saída. 
 
 # Instalação e aplicações de pacotes
 
