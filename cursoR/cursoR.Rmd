@@ -947,12 +947,6 @@ test_list <- minha_funcao(df.entrada = dados1)
 
 Para saber mais sobre desenvolvimento de funções acesse [aqui](https://www.r-bloggers.com/how-to-write-and-debug-an-r-function/) e, um pouco mais avançado, [aqui](http://adv-r.had.co.nz/Functions.html).
 
-# Algumas ferramentas básicas de análise de dados
-
-Claramente a análise de dados é algo muito específico de cada conjunto de dados e interesses. Vamos aqui mostrar alguns recursos básicos como análise de variância, correlação e teste de médias.
-
-Algumas avaliações descritivas podem ser feitas pelo uso do `tapply,` como já mostrado anteriormente, e de gráficos, mostraremos a seguir .
-
 
 # Elaboração de gráficos simples
 
@@ -1168,7 +1162,120 @@ ggmap(mapcurso) +
 ```
 
 Aqui os argumentos de `aes` definem características dos pontos no mapa, `fill` indica a coloração, `size` o tamanho e `shape` o formato. Acesse outras codificações de formato [aqui](http://www.cookbook-r.com/Graphs/Shapes_and_line_types/).
- 
+
+
+# Algumas ferramentas básicas de análise de dados
+
+Claramente a análise de dados é algo muito específico de cada conjunto de dados e interesses. Vamos aqui mostrar alguns recursos básicos como análise de variância, regressão e teste de médias.
+
+Algumas avaliações descritivas podem ser feitas pelo uso do `tapply` e de gráficos, como já mostrado anteriormente. A função `summary` também da informações gerais do conjunto. É possível usá-la em conjunto com o `tapply`.
+
+```{r}
+str(dados)
+# Certifique-se que esta lidando com variável categórica (fator)
+dados$Genero <- as.factor(dados$Genero)
+
+tapply(dados$Altura, dados$Genero, summary)
+tapply(dados$Peso, dados$Genero, summary)
+
+```
+
+Podemos falar que os pesos são significativamente diferentes entre homens e mulheres?
+
+```{r}
+mod1 <- lm(Peso ~ Genero, data = dados)
+summary(mod1)
+
+# ou o equivalente
+
+mod1 <- aov(Peso ~ Genero, data = dados)
+summary(mod1)
+
+```
+
+A diferença entre as duas funções é apenas na forma como é apresentada os resultados. O p-valor nos indica se podemos considerar diferenças do peso conforme o gênero.
+
+Podemos obter mais informações sobre o modelo ajustado observando os gráficos:
+
+```{r}
+plot(mod1)
+```
+
+Vamos utilizar outro conjunto de dados para realizarmos mais avaliações utilizando a função `lm`. Utilize:
+
+```{r}
+data(clima_lond)
+```
+
+Para obter os dados de precipitação da cidade de Londrina no primeiro semestre de 2017. Vamos utilizar as funções `tapply` e
+`lm` para avaliar os dados.
+
+```{r}
+# Verificando se as variáveis categórias estão como fatores
+str(clima_lond)
+
+clima_lond$dia <- as.factor(clima_lond$dia)
+
+# A precipitação nesse caso é uma variável contínua, nao categórica, para transformá-la use:
+
+clima_lond$prec.mm <- as.numeric(as.character(clima_lond$prec.mm))
+
+# Já com o tapply podemos ver as diferenças
+
+tapply(clima_lond$prec.mm, clima_lond$Mes, summary)
+```
+
+Repare que os levels aparecem em ordem alfabética e não conforme o tempo, alteramos isso com:
+
+```{r}
+levels(clima_lond$Mes)
+
+pos <- match(c("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho"), levels(clima_lond$Mes))
+pos
+
+clima_lond$Mes = factor(clima_lond$Mes,
+                       levels(clima_lond$Mes)[pos])
+
+# Refazendo
+tapply(clima_lond$prec.mm, clima_lond$Mes, summary)
+
+```
+
+Podemos também avaliar fazendo alguns gráficos:
+
+```{r}
+plot(prec.mm~Mes, data = clima_lond, main="Médias",
+     xlab = "Meses do ano de 2017",
+     ylab = "Precipitação em mm")
+```
+
+```{r}
+barplot(tapply(clima_lond$prec.mm, clima_lond$Mes, sum), 
+        main="Total Mensal",
+        xlab = "Meses do ano de 2017",
+        ylab = "Precipitação em mm")
+```
+
+Vamos então realizar um análise de variância para medir diferenças entre os meses.
+
+```{r}
+mod <- lm(prec.mm ~ Mes, data = clima_lond)
+summary(mod)
+```
+
+Entre os dias:
+
+```{r}
+mod <- lm(prec.mm ~ dia, data = clima_lond)
+summary(mod)
+```
+
+Podemos também fazer um teste de médias para diferenciar a precipitação ao decorrer dos meses. Aqui utilizaremos o método de Tukey:
+
+```{r}
+modaov <- aov(prec.mm ~ Mes, data = clima_lond)
+tukey.test <- TukeyHSD(x=modaov, 'Mes', conf.level=0.95)
+```
  
 # Pratique gerando relatórios no RStudio
  
