@@ -843,30 +843,115 @@ Normalmente é uma boa prática criar um bloco de código se vai realizar aquela
 
 Aqui não vamos nos aprofundar muito nesse assunto, talvez ele renda um outro módulo inteiro, vamos apenas passar noções básicas.
 
-A função também é considerada um objeto no R, portanto você a atribui à uma variável, nesse caso à `myfuncao`. Então estabelece os argumentos da função, nesse caso `x` e `y`. Entre as chaves fica todo o corpo da função. Se você quer que a função retorne algum valor, é necessário utilizar o `return`.
+A função também é considerada um objeto no R, portanto você a atribui à uma variável, nesse caso à `quadra`. Então estabelecemos os argumentos da função, nesse caso `x`. Entre as chaves fica todo o corpo da função. Se você quer que a função retorne algum valor, é necessário utilizar o `return`.
 
 ```{r}
-myfuncao <- function(x,y){
-  cat(x,y,"\n")
-  return(x+y)
+quadra <- function(x){
+  z <- x*x
+  return(z)
 }
 
-myfuncao(3,5)
-myfuncao(4,1)
+quadra(3)
+quadra(4)
 ```
 
+Vamos complicar um pouco e também dar mais sentido para construir uma função. Vamos definir no seu corpo várias ações antes de retornar o valor, algo que não poderia ser feito usando uma única função já pronta do R.
+
+```{r}
+## Calcula o índice de massa corporal (IMC) dos participantes
+IMC <- dados$Peso/quadra(dados$Altura)
+
+## Calcula a média das idade dos participantes
+id_med <- mean(dados$Idade)
+
+## Calcula a mediana das idades dos participantes
+id_median <- median(dados$Idade)
+
+## Calcula a porgentagem de mulheres entre os participantes
+mul <- 100*(length(which(dados$Genero == "Feminino"))/length(dados$Genero))
+
+## Faz uma lista com todos os resultados
+final_list <- list(IMC=IMC, idade_media = id_med, 
+                   idade_mediana = id_median, porcentagem_mulheres = mul)
+
+```
+
+Para montarmos a função primeiro pensamos qual será o argumento de entrada, nesse caso, nosso arquivo de dados, um data.frame contendo pelo menos as colunas `Peso`, `Altura`, `Idade` e `Genero`.
+
+```{r}
+minha_funcao <- function(df.entrada){
+  ## Calcula o índice de massa corporal (IMC) dos participantes
+  IMC <- df.entrada$Peso/quadra(df.entrada$Altura)
+  
+  ## Calcula a média das idade dos participantes
+  id_med <- mean(df.entrada$Idade)
+  
+  ## Calcula a mediana das idades dos participantes
+  id_median <- median(df.entrada$Idade)
+  
+  ## Calcula a porgentagem de mulheres entre os participantes
+  mul <- 100*(length(which(df.entrada$Genero == "Feminino"))/length(df.entrada$Genero))
+  
+  ## Faz uma lista com todos os resultados
+  final_list <- list(IMC=IMC, idade_media = id_med, 
+                     idade_mediana = id_median, porcentagem_mulheres = mul)
+  return(final_list)
+
+}
+
+test_list <- minha_funcao(df.entrada = dados)
+test_list
+```
+
+Se é uma função para uso próprio, você saberá como deve ser o objeto de entrada, mas se ela for utilizada por outras pessoas, será necessário, além de uma prévia explicação de suas ações, verificar se o objeto de entrada esta de acordo com o esperado pela função.
 
 ```{r}
 
+minha_funcao <- function(df.entrada){
+  
+  if (length(grep("Altura", colnames(df.entrada))) == 0 ||
+      length(grep("Peso", colnames(df.entrada))) == 0 ||
+      length(grep("Idade", colnames(df.entrada))) == 0 ||
+      length(grep("Genero", colnames(df.entrada))) == 0)
+    stop("Esta faltando alguma das informações.")
+    
+
+  ## Calcula o índice de massa corporal (IMC) dos participantes
+  IMC <- df.entrada$Peso/quadra(df.entrada$Altura)
+  
+  ## Calcula a média das idade dos participantes
+  id_med <- mean(df.entrada$Idade)
+  
+  ## Calcula a mediana das idades dos participantes
+  id_median <- median(df.entrada$Idade)
+  
+  ## Calcula a porgentagem de mulheres entre os participantes
+  mul <- 100*(length(which(df.entrada$Genero == "Feminino"))/length(df.entrada$Genero))
+  
+  ## Faz uma lista com todos os resultados
+  final_list <- list(IMC=IMC, idade_media = id_med, 
+                     idade_mediana = id_median, porcentagem_mulheres = mul)
+  return(final_list)
+
+}
+
+test_list <- minha_funcao(df.entrada = dados)
 ```
 
+```{r, eval= FALSE}
+dados1 <- dados[,-2] # Removendo coluna de idade
 
+test_list <- minha_funcao(df.entrada = dados1)
 
+```
 
+Para saber mais sobre desenvolvimento de funções acesse [aqui](https://www.r-bloggers.com/how-to-write-and-debug-an-r-function/) e, um pouco mais avançado, [aqui](http://adv-r.had.co.nz/Functions.html).
 
+# Algumas ferramentas básicas de análise de dados
 
+Claramente a análise de dados é algo muito específico de cada conjunto de dados e interesses. Vamos aqui mostrar alguns recursos básicos como análise de variância, correlação e teste de médias.
 
-
+Algumas avaliações descritivas podem ser feitas pelo uso do `tapply,` como já mostrado anteriormente, e de gráficos, mostraremos a seguir .
 
 
 # Elaboração de gráficos simples
@@ -1016,7 +1101,7 @@ install.packages("ggmap")
 
 Depois disso é necessário recrutá-lo com:
 
-```{r, warning=FALSE, message='hide', eval=FALSE}
+```{r, warning=FALSE, message='hide'}
 library(ggmap) # Este comando será necessário toda vez que for utilizar o pacote
 ```
 
@@ -1024,26 +1109,50 @@ library(ggmap) # Este comando será necessário toda vez que for utilizar o paco
 
 Vamos utilizar a função `geocode` para obter dados de longitude e latitude das cidades dos participantes do curso:
 
-```{r,eval=FALSE}
+```{r}
 part1 <- geocode(dados$Cidade[1])
 ```
 
 Podemos aplicar a mesma função para todos os participantes utilizando o `for`.
 
-```{r, warning=FALSE, message='hide', results='hide', eval=FALSE}
+```{r, warning=FALSE, message='hide', results='hide'}
 coord <- data.frame()
 for(i in 1:nrow(dados)){
   coord <- rbind(coord,geocode(dados$Cidade[i]))
 }
+
+coord
+```
+
+Verifique que, algumas coordenadas não puderam ser encontradas, será necessário corrigir o nome das cidades e estados para essas.
+
+```{r, warning=FALSE, message='hide', results='hide', eval=FALSE}
+
+pos.na <- which(is.na(coord[,1]))
+
+dados$Cidade[pos.na]
+
+correcao <- c("Piracicaba,SP", "Rio das Pedras,SP")
+
+coord.corr <- data.frame()
+for(i in 1:length(correcao)){
+  coord.corr <- rbind(coord.corr,geocode(correcao[i]))
+}
+
+coord.corr
+
+coord[pos.na,] <- coord.corr
+
+coord
 ```
 
 Agora estabelecemos um mapa de fundo com a média das longitudes e latitudes:
 
-```{r, warning=FALSE, message='hide', eval=FALSE}
+```{r, warning=FALSE, message='hide'}
 mapcurso <- get_map(location = 
-                    c(lon = mean(coord$lon), 
-                    lat = mean(coord$lat)), 
-                    zoom = 4,
+                    c(lon = mean(coord$lon, na.rm = TRUE), 
+                    lat = mean(coord$lat, na.rm = TRUE)), 
+                    zoom = 5,
                     maptype = "roadmap", scale = 2)
 ```
 
@@ -1051,7 +1160,7 @@ Para mais informações sobre as funções do pacote utilize `?get_map`.
 
 Agora vamos adicionar as localizações no mapa:
 
-```{r, eval=FALSE}
+```{r}
 ggmap(mapcurso) +
   geom_point(data = coord, 
              aes(x = lon, y = lat, fill = "red"), 
@@ -1063,12 +1172,70 @@ Aqui os argumentos de `aes` definem características dos pontos no mapa, `fill` 
  
 # Pratique gerando relatórios no RStudio
  
- Utilize o R no seu dia-a-dia para ir praticando a linguagem. Além das recomendações contidas na [primeira apresentação](http://cristianetaniguti.github.io/Workshop_genetica_esalq//teoricas_2017/Why_R.html), recomendamos também dar uma olhada em como gerar documentos em pdf e html usando a Markdown. Utilizamos essa metodologia para gerar este tutorial e outras apresentações do minicurso. Pode ser muito prático no dia-a-dia!
+ Utilize o R no seu dia-a-dia para ir praticando a linguagem. Além das recomendações contidas na [primeira apresentação](), recomendamos também dar uma olhada em como gerar documentos em pdf e html usando a Markdown. Utilizamos essa metodologia para gerar este tutorial e outras apresentações do curso. Pode ser muito prático no dia-a-dia!
  
- Recentemente foi publicado um tutorial sobre isso no R-bloggers, que acreditamos ser um bom começo! Acesse [aqui](https://www.r-bloggers.com/how-to-create-reports-with-r-markdown-in-rstudio/).
+Para utilizar, será necessário a instalação de outros pacotes. Um deles é o próprio `rmarkdown`:
+
+```{r, eval=FALSE}
+install.packages("rmarkdown")
+```
+
+```{r}
+library(rmarkdown)
+```
+ 
+Agora crie um arquivo .Rmd utilizando as facilidades do RStudio, clique no ícone com símbolo `+` no canto superior esquerdo. Escolha o opção `R Markdown`. Dê um título ao seu arquivo e escolha a opção `html`. Ao fazer isso, o RStudio já coloca um template inicial, ja com um cabeçalho:
+
+```
+---
+title: "Teste"
+author: "Eu"
+date: "June 5, 2018"
+output: html_document
+---
+
+```
+
+Este é o mais simples possível, você pode otimizá-lo de diversas maneiras. Saiba mais [aqui](https://rmarkdown.rstudio.com/html_document_format.html).
+
+O template inicial também traz alguns exemplos de sintaxe do markdown. Observe que utilizando `#` para títulos de sessões, `##` para um nível inferior (subtitulos) e assim por diante. Palavras em negrito são escritas em meia a dois `*` e existem diversas outras especificações para essa sintaxe. Veja mais sobre ela [aqui](https://www.markdownguide.org/basic-syntax).
+
+Para compilar o código, basta clicar em `Knit`. Ele irá pedir para que o arquivo .Rmd seja salvo com algum nome em algum lugar.
+
+O markdown também é capaz de entender diretamente a linguagem html, também a css e latex. Para essa última, o latex precisa estar instalado e todas suas dependências.
+
+Existem alguns pacotes que fornecem templates mais robustos para produção de htmls. Para esse tutorial utilizando o pacote `rmdformats` e personalizamos suas cores. Experimente:
+
+```{r, eval=FALSE}
+install.packages("rmdformats")
+```
+
+Agora faça o mesmo procedimento, clique no `+`, escolha `R Markdown` e, antes de escolher um título, mude para `From Template`, escolha o `HTML readthedown template`. Copie e cole o seguinte texto e aperte `Knit`.
+
+```
+# Teste1
+
+Isso aqui é um teste só para dar uma olhada no template
+
+## Testinho
+
+Subsessão
+
+* Item
+
+**negrito**
+
+*itálico*
+
+fiz um [link](https://gvenck.github.io/)!
+
+```
+
+
+Saiba mais no tutorial sobre isso no R-bloggers, que acreditamos ser um bom começo! Acesse [aqui](https://www.r-bloggers.com/how-to-create-reports-with-r-markdown-in-rstudio/).
  
  
- 
+
  
  
  
