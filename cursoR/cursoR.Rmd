@@ -8,7 +8,7 @@ output:
 ---
 
 Esse material foi elaborado para o treinamento *INTRODUÇÃO E ANÁLISE DE DADOS EM R
-* pelos alunos de pós-graduação Cristiane Taniguti, Camila, Fernando Correr, Ana Letycia, Amanda Avelar de Oliveira e Guilherme Kenichi Hosaka dos laboratórios de Genética Estatística e Bioinformática da ESALQ-USP.
+* pelos alunos de pós-graduação Cristiane Taniguti, Fernando Correr, Ana Letycia, Amanda Avelar e Guilherme Hosaka dos laboratórios de Genética Estatística e Bioinformática da ESALQ-USP.
 
 O treinamento foi organizado pelo grupo de Genética e Melhoramento de Plantas “Prof. Roland Vencovsky” (GVENCK) formado por alunos de pós-graduação em Genética e Melhoramento de Plantas da ESALQ- USP. 
 
@@ -664,9 +664,7 @@ Ou também podemos só ignorar essas linhas
 for(i in 1:nrow(dados)){
   if(grepl("-", dados[i,5])){
     cat("Esse/a seguiu o exemplo direitinho. Parabéns!\n")
-  } else {
-    next
-  }
+  } 
 }
 ```
 
@@ -674,31 +672,202 @@ Existem diversas outras ações que podemos usar dentro dos loops conforme nosso
 
 ## While
 
+Nesse tipo de estrutura de repetição a tarefa será realizada até que seja atingida determinada condição.
+
+```{r}
+x <- 1
+
+while(x < 5){
+  x <- x + 1
+  print(x)
+}
+```
+
+É muito importante que nessa estrutura a condição seja possível de ser atingida, caso contrário o loop irá funcionar infinitamente e você terá que interrompê-lo por meios externos, como, se este utilizando RStudio, clicar no simbolo em vermelho no canto direito superior da janela do console, ou apertar Ctrl+C no console.
+
+Não é muito difícil disso acontecer, basta um pequeno erro como:
+
+```{r, eval=FALSE}
+x <- 1
+
+while(x < 5){
+  x + 1
+  print(x)
+}
+```
+
+Aqui podemos utilizar os comandos `break` e `next` para atender a outras condições, como:
+
+```{r}
+x <- 1
+
+while(x < 5){
+  x <- x + 1
+  if(x==4) break
+  print(x)
+}
+
+x <- 1
+
+while(x < 5){
+  x <- x + 1
+  if(x==4) next
+  print(x)
+}
+
+```
 
 ## Repeat
 
+Esta estrutura também exige uma condição de parada, mas esta condição é necessariamente colocada dentro do bloco de código com o uso do `break`. Ela então repete o bloco de código até a condição o interrompa.
+
+```{r}
+x <- 1
+repeat{
+  x <- x+1
+  print(x)
+  if(x==4) break
+}
+
+```
+
 ## Loops dentro de loops
 
-Fizemos um vídeo com mais detalhes sobre loops no R, aumente nossa quantidade de views e likes [la](https://www.youtube.com/watch?v=VYOo7I5htOw).
+É possível também utilizarmos estruturas de repetição dentro de estruturas de repetição. Por exemplo, se quisermos trabalhar tanto nas colunas como nas linhas de uma matrix.
+
+```{r}
+# Criando uma matrix vazia
+ex_mat <- matrix(nrow=10, ncol=10)
+
+# cada número dentro da matrix será o produto no índice da coluna pelo índice da linha
+for(i in 1:dim(ex_mat)[1]) {
+  for(j in 1:dim(ex_mat)[2]) {
+    ex_mat[i,j] = i*j
+  }
+}
+
+```
+
+Fizemos um vídeo com mais detalhes sobre loops no R, aumentem nossa quantidade de views e likes por [la](https://www.youtube.com/watch?v=VYOo7I5htOw).
 
 # Família de funções `apply`
 
-Também podemos utilizar uma função muito prática chamada `tapply` para obtermos operações específicas com os vetores. Aqui, obteremos a média da altura para cada idade:
+As estruturas de repetição mostradas, apesar de serem mais facilmente interpretadas e elaboradas, possuem a desvantagem da velocidade com que atuam. Quando lidamos com grande quantidade de dados, nem sempre essas estruturas são muito eficientes. As funções da família `apply` podem realizar muitas das tarefas realizadas pelas estruturas de repetição e fazem isso de forma mais rápida.
+
+Aqui vamos exemplificar o uso de algumas dessas funções.
+
+## apply
+
+A função `apply` é a base de todas as outras funções da família, portanto a compreensão do funcionamento desta é essencial para entender as demais. Se buscar no help da função, ele indicará que os argumentos da função consistem em: apply(X, MARGIN, FUN, ...). Sendo X o conjunto de dados em formato de array (incluindo matrix, que consiste num array de dimensão 2), MARGIN será 1 se a ação deverá ser aplicada à linhas, 2 se for aplicada a colunas e c(1,2) se for aplicada a ambas; FUN é a função que indica ação.
+
+Num simples exemplo temos a matrix:
 
 ```{r}
-tapply(campo1$altura, campo1$idade, mean)
+ex_mat <- matrix(seq(0,21,3), nrow = 2)
 ```
 
-* Obtenha a média do volume para cada idade.
+Se quisermos somar os elementos das colunas usamos:
 
-```{r, echo=FALSE}
-tapply(campo1$volume, campo1$idade, mean)
+```{r}
+apply(ex_mat, 2, sum)
 ```
 
-A função `tapply` faz parte de uma família de funções denominadas `apply`, elas são muito eficientes e você pode obter mais informações sobre elas neste [link](https://www.r-bloggers.com/r-tutorial-on-the-apply-family-of-functions/).
+Se quisermos somar os elementos das linhas:
+
+```{r}
+apply(ex_mat, 1, sum)
+```
+
+Se fossemos utilizar o `for` para realizar essa tarefa:
+
+```{r}
+
+# Soma das colunas
+for(i in 1:dim(ex_mat)[2]){
+  print(sum(ex_mat[,i]))
+}
+
+# Soma das linhas
+for(i in 1:dim(ex_mat)[1]){
+  print(sum(ex_mat[i,]))
+}
+```
+
+## lapply
+
+Se diferencia do `apply` por poder receber outros tipos de objetos, mais utilizado com listas, e devolver o resultado também em uma lista.
+
+
+```{r}
+ex_list <- list(A=matrix(seq(0,21,3), nrow = 2), 
+                B=matrix(seq(0,14,2), nrow = 2), 
+                C= matrix(seq(0,39,5), nrow = 2))
+str(ex_list)
+```
+
+Para selecionar a segunda coluna de todas as matrizes
+
+```{r}
+lapply(ex_list, "[", , 2)
+```
+
+## sapply
+
+A função `sapply` funciona como o `lapply` a diferença é que ele retorna apenas um valor por componente da lista e os deposita em um vetor de resposta. Como no exemplo:
+
+```{r}
+sapply(ex_list, "[",1,3)
+```
+
+## tapply
+
+Esta função é um pouco diferente das demais, ela exige que exista alguma variável categórica (fator) para aplicar ação separadamente conforme suas categorias (levels). Por isso, normalmente é aplicada a data.frames.
+
+Vamos utilizar nosso conjunto de dados:
+
+```{r}
+str(dados)
+dados$Area <- as.factor(dados$Area)
+tapply(dados$ConhecimentoR, dados$Area, mean)
+
+```
+
+Saiba mais sobre essa família de funções no [link](https://www.r-bloggers.com/r-tutorial-on-the-apply-family-of-functions/)
 
 
 # Elaboração de funções
+
+Observe que nas funções `apply` podemos trocar as funções prontas do r base por funções personalizadas. Vamos agora aprender a criar essas funções. Elas não só servem para essa funcionalidade, mas para diversas outras.
+
+Normalmente é uma boa prática criar um bloco de código se vai realizar aquela ação poucas vezes. Se for realizar várias vezes a ação e ela tiver apenas um objeto como entrada, vale a pena fazer um loop. Mas, se for realizar diversas vezes e o objeto de entrada for modificado vale a pena fazer uma função. E, na hierarquia, quando tiver acumulado muitas funções para realizar uma tarefa mais complexa, vale a pena construir um pacote.
+
+Aqui não vamos nos aprofundar muito nesse assunto, talvez ele renda um outro módulo inteiro, vamos apenas passar noções básicas.
+
+A função também é considerada um objeto no R, portanto você a atribui à uma variável, nesse caso à `myfuncao`. Então estabelece os argumentos da função, nesse caso `x` e `y`. Entre as chaves fica todo o corpo da função. Se você quer que a função retorne algum valor, é necessário utilizar o `return`.
+
+```{r}
+myfuncao <- function(x,y){
+  cat(x,y,"\n")
+  return(x+y)
+}
+
+myfuncao(3,5)
+myfuncao(4,1)
+```
+
+
+```{r}
+
+```
+
+
+
+
+
+
+
+
+
 
 # Elaboração de gráficos simples
 
