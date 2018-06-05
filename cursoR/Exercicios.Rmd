@@ -1,0 +1,75 @@
+---
+title: "Lista de Exercícios"
+author: "GVENCK"
+date: "June 5, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Operadores e operações básicas
+
+1- Em um experimento de valor de cultivo e uso (VCU) na cultura do milho, as parcelas são constituídas de duas linhas de quatro metros, espaçadas 0,60 m, totalizando 6 plantas por linha. As alturas das plantas foram respectivamente (em metros): 1,45; 1,73; 1,98; 2,10; 2,03; 1,65; 2,15; 1,63; 1,53; 1,98; 2,05; 1,52.
+
+a) Crie um vetor altura com os valores acima;
+b) Calcule a altura média;
+c) Calcule a variância das alturas;
+
+2- Na disciplina de Genética foram avaliados altura e peso dos 10 alunos, sendo 5 meninas e 5 meninos. Veja a tabela abaixo com os respectivos valores:
+
+| Nome       | Peso (kg) | Altura (m) |
+|------------|-----------|------------|
+| Maria José | 72        | 1,65       |
+| Mariana    | 57        | 1,68       |
+| Fernanda   | 49        | 1,53       |
+| Jéssica    | 62        | 1,7        |
+| Carolina   | 57        | 1,52       |
+| Paulo      | 90        | 1,82       |
+| Marcos     | 53        | 1,63       |
+| João Paulo | 76        | 1,78       |
+| Geraldo    | 63        | 1,72       |
+| Pedro      | 92        | 1,98       |
+
+a)Calcule o IMC de cada aluno, segundo a fórmula: $IMC = \frac{peso}{altura}$ 
+b)Calcule o IMC médio da sala.
+c) Calcule a variância e desvio padrão do IMC.
+
+3 - Resolva a equação: $4x^2 + 8x + 6 = 0$, utilizando a fórmula de Bhaskara. Lembrando que:
+$x = \frac{-b\pm\sqrt{\Delta}}{2a}$; $\Delta=b^2 - 4ac$
+
+#Classe de objetos
+
+1 - Carregue o conjunto de dados chamado “mtcars” (attach(mtcars)).
+a) Verifique a classe do objeto “mtcars”
+b) Verifique a classe das colunas “hp” e “cyl”
+c) Verifique a classe do nome dos carros. (rownames) 
+
+
+2 - Utilizando o mesmo conjunto de dados do exercício anterior, calcule:
+a) A média da coluna “hp”.
+b) Modifique a classe da coluna “hp” para factor e calcule a média novamente.
+c) Compare os resultados obtidos nas letras a e b, e relate as diferenças entre eles.
+
+3- Crie uma lista com os nomes dos integrantes da ex-banda Mamonas assassinas com a data e o local de nascimento.
+
+| Nomes  | Função      | Idade (anos) |
+|--------|-------------|--------------|
+| Dinho  | Vocalista   | 24           |
+| Bento  | Guitarrista | 25           |
+| Samuel | Baixista    | 22           |
+| Sérgio | Baterista   | 26           |
+| Rasec  | Tecladista  | 28           |
+
+a)Verifique o dimensão da lista. 
+b) Utilizando a lista, calcule a média das idades.
+c) Ordene a lista por ordem alfabética dos nomes. 
+
+#Indexação
+1 - Crie um vetor de uma amostra da distribuição Normal com comprimento 30000, média 20 e desvio padrão 5.
+
+
+a) Qual o somatório das observações no vetor que são maiores que 30?
+b) E o somatório das observações menores que a média?
+c) Como você excluiria a memor observação do vetor?
