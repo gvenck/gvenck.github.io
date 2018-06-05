@@ -1,0 +1,55 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Utilizando os dados dos participantes e a função `lm`, identifique se exite diferenças entre a área de conhecimento com que a pessoa se identifica e seu nível de conhecimento em R.
+
+```{r}
+# Exercício fácil
+data(respostas)
+
+dados$Area <- as.factor(dados$Area)
+
+mod1 <- lm(ConhecimentoR ~ Area, data = dados)
+summary(mod1)
+
+```
+
+Para realizar esse exercício, utilize o conjunto de dados `feijao`, contido no pacote do curso.
+
+```{r}
+library(cursoR)
+data(feijao)
+```
+
+Utilizando a função `tapply` e `lm`. Avalie as diferenças na produtividade conforme o local do plantio. Escolha um gráfico para ilustrar a análise.
+
+```{r}
+feijao$Cultivar <- as.factor(feijao$Cultivar)
+feijao$Bloco <- as.factor(feijao$Bloco)
+str(feijao)
+
+mod <- lm(Produtividade ~ Local, data = feijao)
+summary(mod)
+```
+
+
+Agora, utilize o mesmo conjunto de dados e avalie o desempenho de cada cultivar separadamente em cada local, considerando o delineamento em blocos.
+
+
+```{r}
+feijao.Lavras<- subset(feijao, feijao$Local=='Lavras')
+feijao.Patos<- subset(feijao, feijao$Local=='Patos de Minas')
+
+mod.lavras <- lm(Produtividade ~ Bloco + Cultivar, data = feijao.Lavras)
+summary(mod.lavras)
+
+mod.patos <- lm(Produtividade ~ Bloco + Cultivar, data = feijao.Patos)
+summary(mod.patos)
+
+```
+

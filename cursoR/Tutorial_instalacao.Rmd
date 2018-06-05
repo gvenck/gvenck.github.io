@@ -1,0 +1,83 @@
+---
+date: "`r Sys.Date()`"
+author: "[GVENCK](https://gvenck.github.io/) <br/>  Luiz de Queiroz College of Agriculture <br/> University of São Paulo"
+output:
+    rmdformats::readthedown:
+      css: readthedowngvenk.css
+---
+
+```{r knitr_init, echo=FALSE, cache=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+
+opts_knit$set(width=75)
+```
+
+# Instalação do R e RStudio
+
+O R está diponível para os sistemas operacionais Linux, Mac e Windows. Aqui descreveremos os passos necessários para instalação em cada um deles. Caso enfrente problemas em alguma das etapas, verifique também as instruções no [site do CRAN](https://cran.r-project.org/). Se mesmo assim tiver problemas, entre em contato conosco pelo e-mail gvenck.esalq@gmail.com.
+
+## Instalação do R no Ubuntu 
+
+Aqui consideraremos as distribuições Ubuntu LTS (Long Term Support), mas no [site do CRAN](https://cran.r-project.org/) você encontrará instruções também para debian, redhat e suse.
+
+O primeiro passo para a instalação é procurar pelo arquivo `sources.list` e adicionar à ele o caminho para o "espelho" do R de sua preferência (veja as opções [aqui](https://cran.r-project.org/mirrors.html)) e a distribuição Linux referente ao seu sistema. Normalmente, o arquivo esta localizado em:
+
+```{bash, eval=FALSE}
+cd /etc/apt/
+```
+
+Pode ser que o arquivo esteja com permissão apenas para leitura para os usuários comuns, portanto acesse-o como super usuário utilizando um editor de texto de sua preferência e adicione o caminho. Exemplo:
+
+```{bash, eval=FALSE}
+sudo nano sources.list
+```
+
+Aqui consideraremos a distribuição Ubuntu Xenial Xerus (16.04) e escolheremos o espelho localizado na ESALQ, portanto adicionamos a linha:
+
+```
+#deb https://brieger.esalq.usp.br/CRAN/bin/linux/ubuntu xenial/
+```
+
+Se esta com dúvida qual é a distribuição que esta esta usando, utilize o comando para descobrir:
+
+```{bash, eval=FALSE}
+lsb_release -a
+```
+
+A partir disso basta seguir os comandos:
+
+```{bash, eval=FALSE}
+sudo update
+sudo apt-get install r-base
+sudo apt-get install r-base-dev
+```
+
+Você pode abrir o R pela linha de comando ou clicando no icone, fazendo isso você verá algo como:
+
+<img src="imagens/rstart.png"  style="width:450px;height:400px;">
+
+No momento que escrevo (27/05/2018), a versão do R 3.5 já esta disponível no CRAN, mas não nos repositórios do Linux, portanto, seguindo estes passos descritos, será instalado o R 3.4. 
+
+## Instalação do R no Windows
+
+Faça o download do executável do R versão 3.5 contido neste [link](https://cran.r-project.org/bin/windows/base/). Clique duas vezes no arquivo .exe e siga as instruções do instalador.
+
+Após terminar, clicando no icone do R você verá uma janela semelhante a figura 1.
+
+
+## Instalação do R no MAC
+
+Faça o download do executável do R versão 3.5 contido neste [link](https://cran.r-project.org/bin/macosx/R-3.5.0.pkg). Esta versão é compatível com as distribuições Mac OS X  10.6 ou superiores. Clique duas vezes no arquivo .pkg e siga as instruções do instalador.
+
+Após terminar, clicando no icone do R você verá uma janela semelhante a figura 1.
+  
+
+## Instalação do RStudio
+
+O RStudio é uma interface mais amigável do R, com funcionalidades muito práticas. A interface do RStudio também esta disponível para os sistemas Windows, Mac e Linux. Para qualquer um deles, selecione o arquivo correspondente no [site](https://www.rstudio.com/products/rstudio/download/).
+
+No caso de um sistema linux, o arquivo baixado terá extenção `.deb`(para Ubuntu) ou `.rpm`(para Fedora) e basta clicar duas vezes no arquivo que o gerenciador de pacotes do Linux iniciará a instalação.
