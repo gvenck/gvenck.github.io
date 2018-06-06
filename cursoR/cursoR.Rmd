@@ -97,7 +97,7 @@ O R pode funcionar como uma simples **calculadora**, que utiliza a mesma sintaxe
 # Script Curso R
 
 # Data: 06/06/2018
-# GVENK
+# GVENCK
 ##########################
 
 1+1.                 #Decimal definido com "."
@@ -295,6 +295,11 @@ errado
 
 No caso, todos os elementos foram transformados em caracter.
 
+**Faça os exercícios da sessão 1**
+
+Acesse [aqui](https://gvenck.github.io/cursoR/Exercicios.html#sessao1-operadores-e-operacoes-basicas)
+
+
 ## Matrizes
 
 As matrizes são outra classe de objetos muito utilizadas no R, com elas podemos realizar operações de maior escala de forma automatizada, como veremos mais adiante com modelos estatísticos.
@@ -428,6 +433,10 @@ Este é um tipo de objeto que você provavelmente não irá utilizar agora no in
 ```
 
 Teremos quatro matrizes com duas linhas e três colunas e os números de 1 a 24 estarão distribuídos nelas por colunas.
+
+**Faça os exercícios das sessão 2 e 3**
+
+Acesse [aqui](https://gvenck.github.io/cursoR/Exercicios.html#sessao-2-classe-de-objetos)
 
 # Exportando e importando dados
 
