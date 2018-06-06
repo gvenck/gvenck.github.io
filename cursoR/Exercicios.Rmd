@@ -58,9 +58,9 @@ c) Calcule a variância das alturas;
 | Geraldo    | 63        | 1,72       |
 | Pedro      | 92        | 1,98       |
 
-a)Calcule o IMC de cada aluno, segundo a fórmula: $IMC = \frac{peso}{altura^2}$ 
+a) Calcule o IMC de cada aluno, segundo a fórmula: $IMC = \frac{peso}{altura^2}$ 
 
-b)Calcule o IMC médio da sala.
+b) Calcule o IMC médio da sala.
 
 c) Calcule a variância do IMC. 
 
@@ -71,7 +71,9 @@ d) Calcule o desvio padrão do IMC.
 $x = \frac{-b\pm\sqrt{\Delta}}{2a}$; $\Delta=b^2 - 4ac$
 
 
-* Enviando as respostas
+### Enviando as respostas - sessão 1
+
+Use a função `sessao1`.
 
 Para essa sessão esperamos os seguintes objetos nas respostas:
 
@@ -91,14 +93,20 @@ Para essa sessão esperamos os seguintes objetos nas respostas:
 ## **Sessão 2**: Classe de objetos
 
 1 - Carregue o conjunto de dados chamado “mtcars” (attach(mtcars)).
+
 a) Verifique a classe do objeto “mtcars”
+
 b) Verifique a classe das colunas “hp” e “cyl”
+
 c) Verifique a classe do nome dos carros. (rownames) 
 
 
 2 - Utilizando o mesmo conjunto de dados do exercício anterior, calcule:
+
 a) A média da coluna “hp”.
+
 b) Modifique a classe da coluna “hp” para fator e calcule a média novamente.
+
 c) Compare os resultados obtidos nas letras a e b, e relate as diferenças entre eles.
 
 3- Crie uma lista com os nomes dos integrantes da ex-banda Mamonas assassinas com a data e o local de nascimento.
@@ -112,7 +120,9 @@ c) Compare os resultados obtidos nas letras a e b, e relate as diferenças entre
 | Rasec  | Tecladista  | 28           |
 
 a) Verifique o dimensão da lista. 
+
 b) Utilizando a lista, calcule a média das idades.
+
 c) Ordene a lista por ordem alfabética dos nomes. 
 
 * Enviando as respostas
@@ -137,19 +147,24 @@ Para essa sessão esperamos os seguintes objetos nas respostas:
 1 - Crie um vetor de uma amostra da distribuição Normal com comprimento 30000, média 20 e desvio padrão 5. Antes de criar o vetor, utilize set.seed(123456).
 
 a) Qual o somatório das observações no vetor que são maiores que 30?
+
 b) E o somatório das observações menores que a média?
+
 c) Como você excluiria a memor observação do vetor?
 
 ## **Sessão 4**: Operadores lógicos
 
-Faça uma sequência numérica, contendo 10 valores inteiros, e salve em um objeto chamado "a" (Ex: sequência de 1 até 10)
+Faça uma sequência numérica, contendo 10 valores inteiros, e salve em um objeto chamado "a" (Ex: sequência de 1 até 10).
+
 Crie outra sequência, utilizando números decimais e qualquer operação matemática, de tal forma que seus valores sejam idênticos ao objeto "a" (Ex: multiplicar uma sequência de 0.1 até 1.0 por 10).
+
 Utilizando qualquer operador lógico, verifique se o objeto "b" é igual ao objeto "a".
 
 
 ## **Sessão 5**: Repetição
 
 Crie um objeto "a" contendo uma sequência de 1 a 5.
+
 Usando qualquer função condicional, some o número 8 a cada um dos elementos de "a", até que a soma de todos os elementos seja igual ou superior a 10000.
 
 
@@ -157,7 +172,9 @@ Usando qualquer função condicional, some o número 8 a cada um dos elementos d
 
 Utilize a expressão abaixo para gerar médias de produtividade, considerando 50 genótipos de soja, de forma aleatória:
 
+```{r, eval = FALSE}
 produtividade = rnorm(50, mean = 3500.00, sd = 800)
+```
 
 Suponhamos que a média nacional de produtividade de soja seja de 3500.00 kg/ha. Utilizando funções condicionais, verifique se os genótipos apresentam valores acima ou abaixo da produtividade média nacional, retornando as frases "acima da média" ou "abaixo da média", respectivamente.
 
@@ -166,7 +183,9 @@ Suponhamos que a média nacional de produtividade de soja seja de 3500.00 kg/ha.
 
 Utilize a função abaixo para gerar médias de produtividade, considerando 25 genótipos de soja avaliados em 15 ambientes, de forma aleatória:
 
+```{r, eval=FALSE}
 dados = data.frame(Genotypes = rep(seq(1,25,1), 15), Environments = rep(x = seq(1:15), each = 25), yield = rnorm(375, 3000:3500, 800))
+```
 
 Utilizando funções da família "apply", obtenha as médias gerais de cada genótipo e também de cada ambiente.
 
@@ -175,6 +194,8 @@ Utilizando funções da família "apply", obtenha as médias gerais de cada gen�
 
 Utilize a função abaixo para gerar médias de produtividade, considerando 25 genótipos de soja avaliados em 15 ambientes, de forma aleatória:
 
+```{r}
 dados = data.frame(Genotypes = rep(seq(1,25,1), 15), Environments = rep(x = seq(1:15), each = 25), yield = rnorm(375, 3000:3500, 800))
+```
 
 Elabore uma função para calcular as médias e o coeficiente de variação ($CV = frac{\mu}{\sigma}*100$) em cada ambiente, e também avaliar a precisão experimental (até 10% = alta; entre 10 e 20% = média; acima de 20% = baixa). A função deve retornar os resultados contendo a identificação de cada ambiente, as médias, os CV's e as precisões.
