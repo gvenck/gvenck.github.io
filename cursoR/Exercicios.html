@@ -94,7 +94,7 @@ $(document).ready(function () {
     <h2><a href="#content"></a></h2>
     <div id="text-table-of-contents">
       <ul>
-      <li><a href="#lista-de-exercicios">Lista de Exercícios</a><ul>
+      <li><a href="#lista-de-exercicios">Lista de Exercícios</a></li>
       <li><a href="#sessao1-operadores-e-operacoes-basicas"><strong>Sessão1</strong>: Operadores e operações básicas</a></li>
       <li><a href="#sessao-2-classe-de-objetos"><strong>Sessão 2</strong>: Classe de objetos</a></li>
       <li><a href="#sessao-3indexacao"><strong>Sessão 3</strong>:Indexação</a></li>
@@ -103,7 +103,6 @@ $(document).ready(function () {
       <li><a href="#sessao-6-condicional-e-repeticao"><strong>Sessão 6</strong>: Condicional e repetição</a></li>
       <li><a href="#sessao-7-apply"><strong>Sessão 7</strong>: Apply</a></li>
       <li><a href="#sessao-8-funcao"><strong>Sessão 8</strong>: Função</a></li>
-      </ul></li>
       </ul>
     </div>
 </div>
@@ -119,12 +118,14 @@ $(document).ready(function () {
 <span class="co"># Agora sim:</span>
 <span class="kw">install_github</span>(<span class="st">&quot;gvenck/cursoR&quot;</span>)
 <span class="kw">library</span>(cursoR)</code></pre></div>
-<p>Neste pacote criamos uma função para correção dos exercícios de cada sessão. Por exemplo, a finalizar os exercicícios da sessão 1, use a função:</p>
+<p>Neste pacote criamos uma função para correção dos exercícios de cada sessão. Aa finalizar os exercícios, por exemplo, da sessão 1, use a função:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">sessao1</span>(<span class="dt">a1 =</span> resp_1a, <span class="dt">b1 =</span> resp_1b)</code></pre></div>
-<p>Indicaremos de que tipo de objeto esperamos para cada resposta. Não é necessário responder todas as perguntas. Aquelas que tiverem corretas retornarão um <code>ok</code>, aquelas que estiverem erradas ou não forem respondidas não receberão respostas.</p>
-<p>Todas as funções tem o argumento opcional de colocar seu nome. As respostas irão automaticamente para uma planilha e, a partir desta geramos gráficos instantaneamente para sabermos a quantidade de pessoas que estão acertando. Usaremos esse recurso para acompanharmos o ritmo da aprendizagem. Mas não se preocupe, a menos que indique o seu nome, não saberemos quem errou ou acertou.</p>
-<div id="sessao1-operadores-e-operacoes-basicas" class="section level2">
-<h2><strong>Sessão1</strong>: Operadores e operações básicas</h2>
+<p>A cada sessão indicaremos a função que deve ser utilizada e que tipo de objeto esperamos para cada resposta. Não é necessário responder todas as perguntas. Aquelas que tiverem corretas retornarão um <code>ok</code>, aquelas que estiverem erradas ou não forem respondidas não receberão respostas.</p>
+<p>Todas as funções tem o argumento opcional de colocar seu nome. As respostas irão automaticamente para uma planilha e, a partir desta, geramos gráficos instantaneamente para sabermos a quantidade de pessoas que estão acertando. Usaremos esse recurso para acompanharmos o ritmo da aprendizagem. Mas não se preocupe, a menos que indique o seu nome, não saberemos quem errou ou acertou.</p>
+<p>Os exercícios aqui contidos variam no nível de dificuldade, não se preocupe se não conseguir fazer todos no início.</p>
+</div>
+<div id="sessao1-operadores-e-operacoes-basicas" class="section level1">
+<h1><strong>Sessão1</strong>: Operadores e operações básicas</h1>
 <p>1- Em um experimento de valor de cultivo e uso (VCU) na cultura do milho, as parcelas são constituídas de duas linhas de quatro metros, espaçadas 0,60 m, totalizando 6 plantas por linha. As alturas das plantas foram respectivamente (em metros): 1,45; 1,73; 1,98; 2,10; 2,03; 1,65; 2,15; 1,63; 1,53; 1,98; 2,05; 1,52.</p>
 <ol style="list-style-type: lower-alpha">
 <li>Crie um vetor altura com os valores acima;</li>
@@ -252,8 +253,8 @@ $(document).ready(function () {
 </table>
 </div>
 </div>
-<div id="sessao-2-classe-de-objetos" class="section level2">
-<h2><strong>Sessão 2</strong>: Classe de objetos</h2>
+<div id="sessao-2-classe-de-objetos" class="section level1">
+<h1><strong>Sessão 2</strong>: Classe de objetos</h1>
 <p>1 - Carregue o conjunto de dados chamado “mtcars” (attach(mtcars)).</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>Verifique a classe do objeto “mtcars”</p></li>
@@ -308,9 +309,9 @@ $(document).ready(function () {
 <li><p>Utilizando a lista, calcule a média das idades.</p></li>
 <li><p>Ordene a lista por ordem alfabética dos nomes.</p></li>
 </ol>
-<ul>
-<li>Enviando as respostas</li>
-</ul>
+<div id="enviando-as-respostas" class="section level3">
+<h3>Enviando as respostas</h3>
+<p>Use a função <code>sessao2</code>.</p>
 <p>Para essa sessão esperamos os seguintes objetos nas respostas:</p>
 <table>
 <thead>
@@ -359,44 +360,75 @@ $(document).ready(function () {
 </tbody>
 </table>
 </div>
-<div id="sessao-3indexacao" class="section level2">
-<h2><strong>Sessão 3</strong>:Indexação</h2>
+</div>
+<div id="sessao-3indexacao" class="section level1">
+<h1><strong>Sessão 3</strong>:Indexação</h1>
 <p>1 - Crie um vetor de uma amostra da distribuição Normal com comprimento 30000, média 20 e desvio padrão 5. Antes de criar o vetor, utilize set.seed(123456).</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>Qual o somatório das observações no vetor que são maiores que 30?</p></li>
 <li><p>E o somatório das observações menores que a média?</p></li>
-<li><p>Como você excluiria a memor observação do vetor?</p></li>
+<li><p>Excluira a menor observação do vetor.</p></li>
 </ol>
+<div id="enviando-as-respostas-1" class="section level3">
+<h3>Enviando as respostas</h3>
+<p>Use a função <code>sessao3</code>.</p>
+<p>Para essa sessão esperamos os seguintes objetos nas respostas:</p>
+<table>
+<thead>
+<tr class="header">
+<th>pergunta</th>
+<th>objeto esperado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>nome</td>
+<td>vetor de caracter</td>
+</tr>
+<tr class="even">
+<td>a1</td>
+<td>vetor numérico (com um único elemento)</td>
+</tr>
+<tr class="odd">
+<td>b1</td>
+<td>vetor numérico (com um único elemento)</td>
+</tr>
+<tr class="even">
+<td>c1</td>
+<td>vetor numérico</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div id="sessao-4-operadores-logicos" class="section level2">
-<h2><strong>Sessão 4</strong>: Operadores lógicos</h2>
+</div>
+<div id="sessao-4-operadores-logicos" class="section level1">
+<h1><strong>Sessão 4</strong>: Operadores lógicos</h1>
 <p>Faça uma sequência numérica, contendo 10 valores inteiros, e salve em um objeto chamado “a” (Ex: sequência de 1 até 10).</p>
 <p>Crie outra sequência, utilizando números decimais e qualquer operação matemática, de tal forma que seus valores sejam idênticos ao objeto “a” (Ex: multiplicar uma sequência de 0.1 até 1.0 por 10).</p>
 <p>Utilizando qualquer operador lógico, verifique se o objeto “b” é igual ao objeto “a”.</p>
 </div>
-<div id="sessao-5-repeticao" class="section level2">
-<h2><strong>Sessão 5</strong>: Repetição</h2>
+<div id="sessao-5-repeticao" class="section level1">
+<h1><strong>Sessão 5</strong>: Repetição</h1>
 <p>Crie um objeto “a” contendo uma sequência de 1 a 5.</p>
 <p>Usando qualquer função condicional, some o número 8 a cada um dos elementos de “a”, até que a soma de todos os elementos seja igual ou superior a 10000.</p>
 </div>
-<div id="sessao-6-condicional-e-repeticao" class="section level2">
-<h2><strong>Sessão 6</strong>: Condicional e repetição</h2>
+<div id="sessao-6-condicional-e-repeticao" class="section level1">
+<h1><strong>Sessão 6</strong>: Condicional e repetição</h1>
 <p>Utilize a expressão abaixo para gerar médias de produtividade, considerando 50 genótipos de soja, de forma aleatória:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">produtividade =<span class="st"> </span><span class="kw">rnorm</span>(<span class="dv">50</span>, <span class="dt">mean =</span> <span class="fl">3500.00</span>, <span class="dt">sd =</span> <span class="dv">800</span>)</code></pre></div>
 <p>Suponhamos que a média nacional de produtividade de soja seja de 3500.00 kg/ha. Utilizando funções condicionais, verifique se os genótipos apresentam valores acima ou abaixo da produtividade média nacional, retornando as frases “acima da média” ou “abaixo da média”, respectivamente.</p>
 </div>
-<div id="sessao-7-apply" class="section level2">
-<h2><strong>Sessão 7</strong>: Apply</h2>
+<div id="sessao-7-apply" class="section level1">
+<h1><strong>Sessão 7</strong>: Apply</h1>
 <p>Utilize a função abaixo para gerar médias de produtividade, considerando 25 genótipos de soja avaliados em 15 ambientes, de forma aleatória:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">dados =<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">Genotypes =</span> <span class="kw">rep</span>(<span class="kw">seq</span>(<span class="dv">1</span>,<span class="dv">25</span>,<span class="dv">1</span>), <span class="dv">15</span>), <span class="dt">Environments =</span> <span class="kw">rep</span>(<span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">1</span>:<span class="dv">15</span>), <span class="dt">each =</span> <span class="dv">25</span>), <span class="dt">yield =</span> <span class="kw">rnorm</span>(<span class="dv">375</span>, <span class="dv">3000</span>:<span class="dv">3500</span>, <span class="dv">800</span>))</code></pre></div>
 <p>Utilizando funções da família “apply”, obtenha as médias gerais de cada genótipo e também de cada ambiente.</p>
 </div>
-<div id="sessao-8-funcao" class="section level2">
-<h2><strong>Sessão 8</strong>: Função</h2>
+<div id="sessao-8-funcao" class="section level1">
+<h1><strong>Sessão 8</strong>: Função</h1>
 <p>Utilize a função abaixo para gerar médias de produtividade, considerando 25 genótipos de soja avaliados em 15 ambientes, de forma aleatória:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">dados =<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">Genotypes =</span> <span class="kw">rep</span>(<span class="kw">seq</span>(<span class="dv">1</span>,<span class="dv">25</span>,<span class="dv">1</span>), <span class="dv">15</span>), <span class="dt">Environments =</span> <span class="kw">rep</span>(<span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">1</span>:<span class="dv">15</span>), <span class="dt">each =</span> <span class="dv">25</span>), <span class="dt">yield =</span> <span class="kw">rnorm</span>(<span class="dv">375</span>, <span class="dv">3000</span>:<span class="dv">3500</span>, <span class="dv">800</span>))</code></pre></div>
 <p>Elabore uma função para calcular as médias e o coeficiente de variação (<span class="math inline">\(CV = frac{\mu}{\sigma}*100\)</span>) em cada ambiente, e também avaliar a precisão experimental (até 10% = alta; entre 10 e 20% = média; acima de 20% = baixa). A função deve retornar os resultados contendo a identificação de cada ambiente, as médias, os CV’s e as precisões.</p>
-</div>
 </div>
 </div>
 
