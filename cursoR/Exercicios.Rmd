@@ -16,7 +16,7 @@ Aqui estão os exercícios conforme as sessões do Tutorial principal. Após rea
 
 Para instalar pacotes diretamente do github, utilizamos o pacote `devtools`. Então precisamos instalá-lo primeiro.
 
-```{r}
+```{r, eval=FALSE}
 install.packages("devtools")
 library(devtools)
 
@@ -71,14 +71,18 @@ $x = \frac{-b\pm\sqrt{\Delta}}{2a}$; $\Delta=b^2 - 4ac$
 * Enviando as respostas
 
 Para essa sessão esperamos os seguintes objetos nas respostas:
-1a - vetor
-1b - vetor (com um único elemento)
-1c - vetor (com um único elemento)
-2a - vetor
-2b - vetor (com um único elemento)
-2c - vetor (com um único elemento)
-2d - vetor (com um único elemento)
-3a - vetor (com dois elementos)
+
+| pergunta | objeto esperado | 
+|----|-------------------------------|
+| 1a | vetor                         |
+| 1b | vetor (com um único elemento) |
+| 1c | vetor (com um único elemento) |
+| 2a | vetor                         |
+| 2b | vetor (com um único elemento) |
+| 2c | vetor (com um único elemento) |
+| 2d | vetor (com um único elemento) |
+| 3a | vetor (com dois elementos)    |
+
 
 ## **Sessão 2**: Classe de objetos
 
