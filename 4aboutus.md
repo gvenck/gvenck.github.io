@@ -125,13 +125,13 @@ Soybean and Wheat Breeding
   
 <img src="../images/fernando.jpg" height="120">{: .image-pull-right}  
 **Fernando Henrique Correr**  
-PhD candidate in Genetics and Plant Breeding  
+PhD student in Genetics and Plant Breeding  
 Bioinformatics  
 [View Lattes](http://lattes.cnpq.br/4542494489905328)  
   
 <img src="../images/guilherme.jpg" height="120">{: .image-pull-right}  
 **Guilherme Kenichi Hosaka**  
-PhD candidate in Bioenergy  
+PhD student in Bioenergy  
 Bioinformatics  
 [View Lattes](http://lattes.cnpq.br/3794292798447973)  
 
