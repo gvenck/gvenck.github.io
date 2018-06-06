@@ -12,6 +12,29 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Lista de Exercícios
 
+Aqui estão os exercícios conforme as sessões do Tutorial principal. Após realizar os exercícios é possível verificar se as respostas estão corretas utilizando um pacote chamado `cursoR` que criamos e esta disponível no github. 
+
+Para instalar pacotes diretamente do github, utilizamos o pacote `devtools`. Então precisamos instalá-lo primeiro.
+
+```{r}
+install.packages("devtools")
+library(devtools)
+
+# Agora sim:
+install_github("gvenck/cursoR")
+library(cursoR)
+```
+
+Neste pacote criamos uma função para correção dos exercícios de cada sessão. Por exemplo, a finalizar os exercicícios da sessão 1, use a função:
+
+```{r, eval=FALSE}
+sessao1(a1 = resp_1a, b1 = resp_1b)
+```
+
+Indicaremos de que tipo de objeto esperamos para cada resposta. Não é necessário responder todas as perguntas. Aquelas que tiverem corretas retornarão um `ok`, aquelas que estiverem erradas ou não forem respondidas não receberão respostas.
+
+Todas as funções tem o argumento opcional de colocar seu nome. As respostas irão automaticamente para uma planilha e, a partir desta geramos gráficos instantaneamente para sabermos a quantidade de pessoas que estão acertando. Usaremos esse recurso para acompanharmos o ritmo da aprendizagem. Mas não se preocupe, a menos que indique o seu nome, não saberemos quem errou ou acertou.
+
 ## **Sessão1**: Operadores e operações básicas
 
 1- Em um experimento de valor de cultivo e uso (VCU) na cultura do milho, as parcelas são constituídas de duas linhas de quatro metros, espaçadas 0,60 m, totalizando 6 plantas por linha. As alturas das plantas foram respectivamente (em metros): 1,45; 1,73; 1,98; 2,10; 2,03; 1,65; 2,15; 1,63; 1,53; 1,98; 2,05; 1,52.
