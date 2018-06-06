@@ -103,6 +103,7 @@ $(document).ready(function () {
       <li><a href="#sessao-6-condicional-e-repeticao"><strong>Sessão 6</strong>: Condicional e repetição</a></li>
       <li><a href="#sessao-7-apply"><strong>Sessão 7</strong>: Apply</a></li>
       <li><a href="#sessao-8-funcao"><strong>Sessão 8</strong>: Função</a></li>
+      <li><a href="#sessao-9-algumas-ferramentas-basicas-de-analise-de-dados"><strong>Sessão 9</strong>: Algumas ferramentas básicas de análise de dados</a></li>
       </ul>
     </div>
 </div>
@@ -429,6 +430,16 @@ $(document).ready(function () {
 <p>Utilize a função abaixo para gerar médias de produtividade, considerando 25 genótipos de soja avaliados em 15 ambientes, de forma aleatória:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">dados =<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">Genotypes =</span> <span class="kw">rep</span>(<span class="kw">seq</span>(<span class="dv">1</span>,<span class="dv">25</span>,<span class="dv">1</span>), <span class="dv">15</span>), <span class="dt">Environments =</span> <span class="kw">rep</span>(<span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">1</span>:<span class="dv">15</span>), <span class="dt">each =</span> <span class="dv">25</span>), <span class="dt">yield =</span> <span class="kw">rnorm</span>(<span class="dv">375</span>, <span class="dv">3000</span>:<span class="dv">3500</span>, <span class="dv">800</span>))</code></pre></div>
 <p>Elabore uma função para calcular as médias e o coeficiente de variação (<span class="math inline">\(CV = frac{\mu}{\sigma}*100\)</span>) em cada ambiente, e também avaliar a precisão experimental (até 10% = alta; entre 10 e 20% = média; acima de 20% = baixa). A função deve retornar os resultados contendo a identificação de cada ambiente, as médias, os CV’s e as precisões.</p>
+</div>
+<div id="sessao-9-algumas-ferramentas-basicas-de-analise-de-dados" class="section level1">
+<h1><strong>Sessão 9</strong>: Algumas ferramentas básicas de análise de dados</h1>
+<p>1 - Utilizando os dados dos participantes e a função <code>lm</code>, identifique se exite diferenças entre a área de conhecimento com que a pessoa se identifica e seu nível de conhecimento em R.</p>
+<p>Obtenha os dados dos participantes com:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">data</span>(<span class="st">&quot;dados&quot;</span>)</code></pre></div>
+<p>2 - Para realizar este exercício, utilize o conjunto de dados <code>feijao</code>, contido no pacote <code>curso</code>.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">data</span>(<span class="st">&quot;feijao&quot;</span>)</code></pre></div>
+<p>Avalie as diferenças na produtividade conforme o local do plantio. Use para isso as funções a) <code>tapply</code> b) <code>lm</code> c) Escolha um gráfico para ilustrar a análise.</p>
+<p>3 - Agora, utilize o mesmo conjunto de dados e avalie o desempenho de cada cultivar separadamente em cada local, considerando o delineamento em blocos.</p>
 </div>
 </div>
 

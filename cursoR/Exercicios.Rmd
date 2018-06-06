@@ -219,7 +219,7 @@ dados = data.frame(Genotypes = rep(seq(1,25,1), 15), Environments = rep(x = seq(
 
 Elabore uma função para calcular as médias e o coeficiente de variação ($CV = frac{\mu}{\sigma}*100$) em cada ambiente, e também avaliar a precisão experimental (até 10% = alta; entre 10 e 20% = média; acima de 20% = baixa). A função deve retornar os resultados contendo a identificação de cada ambiente, as médias, os CV's e as precisões.
 
-# Sessão 9: Algumas ferramentas básicas de análise de dados
+# **Sessão 9**: Algumas ferramentas básicas de análise de dados
 
 1 - Utilizando os dados dos participantes e a função `lm`, identifique se exite diferenças entre a área de conhecimento com que a pessoa se identifica e seu nível de conhecimento em R.
 
