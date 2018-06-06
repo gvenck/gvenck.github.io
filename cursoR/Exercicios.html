@@ -402,25 +402,51 @@ $(document).ready(function () {
 </div>
 <div id="sessao-4-estruturas-condicionais-e-de-repeticao" class="section level1">
 <h1><strong>Sessão 4</strong>: Estruturas condicionais e de repetição</h1>
-<p>1 - Crie um objeto “a” contendo uma sequência de 1 a 5.</p>
-<ol style="list-style-type: lower-alpha">
-<li>Usando qualquer estrutura de repetição, some o número 8 a cada um dos elementos de “a”, até que a soma de todos os elementos seja igual ou superior a 10000.</li>
-</ol>
+<p>1 - Crie um objeto “a” contendo uma sequência de 1 a 5. Usando qualquer estrutura de repetição, some o número 8 a cada um dos elementos de “a”, até que a soma de todos os elementos seja igual ou superior a 10000.</p>
 <p>2 - Utilize a expressão abaixo para gerar médias de produtividade, considerando 50 genótipos de soja, de forma aleatória:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">set.seed</span>(<span class="dv">19381</span>)
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">set.seed</span>(<span class="dv">123456</span>)
 produtividade =<span class="st"> </span><span class="kw">rnorm</span>(<span class="dv">50</span>, <span class="dt">mean =</span> <span class="fl">3500.00</span>, <span class="dt">sd =</span> <span class="dv">800</span>)</code></pre></div>
 <p>Suponhamos que a média nacional de produtividade de soja seja de 3500.00 kg/ha. Utilizando struturas condicionais, verifique se os genótipos apresentam valores acima ou abaixo da produtividade média nacional, retornando as frases “acima da média” ou “abaixo da média”, respectivamente.</p>
+<div id="enviando-as-respostas-2" class="section level3">
+<h3>Enviando as respostas</h3>
+<p>Use a função <code>sessao4</code>.</p>
+<p>Para essa sessão esperamos os seguintes objetos nas respostas:</p>
+<table>
+<thead>
+<tr class="header">
+<th>pergunta</th>
+<th>objeto esperado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>nome</td>
+<td>vetor de caracter</td>
+</tr>
+<tr class="even">
+<td>a1</td>
+<td>vetor numérico</td>
+</tr>
+<tr class="odd">
+<td>a2</td>
+<td>vetor de caracter</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 <div id="sessao-5-familia-de-funcoes-apply" class="section level1">
 <h1><strong>Sessão 5</strong>: Família de funções <code>apply</code></h1>
 <p>1 - Utilize a função abaixo para gerar médias de produtividade, considerando 25 genótipos de soja avaliados em 15 ambientes, de forma aleatória:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">dados =<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">Genotypes =</span> <span class="kw">rep</span>(<span class="kw">seq</span>(<span class="dv">1</span>,<span class="dv">25</span>,<span class="dv">1</span>), <span class="dv">15</span>), <span class="dt">Environments =</span> <span class="kw">rep</span>(<span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">1</span>:<span class="dv">15</span>), <span class="dt">each =</span> <span class="dv">25</span>), <span class="dt">yield =</span> <span class="kw">rnorm</span>(<span class="dv">375</span>, <span class="dv">3000</span>:<span class="dv">3500</span>, <span class="dv">800</span>))</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">set.seed</span>(<span class="dv">123456</span>)
+dados =<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">Genotypes =</span> <span class="kw">rep</span>(<span class="kw">seq</span>(<span class="dv">1</span>,<span class="dv">25</span>,<span class="dv">1</span>), <span class="dv">15</span>), <span class="dt">Environments =</span> <span class="kw">rep</span>(<span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">1</span>:<span class="dv">15</span>), <span class="dt">each =</span> <span class="dv">25</span>), <span class="dt">yield =</span> <span class="kw">rnorm</span>(<span class="dv">375</span>, <span class="dv">3000</span>:<span class="dv">3500</span>, <span class="dv">800</span>))</code></pre></div>
 <p>Utilizando funções da família “apply”, obtenha as médias gerais de cada genótipo e também de cada ambiente.</p>
 </div>
 <div id="sessao-6-elaboracao-de-funcoes" class="section level1">
 <h1><strong>Sessão 6</strong>: Elaboração de funções</h1>
 <p>Utilize a função abaixo para gerar médias de produtividade, considerando 25 genótipos de soja avaliados em 15 ambientes, de forma aleatória:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">dados =<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">Genotypes =</span> <span class="kw">rep</span>(<span class="kw">seq</span>(<span class="dv">1</span>,<span class="dv">25</span>,<span class="dv">1</span>), <span class="dv">15</span>), <span class="dt">Environments =</span> <span class="kw">rep</span>(<span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">1</span>:<span class="dv">15</span>), <span class="dt">each =</span> <span class="dv">25</span>), <span class="dt">yield =</span> <span class="kw">rnorm</span>(<span class="dv">375</span>, <span class="dv">3000</span>:<span class="dv">3500</span>, <span class="dv">800</span>))</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">set.seed</span>(<span class="dv">123456</span>)
+dados =<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">Genotypes =</span> <span class="kw">rep</span>(<span class="kw">seq</span>(<span class="dv">1</span>,<span class="dv">25</span>,<span class="dv">1</span>), <span class="dv">15</span>), <span class="dt">Environments =</span> <span class="kw">rep</span>(<span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">1</span>:<span class="dv">15</span>), <span class="dt">each =</span> <span class="dv">25</span>), <span class="dt">yield =</span> <span class="kw">rnorm</span>(<span class="dv">375</span>, <span class="dv">3000</span>:<span class="dv">3500</span>, <span class="dv">800</span>))</code></pre></div>
 <p>Elabore uma função para calcular as médias e o coeficiente de variação (<span class="math inline">\(CV = frac{\mu}{\sigma}*100\)</span>) em cada ambiente, e também avaliar a precisão experimental (até 10% = alta; entre 10 e 20% = média; acima de 20% = baixa). A função deve retornar os resultados contendo a identificação de cada ambiente, as médias, os CV’s e as precisões.</p>
 </div>
 <div id="sessao-7-algumas-ferramentas-basicas-de-analise-de-dados" class="section level1">
@@ -430,7 +456,12 @@ produtividade =<span class="st"> </span><span class="kw">rnorm</span>(<span clas
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">data</span>(<span class="st">&quot;dados&quot;</span>)</code></pre></div>
 <p>2 - Para realizar este exercício, utilize o conjunto de dados <code>feijao</code>, contido no pacote <code>curso</code>.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">data</span>(<span class="st">&quot;feijao&quot;</span>)</code></pre></div>
-<p>Avalie as diferenças na produtividade conforme o local do plantio. Use para isso as funções a) <code>tapply</code> b) <code>lm</code> c) Escolha um gráfico para ilustrar a análise.</p>
+<p>Avalie as diferenças na produtividade conforme o local do plantio. Use para isso as funções:</p>
+<ol style="list-style-type: lower-alpha">
+<li><p><code>tapply</code></p></li>
+<li><p><code>lm</code></p></li>
+<li><p>Escolha um gráfico para ilustrar a análise.</p></li>
+</ol>
 <p>3 - Agora, utilize o mesmo conjunto de dados e avalie o desempenho de cada cultivar separadamente em cada local, considerando o delineamento em blocos.</p>
 </div>
 </div>

@@ -286,12 +286,36 @@ x[which(logical)] # Obtendo os números maiores que 40 do vetor z pela posição
 
 Encontre mais sobre outros operadores lógicos, como o `>` utilizado, neste [link](http://www.statmethods.net/management/operators.html).
 
-Faça uma sequência numérica, contendo 10 valores inteiros, e salve em um objeto chamado "a" (Ex: sequência de 1 até 10).
+**Warning1**
 
-Crie outra sequência, utilizando números decimais e qualquer operação matemática, de tal forma que seus valores sejam idênticos ao objeto "a" (Ex: multiplicar uma sequência de 0.1 até 1.0 por 10).
+Faça uma sequência numérica, contendo 10 valores inteiros, e salve em um objeto chamado "a".
 
-Utilizando qualquer operador lógico, verifique se o objeto "b" é igual ao objeto "a".
+```{r}
+(a <- 1:10)
+```
 
+Crie outra sequência, utilizando números decimais e qualquer operação matemática, de tal forma que seus valores sejam idênticos ao objeto "a".
+
+```{r}
+b <- seq(from = 0.1, to = 1, 0.1)
+(b <- b*10)
+```
+
+Os dois vetores parecem iguais, não?
+
+Então, utilizando um operador lógico, vamos verificar o objeto "b" é igual ao objeto "a".
+
+```{r}
+a==b
+```
+
+Alguns, valores não são iguais. Como isso é possivel?
+
+```{r}
+a==round(b)
+```
+
+**Warning2**
 
 Não é possível misturar diferentes classes dentro de um mesmo vetor, ao tentar fazer isso repare que o R irá tentar igualar para uma única classe:
 

@@ -174,17 +174,28 @@ Para essa sessão esperamos os seguintes objetos nas respostas:
 
 # **Sessão 4**: Estruturas condicionais e de repetição 
 
-1 - Crie um objeto "a" contendo uma sequência de 1 a 5.
-
-a) Usando qualquer estrutura de repetição, some o número 8 a cada um dos elementos de "a", até que a soma de todos os elementos seja igual ou superior a 10000.
+1 - Crie um objeto "a" contendo uma sequência de 1 a 5. Usando qualquer estrutura de repetição, some o número 8 a cada um dos elementos de "a", até que a soma de todos os elementos seja igual ou superior a 10000.
 
 2 - Utilize a expressão abaixo para gerar médias de produtividade, considerando 50 genótipos de soja, de forma aleatória:
 
 ```{r, eval = FALSE}
+set.seed(123456)
 produtividade = rnorm(50, mean = 3500.00, sd = 800)
 ```
 
 Suponhamos que a média nacional de produtividade de soja seja de 3500.00 kg/ha. Utilizando struturas condicionais, verifique se os genótipos apresentam valores acima ou abaixo da produtividade média nacional, retornando as frases "acima da média" ou "abaixo da média", respectivamente.
+
+### Enviando as respostas
+
+Use a função `sessao4`.
+
+Para essa sessão esperamos os seguintes objetos nas respostas:
+
+| pergunta | objeto esperado | 
+|----|-------------------------------|
+| nome | vetor de caracter           |
+| a1 | vetor numérico |
+| a2 | vetor de caracter |
 
 
 # **Sessão 5**: Família de funções `apply`
@@ -192,6 +203,7 @@ Suponhamos que a média nacional de produtividade de soja seja de 3500.00 kg/ha.
 1 - Utilize a função abaixo para gerar médias de produtividade, considerando 25 genótipos de soja avaliados em 15 ambientes, de forma aleatória:
 
 ```{r, eval=FALSE}
+set.seed(123456)
 dados = data.frame(Genotypes = rep(seq(1,25,1), 15), Environments = rep(x = seq(1:15), each = 25), yield = rnorm(375, 3000:3500, 800))
 ```
 
@@ -203,6 +215,7 @@ Utilizando funções da família "apply", obtenha as médias gerais de cada gen�
 Utilize a função abaixo para gerar médias de produtividade, considerando 25 genótipos de soja avaliados em 15 ambientes, de forma aleatória:
 
 ```{r}
+set.seed(123456)
 dados = data.frame(Genotypes = rep(seq(1,25,1), 15), Environments = rep(x = seq(1:15), each = 25), yield = rnorm(375, 3000:3500, 800))
 ```
 
@@ -224,9 +237,12 @@ data("dados")
 data("feijao")
 ```
 
-Avalie as diferenças na produtividade conforme o local do plantio. Use para isso as funções 
+Avalie as diferenças na produtividade conforme o local do plantio. Use para isso as funções:
+
 a) `tapply` 
+
 b) `lm`
+
 c) Escolha um gráfico para ilustrar a análise.
 
 
