@@ -100,7 +100,7 @@ O R pode funcionar como uma simples **calculadora**, que utiliza a mesma sintaxe
 # GVENCK
 ##########################
 
-1+1.                 #Decimal definido com "."
+1+1.3                 #Decimal definido com "."
 2*3
 2^3
 4/2

@@ -4,7 +4,33 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Lista de Exercícios
 
-## **Sessão1**: Operadores e operações básicas
+Aqui estão os exercícios conforme as sessões do Tutorial principal. Após realizar os exercícios é possível verificar se as respostas estão corretas utilizando um pacote chamado `cursoR` que criamos e esta disponível no github. 
+
+Para instalar pacotes diretamente do github, utilizamos o pacote `devtools`. Então precisamos instalá-lo primeiro.
+
+```{r, eval=FALSE}
+install.packages("devtools")
+library(devtools)
+
+# Agora sim:
+install_github("gvenck/cursoR")
+library(cursoR)
+```
+
+Neste pacote criamos uma função para correção dos exercícios de cada sessão. Aa finalizar os exercícios, por exemplo, da sessão 1, use a função:
+
+```{r, eval=FALSE}
+sessao1(a1 = resp_1a, b1 = resp_1b)
+```
+
+A cada sessão indicaremos a função que deve ser utilizada e que tipo de objeto esperamos para cada resposta. Não é necessário responder todas as perguntas. Aquelas que tiverem corretas retornarão um `ok`, aquelas que estiverem erradas ou não forem respondidas não receberão respostas.
+
+Todas as funções tem o argumento opcional de colocar seu nome. As respostas irão automaticamente para uma planilha e, a partir desta, geramos gráficos instantaneamente para sabermos a quantidade de pessoas que estão acertando. Usaremos esse recurso para acompanharmos o ritmo da aprendizagem. Mas não se preocupe, a menos que indique o seu nome, não saberemos quem errou ou acertou.
+
+Os exercícios aqui contidos variam no nível de dificuldade, não se preocupe se não conseguir fazer todos no início.
+
+
+# **Sessão1**: Operadores e operações básicas
 
 1- Em um experimento de valor de cultivo e uso (VCU) na cultura do milho, as parcelas são constituídas de duas linhas de quatro metros, espaçadas 0,60 m, totalizando 6 plantas por linha. As alturas das plantas foram respectivamente (em metros): 1,45; 1,73; 1,98; 2,10; 2,03; 1,65; 2,15; 1,63; 1,53; 1,98; 2,05; 1,52.
 
@@ -27,25 +53,55 @@ c) Calcule a variância das alturas;
 | Geraldo    | 63        | 1,72       |
 | Pedro      | 92        | 1,98       |
 
-a)Calcule o IMC de cada aluno, segundo a fórmula: $IMC = \frac{peso}{altura^2}$ 
-b)Calcule o IMC médio da sala.
+a) Calcule o IMC de cada aluno, segundo a fórmula: $IMC = \frac{peso}{altura^2}$ 
+
+b) Calcule o IMC médio da sala.
+
 c) Calcule a variância do IMC. 
+
 d) Calcule o desvio padrão do IMC.
+
 
 3 - Resolva a equação: $2x^2 + 8x + 6 = 0$, utilizando a fórmula de Bhaskara. Lembrando que:
 $x = \frac{-b\pm\sqrt{\Delta}}{2a}$; $\Delta=b^2 - 4ac$
 
-## **Sessão 2**: Classe de objetos
+
+### Enviando as respostas - sessão 1
+
+Use a função `sessao1`.
+
+Para essa sessão esperamos os seguintes objetos nas respostas:
+
+| pergunta | objeto esperado | 
+|----|-------------------------------|
+| nome | caracter                    |
+| a1 | vetor numérico                         |
+| b1 | vetor numérico (com um único elemento) |
+| c1 | vetor numérico (com um único elemento) |
+| a2 | vetor numérico                         |
+| b2 | vetor numérico (com um único elemento) |
+| c2 | vetor numérico (com um único elemento) |
+| d2 | vetor numérico (com um único elemento) |
+| a3 | vetor numérico (com dois elementos)    |
+
+
+# **Sessão 2**: Classe de objetos
 
 1 - Carregue o conjunto de dados chamado “mtcars” (attach(mtcars)).
+
 a) Verifique a classe do objeto “mtcars”
+
 b) Verifique a classe das colunas “hp” e “cyl”
+
 c) Verifique a classe do nome dos carros. (rownames) 
 
 
 2 - Utilizando o mesmo conjunto de dados do exercício anterior, calcule:
+
 a) A média da coluna “hp”.
-b) Modifique a classe da coluna “hp” para factor e calcule a média novamente.
+
+b) Modifique a classe da coluna “hp” para fator e calcule a média novamente.
+
 c) Compare os resultados obtidos nas letras a e b, e relate as diferenças entre eles.
 
 3- Crie uma lista com os nomes dos integrantes da ex-banda Mamonas assassinas com a data e o local de nascimento.
@@ -58,15 +114,128 @@ c) Compare os resultados obtidos nas letras a e b, e relate as diferenças entre
 | Sérgio | Baterista   | 26           |
 | Rasec  | Tecladista  | 28           |
 
-a)Verifique o dimensão da lista. 
+a) Verifique o dimensão da lista. 
+
 b) Utilizando a lista, calcule a média das idades.
+
 c) Ordene a lista por ordem alfabética dos nomes. 
 
-## **Sessão 3**:Indexação
+### Enviando as respostas
 
-1 - Crie um vetor de uma amostra da distribuição Normal com comprimento 30000, média 20 e desvio padrão 5.
+Use a função `sessao2`.
 
+Para essa sessão esperamos os seguintes objetos nas respostas:
+
+| pergunta | objeto esperado | 
+|----|-------------------------------|
+| nome | vetor de caracter           |
+| a1 | vetor de caracter             |
+| b1 | vetor de caracter             |
+| c1 | vetor de caracter             |
+| a2 | vetor numérico                         |
+| b2 | vetor numérico (com um único elemento) |
+| a3 | vetor numérico (com um dois elementos) |
+| b3 | vetor numérico                         |
+| c3 | lista                                  |
+
+
+# **Sessão 3**:Indexação
+
+1 - Crie um vetor de uma amostra da distribuição Normal com comprimento 30000, média 20 e desvio padrão 5. Antes de criar o vetor, utilize set.seed(123456).
 
 a) Qual o somatório das observações no vetor que são maiores que 30?
+
 b) E o somatório das observações menores que a média?
-c) Como você excluiria a memor observação do vetor?
+
+c) Excluira a menor observação do vetor.
+
+
+### Enviando as respostas
+
+Use a função `sessao3`.
+
+Para essa sessão esperamos os seguintes objetos nas respostas:
+
+| pergunta | objeto esperado | 
+|----|-------------------------------|
+| nome | vetor de caracter           |
+| a1 | vetor numérico (com um único elemento) |
+| b1 | vetor numérico (com um único elemento) |
+| c1 | vetor numérico             |
+
+
+# **Sessão 4**: Estruturas condicionais e de repetição 
+
+1 - Crie um objeto "a" contendo uma sequência de 1 a 5. Usando qualquer estrutura de repetição, some o número 8 a cada um dos elementos de "a", até que a soma de todos os elementos seja igual ou superior a 10000.
+
+2 - Utilize a expressão abaixo para gerar médias de produtividade, considerando 50 genótipos de soja, de forma aleatória:
+
+```{r, eval = FALSE}
+set.seed(123456)
+produtividade = rnorm(50, mean = 3500.00, sd = 800)
+```
+
+Suponhamos que a média nacional de produtividade de soja seja de 3500.00 kg/ha. Utilizando struturas condicionais, verifique se os genótipos apresentam valores acima ou abaixo da produtividade média nacional, retornando as frases "acima da média" ou "abaixo da média", respectivamente.
+
+### Enviando as respostas
+
+Use a função `sessao4`.
+
+Para essa sessão esperamos os seguintes objetos nas respostas:
+
+| pergunta | objeto esperado | 
+|----|-------------------------------|
+| nome | vetor de caracter           |
+| a1 | vetor numérico |
+| a2 | vetor de caracter |
+
+
+# **Sessão 5**: Família de funções `apply`
+
+1 - Utilize a função abaixo para gerar médias de produtividade, considerando 25 genótipos de soja avaliados em 15 ambientes, de forma aleatória:
+
+```{r, eval=FALSE}
+set.seed(123456)
+dados = data.frame(Genotypes = rep(seq(1,25,1), 15), Environments = rep(x = seq(1:15), each = 25), yield = rnorm(375, 3000:3500, 800))
+```
+
+Utilizando funções da família "apply", obtenha as médias gerais de cada genótipo e também de cada ambiente.
+
+
+# **Sessão 6**: Elaboração de funções
+
+Utilize a função abaixo para gerar médias de produtividade, considerando 25 genótipos de soja avaliados em 15 ambientes, de forma aleatória:
+
+```{r}
+set.seed(123456)
+dados = data.frame(Genotypes = rep(seq(1,25,1), 15), Environments = rep(x = seq(1:15), each = 25), yield = rnorm(375, 3000:3500, 800))
+```
+
+Elabore uma função para calcular as médias e o coeficiente de variação ($CV = frac{\mu}{\sigma}*100$) em cada ambiente, e também avaliar a precisão experimental (até 10% = alta; entre 10 e 20% = média; acima de 20% = baixa). A função deve retornar os resultados contendo a identificação de cada ambiente, as médias, os CV's e as precisões.
+
+# **Sessão 7**: Algumas ferramentas básicas de análise de dados
+
+1 - Utilizando os dados dos participantes e a função `lm`, identifique se exite diferenças entre a área de conhecimento com que a pessoa se identifica e seu nível de conhecimento em R.
+
+Obtenha os dados dos participantes com:
+
+```{r, eval=FALSE}
+data("dados")
+```
+
+2 - Para realizar este exercício, utilize o conjunto de dados `feijao`, contido no pacote `curso`.
+
+```{r, eval=FALSE}
+data("feijao")
+```
+
+Avalie as diferenças na produtividade conforme o local do plantio. Use para isso as funções:
+
+a) `tapply` 
+
+b) `lm`
+
+c) Escolha um gráfico para ilustrar a análise.
+
+
+3 - Agora, utilize o mesmo conjunto de dados e avalie o desempenho de cada cultivar separadamente em cada local, considerando o delineamento em blocos.

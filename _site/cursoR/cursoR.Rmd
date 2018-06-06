@@ -1,13 +1,13 @@
 # Introdução e Análise de Dados em R
 
 Esse material foi elaborado para o treinamento *INTRODUÇÃO E ANÁLISE DE DADOS EM R
-* pelos alunos de pós-graduação Cristiane Taniguti, Fernando Correr, Ana Letycia, Amanda Avelar e Guilherme Hosaka dos laboratórios de Genética Estatística e Bioinformática da ESALQ-USP.
+* pelos alunos de pós-graduação Cristiane Taniguti, Fernando Correr, Gabriel Gesteira, Ana Letycia, Amanda Avelar e Guilherme Hosaka dos laboratórios de Genética Estatística e Laboratório de Bioinformática aplicada à Bioenergia da ESALQ-USP.
 
 O treinamento foi organizado pelo grupo de Genética e Melhoramento de Plantas “Prof. Roland Vencovsky” (GVENCK) formado por alunos de pós-graduação em Genética e Melhoramento de Plantas da ESALQ- USP. 
 
 Você pode acessar mais informações sobre o grupo neste [link](https://gvenck.github.io/aboutus/). No mesmo site pode ser encontrado [mais materiais](https://gvenck.github.io/events/) utilizados neste treinamento. 
 
-Sugerimos que, antes de iniciar a prática aqui descrita, siga [este tutorial](https://gvenck.github.io/events/) para instalação do R e do RStudio.
+Sugerimos que, antes de iniciar a prática aqui descrita, siga [este tutorial](https://gvenck.github.io/cursoR/Tutorial_instalacao.html) para instalação do R e do RStudio.
 
 # Familiarização com a interface do RStudio
 
@@ -89,10 +89,10 @@ O R pode funcionar como uma simples **calculadora**, que utiliza a mesma sintaxe
 # Script Curso R
 
 # Data: 06/06/2018
-# GVENK
+# GVENCK
 ##########################
 
-1+1.                 #Decimal definido com "."
+1+1.3                 #Decimal definido com "."
 2*3
 2^3
 4/2
@@ -278,6 +278,37 @@ x[which(logical)] # Obtendo os números maiores que 40 do vetor z pela posição
 
 Encontre mais sobre outros operadores lógicos, como o `>` utilizado, neste [link](http://www.statmethods.net/management/operators.html).
 
+**Warning1**
+
+Faça uma sequência numérica, contendo 10 valores inteiros, e salve em um objeto chamado "a".
+
+```{r}
+(a <- 1:10)
+```
+
+Crie outra sequência, utilizando números decimais e qualquer operação matemática, de tal forma que seus valores sejam idênticos ao objeto "a".
+
+```{r}
+b <- seq(from = 0.1, to = 1, 0.1)
+(b <- b*10)
+```
+
+Os dois vetores parecem iguais, não?
+
+Então, utilizando um operador lógico, vamos verificar o objeto "b" é igual ao objeto "a".
+
+```{r}
+a==b
+```
+
+Alguns, valores não são iguais. Como isso é possivel?
+
+```{r}
+a==round(b)
+```
+
+**Warning2**
+
 Não é possível misturar diferentes classes dentro de um mesmo vetor, ao tentar fazer isso repare que o R irá tentar igualar para uma única classe:
 
 ```{r}
@@ -286,6 +317,11 @@ errado
 ```
 
 No caso, todos os elementos foram transformados em caracter.
+
+**Faça os exercícios da sessão 1**
+
+Acesse [aqui](https://gvenck.github.io/cursoR/Exercicios.html#sessao1-operadores-e-operacoes-basicas)
+
 
 ## Matrizes
 
@@ -420,6 +456,10 @@ Este é um tipo de objeto que você provavelmente não irá utilizar agora no in
 ```
 
 Teremos quatro matrizes com duas linhas e três colunas e os números de 1 a 24 estarão distribuídos nelas por colunas.
+
+**Faça os exercícios das sessão 2 e 3**
+
+Acesse [aqui](https://gvenck.github.io/cursoR/Exercicios.html#sessao-2-classe-de-objetos)
 
 # Exportando e importando dados
 

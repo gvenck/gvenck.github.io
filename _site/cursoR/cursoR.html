@@ -143,10 +143,10 @@ $(document).ready(function () {
 <div id="main">
 <div id="introducao-e-analise-de-dados-em-r" class="section level1">
 <h1>Introdução e Análise de Dados em R</h1>
-<p>Esse material foi elaborado para o treinamento <em>INTRODUÇÃO E ANÁLISE DE DADOS EM R </em> pelos alunos de pós-graduação Cristiane Taniguti, Fernando Correr, Ana Letycia, Amanda Avelar e Guilherme Hosaka dos laboratórios de Genética Estatística e Bioinformática da ESALQ-USP.</p>
+<p>Esse material foi elaborado para o treinamento <em>INTRODUÇÃO E ANÁLISE DE DADOS EM R </em> pelos alunos de pós-graduação Cristiane Taniguti, Fernando Correr, Gabriel Gesteira, Ana Letycia, Amanda Avelar e Guilherme Hosaka dos laboratórios de Genética Estatística e Laboratório de Bioinformática aplicada à Bioenergia da ESALQ-USP.</p>
 <p>O treinamento foi organizado pelo grupo de Genética e Melhoramento de Plantas “Prof. Roland Vencovsky” (GVENCK) formado por alunos de pós-graduação em Genética e Melhoramento de Plantas da ESALQ- USP.</p>
 <p>Você pode acessar mais informações sobre o grupo neste <a href="https://gvenck.github.io/aboutus/">link</a>. No mesmo site pode ser encontrado <a href="https://gvenck.github.io/events/">mais materiais</a> utilizados neste treinamento.</p>
-<p>Sugerimos que, antes de iniciar a prática aqui descrita, siga <a href="https://gvenck.github.io/events/">este tutorial</a> para instalação do R e do RStudio.</p>
+<p>Sugerimos que, antes de iniciar a prática aqui descrita, siga <a href="https://gvenck.github.io/cursoR/Tutorial_instalacao.html">este tutorial</a> para instalação do R e do RStudio.</p>
 </div>
 <div id="familiarizacao-com-a-interface-do-rstudio" class="section level1">
 <h1>Familiarização com a interface do RStudio</h1>
@@ -199,7 +199,7 @@ $(document).ready(function () {
 <span class="co"># Script Curso R</span>
 
 <span class="co"># Data: 06/06/2018</span>
-<span class="co"># GVENK</span>
+<span class="co"># GVENCK</span>
 ##########################
 
 <span class="dv">1+1</span>.                 <span class="co">#Decimal definido com &quot;.&quot;</span>
@@ -309,11 +309,29 @@ logical   <span class="co"># Os elementos são maiores que 40?</span></code></pr
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">x[<span class="kw">which</span>(logical)] <span class="co"># Obtendo os números maiores que 40 do vetor z pela posição</span></code></pre></div>
 <pre><code>## [1] 40.1</code></pre>
 <p>Encontre mais sobre outros operadores lógicos, como o <code>&gt;</code> utilizado, neste <a href="http://www.statmethods.net/management/operators.html">link</a>.</p>
+<p><strong>Warning1</strong></p>
+<p>Faça uma sequência numérica, contendo 10 valores inteiros, e salve em um objeto chamado “a”.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">(a &lt;-<span class="st"> </span><span class="dv">1</span>:<span class="dv">10</span>)</code></pre></div>
+<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<p>Crie outra sequência, utilizando números decimais e qualquer operação matemática, de tal forma que seus valores sejam idênticos ao objeto “a”.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">b &lt;-<span class="st"> </span><span class="kw">seq</span>(<span class="dt">from =</span> <span class="fl">0.1</span>, <span class="dt">to =</span> <span class="dv">1</span>, <span class="fl">0.1</span>)
+(b &lt;-<span class="st"> </span>b*<span class="dv">10</span>)</code></pre></div>
+<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<p>Os dois vetores parecem iguais, não?</p>
+<p>Então, utilizando um operador lógico, vamos verificar o objeto “b” é igual ao objeto “a”.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">a==b</code></pre></div>
+<pre><code>##  [1]  TRUE  TRUE FALSE  TRUE  TRUE  TRUE FALSE  TRUE  TRUE  TRUE</code></pre>
+<p>Alguns, valores não são iguais. Como isso é possivel?</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">a==<span class="kw">round</span>(b)</code></pre></div>
+<pre><code>##  [1] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE</code></pre>
+<p><strong>Warning2</strong></p>
 <p>Não é possível misturar diferentes classes dentro de um mesmo vetor, ao tentar fazer isso repare que o R irá tentar igualar para uma única classe:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">errado &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="ot">TRUE</span>, <span class="st">&quot;vish&quot;</span>, <span class="dv">1</span>)
 errado</code></pre></div>
 <pre><code>## [1] &quot;TRUE&quot; &quot;vish&quot; &quot;1&quot;</code></pre>
 <p>No caso, todos os elementos foram transformados em caracter.</p>
+<p><strong>Faça os exercícios da sessão 1</strong></p>
+<p>Acesse <a href="https://gvenck.github.io/cursoR/Exercicios.html#sessao1-operadores-e-operacoes-basicas">aqui</a></p>
 <div id="matrizes" class="section level2">
 <h2>Matrizes</h2>
 <p>As matrizes são outra classe de objetos muito utilizadas no R, com elas podemos realizar operações de maior escala de forma automatizada, como veremos mais adiante com modelos estatísticos.</p>
@@ -496,6 +514,8 @@ minha_lista$campo1</code></pre></div>
 ## [1,]   19   21   23
 ## [2,]   20   22   24</code></pre>
 <p>Teremos quatro matrizes com duas linhas e três colunas e os números de 1 a 24 estarão distribuídos nelas por colunas.</p>
+<p><strong>Faça os exercícios das sessão 2 e 3</strong></p>
+<p>Acesse <a href="https://gvenck.github.io/cursoR/Exercicios.html#sessao-2-classe-de-objetos">aqui</a></p>
 </div>
 </div>
 <div id="exportando-e-importando-dados" class="section level1">
