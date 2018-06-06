@@ -171,22 +171,14 @@ Para essa sessão esperamos os seguintes objetos nas respostas:
 | b1 | vetor numérico (com um único elemento) |
 | c1 | vetor numérico             |
 
-# **Sessão 4**: Estruturas condicionais
 
-1 - Faça uma sequência numérica, contendo 10 valores inteiros, e salve em um objeto chamado "a" (Ex: sequência de 1 até 10).
-
-Crie outra sequência, utilizando números decimais e qualquer operação matemática, de tal forma que seus valores sejam idênticos ao objeto "a" (Ex: multiplicar uma sequência de 0.1 até 1.0 por 10).
-
-Utilizando qualquer operador lógico, verifique se o objeto "b" é igual ao objeto "a".
-
-
-# **Sessão 5**: Estruturas de repetição
+# **Sessão 4**: Estruturas condicionais e de repetição 
 
 1 - Crie um objeto "a" contendo uma sequência de 1 a 5.
 
-2 - Usando qualquer função condicional, some o número 8 a cada um dos elementos de "a", até que a soma de todos os elementos seja igual ou superior a 10000.
+a) Usando qualquer estrutura de repetição, some o número 8 a cada um dos elementos de "a", até que a soma de todos os elementos seja igual ou superior a 10000.
 
-3 - Utilize a expressão abaixo para gerar médias de produtividade, considerando 50 genótipos de soja, de forma aleatória:
+2 - Utilize a expressão abaixo para gerar médias de produtividade, considerando 50 genótipos de soja, de forma aleatória:
 
 ```{r, eval = FALSE}
 produtividade = rnorm(50, mean = 3500.00, sd = 800)
@@ -195,7 +187,7 @@ produtividade = rnorm(50, mean = 3500.00, sd = 800)
 Suponhamos que a média nacional de produtividade de soja seja de 3500.00 kg/ha. Utilizando struturas condicionais, verifique se os genótipos apresentam valores acima ou abaixo da produtividade média nacional, retornando as frases "acima da média" ou "abaixo da média", respectivamente.
 
 
-# **Sessão 6**: Família de funções `apply`
+# **Sessão 5**: Família de funções `apply`
 
 1 - Utilize a função abaixo para gerar médias de produtividade, considerando 25 genótipos de soja avaliados em 15 ambientes, de forma aleatória:
 
@@ -206,7 +198,7 @@ dados = data.frame(Genotypes = rep(seq(1,25,1), 15), Environments = rep(x = seq(
 Utilizando funções da família "apply", obtenha as médias gerais de cada genótipo e também de cada ambiente.
 
 
-# **Sessão 7**: Elaboração de funções
+# **Sessão 6**: Elaboração de funções
 
 Utilize a função abaixo para gerar médias de produtividade, considerando 25 genótipos de soja avaliados em 15 ambientes, de forma aleatória:
 
@@ -216,7 +208,7 @@ dados = data.frame(Genotypes = rep(seq(1,25,1), 15), Environments = rep(x = seq(
 
 Elabore uma função para calcular as médias e o coeficiente de variação ($CV = frac{\mu}{\sigma}*100$) em cada ambiente, e também avaliar a precisão experimental (até 10% = alta; entre 10 e 20% = média; acima de 20% = baixa). A função deve retornar os resultados contendo a identificação de cada ambiente, as médias, os CV's e as precisões.
 
-# **Sessão 8**: Algumas ferramentas básicas de análise de dados
+# **Sessão 7**: Algumas ferramentas básicas de análise de dados
 
 1 - Utilizando os dados dos participantes e a função `lm`, identifique se exite diferenças entre a área de conhecimento com que a pessoa se identifica e seu nível de conhecimento em R.
 
