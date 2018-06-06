@@ -59,8 +59,11 @@ c) Calcule a variância das alturas;
 | Pedro      | 92        | 1,98       |
 
 a)Calcule o IMC de cada aluno, segundo a fórmula: $IMC = \frac{peso}{altura^2}$ 
+
 b)Calcule o IMC médio da sala.
+
 c) Calcule a variância do IMC. 
+
 d) Calcule o desvio padrão do IMC.
 
 
@@ -74,14 +77,15 @@ Para essa sessão esperamos os seguintes objetos nas respostas:
 
 | pergunta | objeto esperado | 
 |----|-------------------------------|
-| 1a | vetor                         |
-| 1b | vetor (com um único elemento) |
-| 1c | vetor (com um único elemento) |
-| 2a | vetor                         |
-| 2b | vetor (com um único elemento) |
-| 2c | vetor (com um único elemento) |
-| 2d | vetor (com um único elemento) |
-| 3a | vetor (com dois elementos)    |
+| nome | caracter                    |
+| a1 | vetor numérico                         |
+| b1 | vetor numérico (com um único elemento) |
+| c1 | vetor numérico (com um único elemento) |
+| a2 | vetor numérico                         |
+| b2 | vetor numérico (com um único elemento) |
+| c2 | vetor numérico (com um único elemento) |
+| d2 | vetor numérico (com um único elemento) |
+| a3 | vetor numérico (com dois elementos)    |
 
 
 ## **Sessão 2**: Classe de objetos
@@ -110,6 +114,23 @@ c) Compare os resultados obtidos nas letras a e b, e relate as diferenças entre
 a) Verifique o dimensão da lista. 
 b) Utilizando a lista, calcule a média das idades.
 c) Ordene a lista por ordem alfabética dos nomes. 
+
+* Enviando as respostas
+
+Para essa sessão esperamos os seguintes objetos nas respostas:
+
+| pergunta | objeto esperado | 
+|----|-------------------------------|
+| nome | vetor de caracter                    |
+| a1 | vetor de caracter                         |
+| b1 | vetor de caracter  |
+| c1 | vetor de caracter  |
+| a2 | vetor numérico                         |
+| b2 | vetor numérico (com um único elemento) |
+| a3 | vetor numérico (com um dois elementos) |
+| b3 | vetor numérico   |
+| c3 | lista   |
+
 
 ## **Sessão 3**:Indexação
 
