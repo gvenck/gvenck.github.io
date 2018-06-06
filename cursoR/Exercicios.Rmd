@@ -76,7 +76,7 @@ c) Verifique a classe do nome dos carros. (rownames)
 
 2 - Utilizando o mesmo conjunto de dados do exercício anterior, calcule:
 a) A média da coluna “hp”.
-b) Modifique a classe da coluna “hp” para factor e calcule a média novamente.
+b) Modifique a classe da coluna “hp” para fator e calcule a média novamente.
 c) Compare os resultados obtidos nas letras a e b, e relate as diferenças entre eles.
 
 3- Crie uma lista com os nomes dos integrantes da ex-banda Mamonas assassinas com a data e o local de nascimento.
@@ -89,14 +89,13 @@ c) Compare os resultados obtidos nas letras a e b, e relate as diferenças entre
 | Sérgio | Baterista   | 26           |
 | Rasec  | Tecladista  | 28           |
 
-a)Verifique o dimensão da lista. 
+a) Verifique o dimensão da lista. 
 b) Utilizando a lista, calcule a média das idades.
 c) Ordene a lista por ordem alfabética dos nomes. 
 
 ## **Sessão 3**:Indexação
 
-1 - Crie um vetor de uma amostra da distribuição Normal com comprimento 30000, média 20 e desvio padrão 5.
-
+1 - Crie um vetor de uma amostra da distribuição Normal com comprimento 30000, média 20 e desvio padrão 5. Antes de criar o vetor, utilize set.seed(123456).
 
 a) Qual o somatório das observações no vetor que são maiores que 30?
 b) E o somatório das observações menores que a média?
