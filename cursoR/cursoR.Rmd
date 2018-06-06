@@ -111,7 +111,7 @@ log(100)             #logarítmo com base neperiana
 
 ```
 
-Agora, utilize as operações básicas para solucionar expressão:
+Agora, utilize as operações básicas para solucionar expressão abaixo. Lembre-se de utilizar parênteses `()` para estabelecer prioridades nas operações.
 
 $(\frac{13+2+1.5}{3})+ log_{4}96$
 
@@ -156,7 +156,7 @@ seq(0,100,5) # Se você já souber a ordem dos argumentos da função
 
 * Crie uma sequencia utilizando a função `seq` que varie de 4 a 30, com intervalos de 3 em 3.
 
-```{r}
+```{r, echo=FALSE}
 seq(from=4, to=30, by=3)
 ```
 
@@ -190,7 +190,7 @@ y = c(0.26,0.3,0.36,0.24,0.27,0.35)
 
 Os mais antigos costumam usar o sinal `<-`, mas tem a mesma função de `=`. Escolha usar o qual preferir.
 
-Para acessar os valores dentro o objeto basta:
+Para acessar os valores dentro do objeto basta:
 
 ```{r}
 x
@@ -281,7 +281,7 @@ Com ele podemos, por exemplo, identificar quais são as posições dos elementos
 ```{r}
 which(logical)  # Obtendo as posiçoes dos elementos TRUE
 
-x[which(logical)] # Obtendo os números maiores que 40 do vetor z pela posição
+x[which(logical)] # Obtendo os números maiores que 40 do vetor x pela posição
 ```
 
 Encontre mais sobre outros operadores lógicos, como o `>` utilizado, neste [link](http://www.statmethods.net/management/operators.html).
@@ -309,7 +309,7 @@ Então, utilizando um operador lógico, vamos verificar o objeto "b" é igual ao
 a==b
 ```
 
-Alguns, valores não são iguais. Como isso é possivel?
+Alguns valores não são iguais. Como isso é possivel?
 
 ```{r}
 a==round(b)
@@ -333,7 +333,7 @@ Acesse [aqui](https://gvenck.github.io/cursoR/Exercicios.html#sessao1-operadores
 
 ## Matrizes
 
-As matrizes são outra classe de objetos muito utilizadas no R, com elas podemos realizar operações de maior escala de forma automatizada, como veremos mais adiante com modelos estatísticos.
+As matrizes são outra classe de objetos muito utilizadas no R, com elas podemos realizar operações de maior escala de forma automatizada.
 
 Por serem usadas em operações, nelas somente armazenamos elementos numéricos. Para criar uma matriz, determinamos uma sequência de números e indicamos o número de linhas e colunas da matriz:
 

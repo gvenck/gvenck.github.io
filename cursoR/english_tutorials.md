@@ -1,4 +1,4 @@
-Here are some of our recommendations of english learning staff about R:
+Here are some of our recommendations of english learning materials about R:
 
 * [CRAN tutorials](https://cran.r-project.org/)
 * [Swirl package](http://swirlstats.com/students.html)
