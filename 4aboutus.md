@@ -147,6 +147,12 @@ PhD student in Genetics and Plant Breeding
 Bioinformatics applied to Bioenergy  
 [View Lattes](http://lattes.cnpq.br/0852214262732752)
 
+<img src="../images/cris.jpg" height="120">{: .image-pull-right}  
+**Cristiane Hayumi Taniguti**  
+PhD student in Genetics and Plant Breeding  
+Statistical Genetics, Molecular Biology and Bioinformatics  
+[View Lattes](http://lattes.cnpq.br/5351325433180836)  
+  
 <img src="../images/leonardo.jpg" height="120">{: .image-pull-right}  
 **Leonardo F. Gotardi**  
 Undergraduate student in Agricultural Engineering  
