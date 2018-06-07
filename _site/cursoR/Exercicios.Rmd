@@ -211,7 +211,7 @@ set.seed(123456)
 dados = data.frame(Genotypes = rep(seq(1,25,1), 15), Environments = rep(x = seq(1:15), each = 25), yield = rnorm(375, 3000:3500, 800))
 ```
 
-Elabore uma função para calcular as médias e o coeficiente de variação ($CV = frac{\mu}{\sigma}*100$) em cada ambiente, e também avaliar a precisão experimental (até 10% = alta; entre 10 e 20% = média; acima de 20% = baixa). A função deve retornar os resultados contendo a identificação de cada ambiente, as médias, os CV's e as precisões.
+Elabore uma função para calcular as médias e o coeficiente de variação ($CV = \frac{\mu}{\sigma}*100$) em cada ambiente, e também avaliar a precisão experimental (até 20% = alta; entre 20 e 30% = média; acima de 30% = baixa). A função deve retornar os resultados contendo a identificação de cada ambiente, as médias, os CV's e as precisões.
 
 # **Sessão 7**: Algumas ferramentas básicas de análise de dados
 

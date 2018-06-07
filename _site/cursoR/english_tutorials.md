@@ -1,4 +1,4 @@
-Here are some of our recommendations of english learning staff about R:
+Here are some of our recommendations of english learning materials about R:
 
 * [CRAN tutorials](https://cran.r-project.org/)
 * [Swirl package](http://swirlstats.com/students.html)
@@ -7,3 +7,9 @@ Here are some of our recommendations of english learning staff about R:
 * [TryR site](http://tryr.codeschool.com/)
 * [R-Bloggers](https://www.r-bloggers.com/)
 * [Coursera courses](https://www.coursera.org/)
+* [Hadley Wickham books and tutorials](http://hadley.nz/)
+
+
+For bioinformatics with python:
+
+* [Rosalind](http://rosalind.info/problems/locations/)

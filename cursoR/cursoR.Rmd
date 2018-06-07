@@ -272,16 +272,16 @@ length(clone_fator)
 Também vetores **lógicos**, que recebem valores de verdadeiro ou falso:
 
 ```{r}
-logical <- x > 40
-logical   # Os elementos são maiores que 40?
+logico <- x > 40
+logico   # Os elementos são maiores que 40?
 ```
 
 Com ele podemos, por exemplo, identificar quais são as posições dos elementos maiores que 40:
 
 ```{r}
-which(logical)  # Obtendo as posiçoes dos elementos TRUE
+which(logico)  # Obtendo as posiçoes dos elementos TRUE
 
-x[which(logical)] # Obtendo os números maiores que 40 do vetor x pela posição
+x[which(logico)] # Obtendo os números maiores que 40 do vetor x pela posição
 ```
 
 Encontre mais sobre outros operadores lógicos, como o `>` utilizado, neste [link](http://www.statmethods.net/management/operators.html).
@@ -388,7 +388,7 @@ campo1 <- data.frame("clone" = clone,     # Antes do sinal de "="
                      "altura" = x,        # estabelecemos os nomes  
                      "diametro" = y,      # das coluna
                      "idade" = rep(3:5, 2),
-                     "corte"= logical) 
+                     "corte"= logico) 
 campo1
 ```
 
@@ -434,6 +434,26 @@ Agora, vamos adicionar o vetor calculado com o volume ao nosso data.frame. Para 
 ```{r}
 campo1 <- cbind(campo1, volume)
 str(campo1)
+```
+
+<span style="color:red"> Paramos aqui no primeiro dia. Caso não tenha salvado os objetos criados até agora, obtenha-os [aqui](https://gvenck.github.io/cursoR/dia1.RData).</span>
+
+Algumas dicas até agora:
+
+* Cuidado com a prioridade das operações, na dúvida, sempre acrescente parenteses conforme seu interesse de prioridade.
+* Lembre-se que, se esquecer de fechar algum `(` ou `[` ou `"`, o console do R ficará esperando você fechar indicando um `+`, nada irá ser processado até que você digite diretamente no console um `)`.
+* Cuidado para não sobrepor objetos já criados criando outros com o mesmo nome. Use, por exemplo: altura1, altura2.
+* Mantenha no seu script .R somente os comandos que funcionaram e, de preferência, adicione comentários. Você pode, por exemplo, comentar nele dificuldades encontradas, para que você não cometa os mesmos erros mais tarde. Acesse [aqui]((https://gvenck.github.io/cursoR/dia1.R)) um exemplo de script de tudo que foi realizado até agora.
+* Lembre-se que, para construir matrizes e data.frames, o número de elementos em cada coluna tem que ser iguais.
+* Caso não saiba o operador ou a função que deve ser utilizada, como o desvio padrão, busque no google algo como "desvio padrão R", ou melhor "standard deviation R". Logo nas primeiras páginas você obterá respostas. A comunidade do R é bastante ativa e grande parte das suas perguntas sobre ele já foram respondidas em algum lugar da web.
+* Não esqueça que tudo o que fizer no R precisa ser explicitamente indicado, como uma multiplicação 4ac com `4*a*c`. Para gerar um vetor 1,3,2,6 é necessário: `c(1,3,2,6)`.
+
+Antes de continuarmos, atualize seu pacote `cursoR`:
+
+```{r, eval=FALSE}
+library(devtools)
+install_github("gvenk/cursoR")
+library(cursoR)
 ```
 
 ## Listas
@@ -529,7 +549,8 @@ Aqui usaremos o argumento `stringAsFactors` que impede que o R transforme os vet
 
 
 ```{r, eval=FALSE}
-dados <- read.csv(file = "respostas.csv", stringsAsFactors = FALSE, na.strings="-")
+dados <- read.csv(file = "dados.csv", stringsAsFactors = FALSE, na.strings="-")
+
 ```
 
 ```{r}
@@ -541,6 +562,8 @@ Vamos explorar a estrutura dos dados coletados:
 
 ```{r}
 str(dados)
+# também
+dim(dados)
 ```
 
 Repare que nos nomes das colunas ainda estão as perguntas completas feitas no formulário, vamos alterar para nomes mais fáceis de trabalhar:
@@ -566,7 +589,7 @@ Vamos então verificar se temos no nosso grupo pessoas que compartilham o mesmo 
 
 Podemos verificar isso facilmente com a função `table`, que indica a frequência de cada observação:
  
-```{r}
+```{r, eval=FALSE}
 table(dados$Niver)
 ```
 
@@ -599,7 +622,7 @@ if(dados[3,9] == 0){
 Podemos espeficiar mais do que uma condição repetindo a estrutura `if` `else`:
 
 ```{r}
-if(dados[3,9] == 0){
+if(dados[7,9] == 0){
   print("Nunca é tarde para começar!")
 } else if (dados[3,9] > 0 && dados[3,9] < 5){
   print("Já pegou o embalo, agora é só continuar!")
@@ -674,43 +697,33 @@ for(i in 1:nrow(dados)){
 }
 ```
 
-Para que seja possível imprimir conteúdo de objetos durante o loop, usamos a função `cat`, ela não separa cada resposta em uma linha, precisamos coloca o `\n` indicando a quebra de linha.
+Para que seja possível imprimir conteúdo de objetos durante o loop, usamos a função `cat`, ela não separa cada resposta em uma linha, precisamos colocar o `\n` indicando a quebra de linha.
 
-Também, se não quisermos trabalhar com dados não padronizados, podemos impedir que o loop continue quando encontrar algum erro. Podemos, para isso, simplesmente quebrá-lo quando encontrar uma determinada condição (nesse caso a falta do "-").
+Agora vamos nos mesmos corrigir essas informações. Podemos armazenar uma variável a posição das linhas incorretas, então corrigiremos manualmente somente essas:
 
-```{r, eval=FALSE}
+```{r}
+corrigir <- vector()
 for(i in 1:nrow(dados)){
   if(grepl("-", dados[i,5])){
     cat("Esse/a seguiu o exemplo direitinho. Parabéns!\n")
   } else {
-    stop("Precisamos adicionar mais informações na linha", i, "\n")
+    cat("Precisamos adicionar mais informações na linha", i, "\n")
+    corrigir <- c(corrigir, i)
   }
 }
+
+corrigir
+
+dados$Cidade[corrigir]
+
+correcao <- c("Piracicaba-SP", "Rio das Pedras-SP", "Teófilo Otoni-MG", "Piracicaba-SP", "São Paulo-SP", 
+              "São Carlos-SP", "São Paulo-SP", "Catanduva-SP") 
+
+dados$Cidade[corrigir] <- correcao
+
+dados$Cidade[corrigir]
+dados$Cidade
 ```
-
-Se não quisermos ser tão exigentes, podemos só dar um aviso.
-
-```{r}
-for(i in 1:nrow(dados)){
-  if(grepl("-", dados[i,5])){
-    cat("Esse/a seguiu o exemplo direitinho. Parabéns!\n")
-  } else {
-    warning("Precisamos adicionar mais informações na linha", i, "\n")
-  }
-}
-```
-
-Ou também podemos só ignorar essas linhas
-
-```{r}
-for(i in 1:nrow(dados)){
-  if(grepl("-", dados[i,5])){
-    cat("Esse/a seguiu o exemplo direitinho. Parabéns!\n")
-  } 
-}
-```
-
-Existem diversas outras ações que podemos usar dentro dos loops conforme nossos interesses.
 
 ## While
 
@@ -791,6 +804,11 @@ for(i in 1:dim(ex_mat)[1]) {
 ```
 
 Fizemos um vídeo com mais detalhes sobre loops no R, aumentem nossa quantidade de views e likes por [la](https://www.youtube.com/watch?v=VYOo7I5htOw).
+
+**Faça os exercícios das sessão 4**
+
+Acesse [aqui](https://gvenck.github.io/cursoR/Exercicios.html#sessao-4-estruturas-condicionais-e-de-repeticao)
+
 
 # Família de funções `apply`
 
@@ -875,6 +893,10 @@ tapply(dados$ConhecimentoR, dados$Area, mean)
 ```
 
 Saiba mais sobre essa família de funções no [link](https://www.r-bloggers.com/r-tutorial-on-the-apply-family-of-functions/)
+
+**Faça os exercícios das sessão 5**
+
+Acesse [aqui](https://gvenck.github.io/cursoR/Exercicios.html#sessao-5-familia-de-funcoes-apply)
 
 
 # Elaboração de funções
@@ -988,6 +1010,10 @@ test_list <- minha_funcao(df.entrada = dados1)
 ```
 
 Para saber mais sobre desenvolvimento de funções acesse [aqui](https://www.r-bloggers.com/how-to-write-and-debug-an-r-function/) e, um pouco mais avançado, [aqui](http://adv-r.had.co.nz/Functions.html).
+
+**Faça os exercícios das sessão 6**
+
+Acesse [aqui](https://gvenck.github.io/cursoR/Exercicios.html#sessao-6-elaboracao-de-funcoes)
 
 
 # Elaboração de gráficos simples
@@ -1434,7 +1460,13 @@ Podemos também fazer um teste de médias para diferenciar a precipitação ao d
 modaov <- aov(prec.mm ~ Mes, data = clima_lond)
 tukey.test <- TukeyHSD(x=modaov, 'Mes', conf.level=0.95)
 ```
- 
+
+
+**Faça os exercícios das sessão 7**
+
+Acesse [aqui](https://gvenck.github.io/cursoR/Exercicios.html#sessao-7-algumas-ferramentas-basicas-de-analise-de-dados)
+
+
 # Pratique gerando relatórios no RStudio
  
  Utilize o R no seu dia-a-dia para ir praticando a linguagem. Além das recomendações contidas na [primeira apresentação](), recomendamos também dar uma olhada em como gerar documentos em pdf e html usando a Markdown. Utilizamos essa metodologia para gerar este tutorial e outras apresentações do curso. Pode ser muito prático no dia-a-dia!

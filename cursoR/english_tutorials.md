@@ -8,3 +8,8 @@ Here are some of our recommendations of english learning materials about R:
 * [R-Bloggers](https://www.r-bloggers.com/)
 * [Coursera courses](https://www.coursera.org/)
 * [Hadley Wickham books and tutorials](http://hadley.nz/)
+
+
+For bioinformatics with python:
+
+* [Rosalind](http://rosalind.info/problems/locations/)
