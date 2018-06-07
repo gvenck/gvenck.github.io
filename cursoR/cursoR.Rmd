@@ -443,7 +443,7 @@ Algumas dicas até agora:
 * Cuidado com a prioridade das operações, na dúvida, sempre acrescente parenteses conforme seu interesse de prioridade.
 * Lembre-se que, se esquecer de fechar algum `(` ou `[` ou `"`, o console do R ficará esperando você fechar indicando um `+`, nada irá ser processado até que você digite diretamente no console um `)`.
 * Cuidado para não sobrepor objetos já criados criando outros com o mesmo nome. Use, por exemplo: altura1, altura2.
-* Mantenha no seu script .R somente os comandos que funcionaram e, de preferência, adicione comentários. Você pode, por exemplo, comentar nele dificuldades encontradas, para que você não cometa os mesmos erros mais tarde. Acesse [aqui]((https://gvenck.github.io/cursoR/dia1.R)) um exemplo de script de tudo que foi realizado até agora.
+* Mantenha no seu script .R somente os comandos que funcionaram e, de preferência, adicione comentários. Você pode, por exemplo, comentar nele dificuldades encontradas, para que você não cometa os mesmos erros mais tarde. Acesse [aqui](https://gvenck.github.io/cursoR/dia1.R) um exemplo de script de tudo que foi realizado até agora.
 * Lembre-se que, para construir matrizes e data.frames, o número de elementos em cada coluna tem que ser iguais.
 * Caso não saiba o operador ou a função que deve ser utilizada, como o desvio padrão, busque no google algo como "desvio padrão R", ou melhor "standard deviation R". Logo nas primeiras páginas você obterá respostas. A comunidade do R é bastante ativa e grande parte das suas perguntas sobre ele já foram respondidas em algum lugar da web.
 * Não esqueça que tudo o que fizer no R precisa ser explicitamente indicado, como uma multiplicação 4ac com `4*a*c`. Para gerar um vetor 1,3,2,6 é necessário: `c(1,3,2,6)`.
