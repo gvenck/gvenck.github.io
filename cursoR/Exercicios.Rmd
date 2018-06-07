@@ -172,6 +172,21 @@ Para essa sessão esperamos os seguintes objetos nas respostas:
 | c1 | vetor numérico             |
 
 
+<span style="color:red"> Pode ser que a essa altura do curso você ja tenha que ter trabalhado com diversas frustrações: o código não roda, precisou de várias tentativas até dar certo. Talvez você se sinta caindo naquele gráfico de andamento do aprendizado que mostramos na apresentação teórica. Por isso, colocamos aqui alguns vídeos motivacionais. São três palestras TED excelentes (como costuma ser os TEDs).</span>
+
+Esses dois tem legenda em portugues. Só ajustas as configurações:
+
+* [Teach girls bravery, not perfection | Reshma Saujani](https://www.youtube.com/watch?v=fC9da6eqaqg)
+Especial para mulheres. Fala como aprender a programar nos educa a lidarmos melhor com nossas frustrações e nos desvia da cultura imposta de perfeição.
+
+* [Mitch Resnick: Let's teach kids to code](https://www.youtube.com/watch?v=Ok6LbV6bqaE)
+O palestrante é um dos desenvolvedores do programa Scratch, que consiste num jogo que ensina lógica de programação. O palestrante destaca a importância de aprender alguma linguagem de programação dos dias de hoje.
+
+Esse só em inglês:
+
+* [You Should Learn to Program: Christian Genco at TEDxSMU](https://www.youtube.com/watch?v=xfBWk4nw440)
+Destaca os impactos de saber programar no dia-a-dia.
+
 # **Sessão 4**: Estruturas condicionais e de repetição 
 
 1 - Crie um objeto "a" contendo uma sequência de 1 a 5. Usando qualquer estrutura de repetição, some o número 8 a cada um dos elementos de "a", até que a soma de todos os elementos seja igual ou superior a 10000.
