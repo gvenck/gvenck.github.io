@@ -122,7 +122,7 @@ c) Compare os resultados obtidos nas letras a e b, e relate as diferenças entre
 | Sérgio | Baterista   | 26           |
 | Rasec  | Tecladista  | 28           |
 
-a) Verifique o dimensão da lista. 
+a) Verifique o comprimento da lista. 
 
 b) Utilizando a lista, calcule a média das idades.
 
@@ -142,7 +142,7 @@ Para essa sessão esperamos os seguintes objetos nas respostas:
 | c1 | vetor de caracter             |
 | a2 | vetor numérico                         |
 | b2 | vetor numérico (com um único elemento) |
-| a3 | vetor numérico (com um dois elementos) |
+| a3 | vetor numérico (com um único elemento) |
 | b3 | vetor numérico                         |
 | c3 | lista                                  |
 

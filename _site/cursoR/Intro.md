@@ -4,8 +4,8 @@ This course will be held June 6-8, 2018. Here you can access all tutorials, data
 
 #### [Start form](https://goo.gl/forms/JyDVx1jde05Go7P32)
 
-#### [Main tutorial](cursoR.html) - Updated june 7 at 11h a.m
+#### [Main tutorial](cursoR.html) - Updated june 8 at 11h20min a.m
 
-#### [Exercises](Exercicios.html) 
+#### [Exercises](Exercicios.html) - Uodated june 8 at 11h20min a.m
 
-#### [Files](arquivos.md) - Updated june 7 at 11h a.m
+#### [Files](arquivos.md) - Updated june 8 at 11h20min a.m

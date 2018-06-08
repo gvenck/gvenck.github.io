@@ -452,7 +452,7 @@ Antes de continuarmos, atualize seu pacote `cursoR`:
 
 ```{r, eval=FALSE}
 library(devtools)
-install_github("gvenk/cursoR")
+install_github("gvenck/cursoR")
 library(cursoR)
 ```
 
@@ -550,7 +550,6 @@ Aqui usaremos o argumento `stringAsFactors` que impede que o R transforme os vet
 
 ```{r, eval=FALSE}
 dados <- read.csv(file = "dados.csv", stringsAsFactors = FALSE, na.strings="-")
-
 ```
 
 ```{r}
@@ -809,6 +808,29 @@ Fizemos um vídeo com mais detalhes sobre loops no R, aumentem nossa quantidade 
 
 Acesse [aqui](https://gvenck.github.io/cursoR/Exercicios.html#sessao-4-estruturas-condicionais-e-de-repeticao)
 
+<span style="color:red"> Paramos aqui no primeiro dia. Caso não tenha salvado os objetos criados até agora, obtenha-os [aqui](https://gvenck.github.io/cursoR/dia2.RData). Também acesse um R script do que foi passado [aqui](https://gvenck.github.io/cursoR/dia2.R)</span>
+
+Algumas dicas até agora:
+
+* Cuidado ao rodar o mesmo comando mais de uma vez, algumas variáveis podem não ser mais como eram antes. Para que o comando funcione da mesma forma é necessário que os objetos de entrada estejam da forma como você espera.
+* Lembrem-se que `=` é para definir objetos e `==` é o sinal de igualdade. 
+* Nas estruturas condicionais e de repetição, lembrem-se que é necessário manter a sintaxe esperada: If(){} e for(i in 1:10){}. No for, podemos trocar a letra que será o índice, mas é sempre necessário fornecer uma sequencias de inteiros contínua.
+* As vezes quando instalamos um pacote que já havia sido instalado, o R não reconhece o novo pacote, é necessario reiniciar o R.
+* Usar identação ajuda a visualizar o começo e fim de cada estrutura de código e facilita o abrir e fechar de chaves. Identação são aqueles espaços que usamos antes da linha, como:
+
+```{r}
+# Criando uma matrix vazia
+ex_mat <- matrix(nrow=10, ncol=10)
+
+# cada número dentro da matrix será o produto no índice da coluna pelo índice da linha
+for(i in 1:dim(ex_mat)[1]) {   # Primeiro nível, não tem espaço
+  for(j in 1:dim(ex_mat)[2]) { # Segundo nível tem um espaço (tab)
+    ex_mat[i,j] = i*j          # Terceiro nível tem dois espaços
+  }                            # Fechei o segundo nível
+}                              # Fechei o primeiro nível
+
+```
+
 
 # Família de funções `apply`
 
@@ -855,7 +877,7 @@ for(i in 1:dim(ex_mat)[1]){
 
 ## lapply
 
-Se diferencia do `apply` por poder receber outros tipos de objetos, mais utilizado com listas, e devolver o resultado também em uma lista.
+Se diferencia do `apply` por poder receber outros tipos de objetos (mais utilizado com listas) e devolver o resultado  em uma lista.
 
 
 ```{r}
@@ -903,7 +925,7 @@ Acesse [aqui](https://gvenck.github.io/cursoR/Exercicios.html#sessao-5-familia-d
 
 Observe que nas funções `apply` podemos trocar as funções prontas do r base por funções personalizadas. Vamos agora aprender a criar essas funções. Elas não só servem para essa funcionalidade, mas para diversas outras.
 
-Normalmente é uma boa prática criar um bloco de código se vai realizar aquela ação poucas vezes. Se for realizar várias vezes a ação e ela tiver apenas um objeto como entrada, vale a pena fazer um loop. Mas, se for realizar diversas vezes e o objeto de entrada for modificado vale a pena fazer uma função. E, na hierarquia, quando tiver acumulado muitas funções para realizar uma tarefa mais complexa, vale a pena construir um pacote.
+Normalmente é uma boa prática criar um bloco de código se vai realizar aquela ação poucas vezes. Se for realizar várias vezes a ação e de uma vez só, vale a pena fazer um loop. Mas, se for realizar diversas vezes e o objeto de entrada for modificado vale a pena fazer uma função. E, na hierarquia, quando tiver acumulado muitas funções para realizar uma tarefa mais complexa, vale a pena construir um pacote.
 
 Aqui não vamos nos aprofundar muito nesse assunto, talvez ele renda um outro módulo inteiro, vamos apenas passar noções básicas.
 
@@ -917,6 +939,9 @@ quadra <- function(x){
 
 quadra(3)
 quadra(4)
+
+qualquer_nome <- 4
+quadra(qualquer_nome)
 ```
 
 Vamos complicar um pouco e também dar mais sentido para construir uma função. Vamos definir no seu corpo várias ações antes de retornar o valor, algo que não poderia ser feito usando uma única função já pronta do R.
@@ -1287,13 +1312,14 @@ library(ggmap) # Este comando será necessário toda vez que for utilizar o paco
 
 Vamos utilizar a função `geocode` para obter dados de longitude e latitude das cidades dos participantes do curso:
 
-```{r, eval=FALSE}
+```{r}
 part1 <- geocode(dados$Cidade[1])
 ```
 
 Podemos aplicar a mesma função para todos os participantes utilizando o `for`.
 
-```{r, warning=FALSE, message='hide', results='hide', eval=FALSE}
+```{r, warning=FALSE, message='hide', results='hide'}
+
 coord <- data.frame()
 for(i in 1:nrow(dados)){
   coord <- rbind(coord,geocode(dados$Cidade[i]))
@@ -1302,35 +1328,30 @@ for(i in 1:nrow(dados)){
 coord
 ```
 
-Verifique que, algumas coordenadas não puderam ser encontradas, será necessário corrigir o nome das cidades e estados para essas.
+Verifique que, algumas coordenadas não puderam ser encontradas, é um problema de conexão com o google. Elaboramos um loop para repetir a ação até que todas sejam completadas:
 
-```{r, warning=FALSE, message='hide', results='hide', eval=FALSE}
 
-pos.na <- which(is.na(coord[,1]))
+```{r, warning=FALSE, message='hide', results='hide'}
 
-dados$Cidade[pos.na]
-
-correcao <- c("Piracicaba,SP", "Rio das Pedras,SP")
-
-coord.corr <- data.frame()
-for(i in 1:length(correcao)){
-  coord.corr <- rbind(coord.corr,geocode(correcao[i]))
+indc <- which(is.na(coord[,1]))
+while(length(indc) >0){
+  coord_up <- data.frame()
+  for(i in 1:length(indc)){
+  coord_up <- rbind(coord_up,geocode(dados$Cidade[indc][i]))
+  }
+  coord[indc,] <- coord_up
+  indc <- which(is.na(coord[,1]))
 }
 
-coord.corr
-
-coord[pos.na,] <- coord.corr
-
-coord
 ```
 
 Agora estabelecemos um mapa de fundo com a média das longitudes e latitudes:
 
-```{r, warning=FALSE, message='hide', eval=FALSE}
+```{r, warning=FALSE, message='hide'}
 mapcurso <- get_map(location = 
                     c(lon = mean(coord$lon, na.rm = TRUE), 
                     lat = mean(coord$lat, na.rm = TRUE)), 
-                    zoom = 5,
+                    zoom = 3,
                     maptype = "roadmap", scale = 2)
 ```
 
@@ -1338,7 +1359,7 @@ Para mais informações sobre as funções do pacote utilize `?get_map`.
 
 Agora vamos adicionar as localizações no mapa:
 
-```{r, eval=FALSE}
+```{r}
 ggmap(mapcurso) +
   geom_point(data = coord, 
              aes(x = lon, y = lat, fill = "red"), 
@@ -1381,7 +1402,7 @@ A diferença entre as duas funções é apenas na forma como é apresentada os r
 
 Podemos obter mais informações sobre o modelo ajustado observando os gráficos:
 
-```{r}
+```{r, eval=FALSE}
 plot(mod1)
 ```
 
@@ -1459,6 +1480,7 @@ Podemos também fazer um teste de médias para diferenciar a precipitação ao d
 ```{r}
 modaov <- aov(prec.mm ~ Mes, data = clima_lond)
 tukey.test <- TukeyHSD(x=modaov, 'Mes', conf.level=0.95)
+tukey.test
 ```
 
 
