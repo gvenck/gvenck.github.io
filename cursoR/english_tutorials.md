@@ -7,7 +7,7 @@ Here are some of our recommendations of english learning materials about R:
 * [TryR site](http://tryr.codeschool.com/)
 * [R-Bloggers](https://www.r-bloggers.com/)
 * [Coursera courses](https://www.coursera.org/)
-* [Hadley Wickham books and tutorials](http://hadley.nz/)
+* [Hadley Wickham's books and tutorials](http://hadley.nz/)
 
 
 For bioinformatics with python:

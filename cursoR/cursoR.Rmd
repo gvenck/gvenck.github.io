@@ -808,7 +808,7 @@ Fizemos um vídeo com mais detalhes sobre loops no R, aumentem nossa quantidade 
 
 Acesse [aqui](https://gvenck.github.io/cursoR/Exercicios.html#sessao-4-estruturas-condicionais-e-de-repeticao)
 
-<span style="color:red"> Paramos aqui no primeiro dia. Caso não tenha salvado os objetos criados até agora, obtenha-os [aqui](https://gvenck.github.io/cursoR/dia2.RData). Também acesse um R script do que foi passado [aqui](https://gvenck.github.io/cursoR/dia2.R)</span>
+<span style="color:red"> Paramos aqui no segundo dia. Caso não tenha salvado os objetos criados até agora, obtenha-os [aqui](https://gvenck.github.io/cursoR/dia2.RData). Também acesse um R script do que foi passado [aqui](https://gvenck.github.io/cursoR/dia2.R)</span>
 
 Algumas dicas até agora:
 
@@ -1102,16 +1102,16 @@ pie(gen, names(gen))
 ```{r eval=FALSE}
 #### Dot plots ####
 #Utilizaremos um vetor de valores e um vetor de rótulos
-dotchart(results$Altura, labels = results$Cidade)
+dotchart(dados$Altura, labels = dados$Cidade)
 #Também é possível criar grupos
-dotchart(results$Altura, labels = results$Cidade, groups = results$Genero)
+dotchart(dados$Altura, labels = dados$Cidade, groups = as.factor(dados$Genero))
 
 dados$color[dados$Area=="Exatas"] <- "darkblue"
 dados$color[dados$Area=="Biológicas"] <- "darkgreen"
 dados$color[dados$Area=="Humanas"] <- "orange"
 dados$color[dados$Area=="Interdiciplinar"] <- "red"
 dados$color[dados$Area=="Agrárias"] <- "black"
-dotchart(dados$Altura, labels = dados$Cidade, groups = dados$Area, color = dados$color)
+dotchart(dados$Altura, labels = dados$Cidade, groups = as.factor(dados$Area), color = dados$color)
 
 #Crie um objeto que corresponda ao data.frame 'dados' ordenado de acordo com a Altura (ou peso, como desejar!)
 #Em seguida, tente criar o dot plot.
@@ -1258,7 +1258,7 @@ dados$color[dados$Area=="Humanas"] <- "orange"
 dados$color[dados$Area=="Interdiciplinar"] <- "red"
 dados$color[dados$Area=="Agrárias"] <- "black"
 dados <- dados[order(dados$Peso),]
-dotchart(dados$Peso, labels = dados$Cidade, groups = dados$Area, color = dados$color,
+dotchart(dados$Peso, labels = dados$Cidade, groups = as.factor(dados$Area), color = dados$color,
          font=2,
          main = "Peso de acordo com as cidades, \n agrupando por área",
          xlab = "Peso", pch = 7)
@@ -1554,7 +1554,13 @@ fiz um [link](https://gvenck.github.io/)!
 Saiba mais no tutorial sobre isso no R-bloggers, que acreditamos ser um bom começo! Acesse [aqui](https://www.r-bloggers.com/how-to-create-reports-with-r-markdown-in-rstudio/).
  
  
+<span style="color:red"> Paramos aqui no terceiro e último dia de curso.</span>
 
- 
- 
+Caso tenha sugestões para aprimoramento desse material, enviar e-mail para `gvenck.esalq@gmail.com`.
+
+Acesse também outros materiais em português produzidos por Cristiane Taniguti, Fernando Correr e Rodrigo Amadeu [aqui](http://cristianetaniguti.github.io/Workshop_genetica_esalq/).
+
+Também recomendamos diversos materiais em inglês [aqui](https://gvenck.github.io/cursoR/english_tutorials.html).
+
+
  
