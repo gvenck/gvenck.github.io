@@ -1106,11 +1106,12 @@ dotchart(dados$Altura, labels = dados$Cidade)
 #Também é possível criar grupos
 dotchart(dados$Altura, labels = dados$Cidade, groups = as.factor(dados$Genero))
 
+#Podemos criar uma coluna no data frame onde delimitaremos uma cor para cada uma das áreas:
 dados$color[dados$Area=="Exatas"] <- "darkblue"
-dados$color[dados$Area=="Biológicas"] <- "darkgreen"
+dados$color[dados$Area=="Biologicas"] <- "darkgreen"
 dados$color[dados$Area=="Humanas"] <- "orange"
 dados$color[dados$Area=="Interdiciplinar"] <- "red"
-dados$color[dados$Area=="Agrárias"] <- "black"
+dados$color[dados$Area=="Agrarias"] <- "black"
 dotchart(dados$Altura, labels = dados$Cidade, groups = as.factor(dados$Area), color = dados$color)
 
 #Crie um objeto que corresponda ao data.frame 'dados' ordenado de acordo com a Altura (ou peso, como desejar!)
@@ -1200,7 +1201,7 @@ plot(x = dados$Peso, y= dados$Altura,
      ylab = "Altura", #Eixo y
      font=3,
      family="serif", #Fonte do seu computador (Windows: "TT Courier New")
-     bg="red")
+     )
 abline(lm(Altura ~ Peso, data = dados), col="red", lty=3)
 
 
@@ -1239,29 +1240,75 @@ par(mfrow=c(1,1))
 
 ##Desafio!!!
 
+Busque resolver o desafio sem observar a resposta. Vocês conseguirão avançar muito, um ou outro detalhe pode acabar sendo mais difícil. Nesse ponto, vocês utilizam a resolução para entenderem melhor o como poderia ser feito. Veja que há muitos modos de resolver, apresentaremos apenas um deles.
+
 * Dicas: 'beside', 'legend', 'bty = 'n'
 
-
 ```{r echo=FALSE}
+#1-) Fazer a divisão da tela: 
 par(mfrow=c(1,2))
-nota_gen <- table(dados$Area, dados$Genero)
 
-barplot(t(nota_gen), beside = TRUE, col = c("wheat", "tomato2"), 
-        main = "Distribuição das pessoas \n de acordo com área e nota do R",
-        xlab = "Nota do R")
-legend("topright", title = "Gênero", legend=c("F","M"),
-       fill = c("wheat", "tomato2"), bty = "n", cex = 0.7)
+#2-) Criar o barplot, da maneira que já aprendemos: 
+##Criar a tabela considerando as informacoes de Area e Genero 
+nota_gen <-table(dados$Area, dados$Genero)
 
+##Note o parâmetro beside (que estava nas dicas) 
+barplot(t(nota_gen),beside = TRUE, col = c("wheat", "tomato2"), main = "Distribuição das
+pessoas \n de acordo com área e nota do R", xlab = "Nota do R")
+##Colocar a legenda no gráfico 
+legend("topright", title = "Gênero", legend=c("F","M"), fill = c("wheat", "tomato2"), bty = "n", cex = 0.7)
+
+#3-) Criar o dotchart #Criar a coluna atribuindo uma cor para cada área 
 dados$color[dados$Area=="Exatas"] <- "darkblue"
-dados$color[dados$Area=="Biológicas"] <- "darkgreen"
+dados$color[dados$Area=="Biologicas"] <- "darkgreen"
 dados$color[dados$Area=="Humanas"] <- "orange"
 dados$color[dados$Area=="Interdiciplinar"] <- "red"
-dados$color[dados$Area=="Agrárias"] <- "black"
+dados$color[dados$Area=="Agrarias"] <- "black"
+
+##Colocar os pesos em ordem: 
 dados <- dados[order(dados$Peso),]
-dotchart(dados$Peso, labels = dados$Cidade, groups = as.factor(dados$Area), color = dados$color,
-         font=2,
-         main = "Peso de acordo com as cidades, \n agrupando por área",
+
+##Colocar o título, note que o '\n' está sendo usado para fazer a quebra de linha: 
+dotchart(dados$Peso, labels = dados$Cidade, groups = as.factor(dados$Area),
+         color = dados$color, font=2, main = "Peso de acordo com as cidades, \n agrupando por área",
          xlab = "Peso", pch = 7)
+
+#4-) Manter novamente uma figura por gráfico 
+par(mfrow=c(1,1))
+
+```
+Uma solução que utiliza tudo o que vocês aprenderam:
+
+```{r eval=FALSE}
+#1-) Fazer a divisão da tela: 
+par(mfrow=c(1,2))
+
+#2-) Criar o barplot, da maneira que já aprendemos: 
+##Criar a tabela considerando as informacoes de Area e Genero 
+nota_gen <-table(dados$Area, dados$Genero)
+
+##Note o parâmetro beside (que estava nas dicas) 
+barplot(t(nota_gen),beside = TRUE, col = c("wheat", "tomato2"), main = "Distribuição das
+pessoas \n de acordo com área e nota do R", xlab = "Nota do R")
+##Colocar a legenda no gráfico 
+legend("topright", title = "Gênero", legend=c("F","M"), fill = c("wheat", "tomato2"), bty = "n", cex = 0.7)
+
+#3-) Criar o dotchart #Criar a coluna atribuindo uma cor para cada área
+dados$color[dados$Area=="Exatas"] <- "darkblue"
+dados$color[dados$Area=="Biologicas"] <- "darkgreen"
+dados$color[dados$Area=="Humanas"] <- "orange"
+dados$color[dados$Area=="Interdiciplinar"] <- "red"
+dados$color[dados$Area=="Agrarias"] <- "black"
+
+##Colocar os pesos em ordem: 
+dados <- dados[order(dados$Peso),]
+
+##Colocar o título, note que o '\n' está sendo usado para fazer a quebra de linha: 
+dotchart(dados$Peso, labels = dados$Cidade, groups = as.factor(dados$Area),
+         color = dados$color, font=2, main = "Peso de acordo com as cidades, \n agrupando por área",
+         xlab = "Peso", pch = 7)
+
+#4-) Manter novamente uma figura por gráfico 
 par(mfrow=c(1,1))
 
 ```
@@ -1435,7 +1482,7 @@ Repare que os levels aparecem em ordem alfabética e não conforme o tempo, alte
 ```{r}
 levels(clima_lond$Mes)
 
-pos <- match(c("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho"), levels(clima_lond$Mes))
+pos <- match(c("Janeiro", "Fevereiro", "Marco", "Abril", "Maio", "Junho"), levels(clima_lond$Mes))
 pos
 
 clima_lond$Mes = factor(clima_lond$Mes,
@@ -1563,4 +1610,3 @@ Acesse também outros materiais em português produzidos por Cristiane Taniguti,
 Também recomendamos diversos materiais em inglês [aqui](https://gvenck.github.io/cursoR/english_tutorials.html).
 
 
- 
