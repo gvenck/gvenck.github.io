@@ -183,3 +183,5 @@ Vegetable Breeding
 **Lucas Rabelo Campos**  
 Undergraduate student in Agricultural Engineering  
 [View Lattes](http://lattes.cnpq.br/4233275413122074)  
+
+Click here to download the ["GVENCK's statute"](../files/Estatuto-gvenck.docx)
