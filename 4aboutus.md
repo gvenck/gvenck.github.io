@@ -25,7 +25,7 @@ Our main activities are:<br>
 </ul>
 </div>
 <br>
-<img src="../images/members.png" height="auto" width="auto">
+<img src="../images/members.jpg" height="auto" width="auto">
 
 ## Members
 
