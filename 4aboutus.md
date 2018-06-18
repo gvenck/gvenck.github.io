@@ -24,6 +24,8 @@ Our main activities are:<br>
 <li> Partnerships with companies and public institutions.</li>
 </ul>
 </div>
+<br>
+<img src="../images/members.png" height="auto" width="auto">
 
 ## Members
 
@@ -153,6 +155,12 @@ PhD student in Genetics and Plant Breeding
 Statistical Genetics, Molecular Biology and Bioinformatics  
 [View Lattes](http://lattes.cnpq.br/5351325433180836)  
   
+<img src="../images/samu.jpg" height="120">{: .image-pull-right}  
+**João Vitor Nomura**  
+PhD student in Genetics and Plant Breeding  
+Population genetics and vegetable breeding  
+[View Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4925396P6)  
+    
 <img src="../images/leonardo.jpg" height="120">{: .image-pull-right}  
 **Leonardo F. Gotardi**  
 Undergraduate student in Agricultural Engineering  
