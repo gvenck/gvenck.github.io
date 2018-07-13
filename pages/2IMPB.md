@@ -84,4 +84,4 @@ tags: [events, gvenck]
 
 <center><hr></center>
 
-![banner](../images/poster_1impb.jpg)
+![banner](../images/poster_2impb.pdf)
