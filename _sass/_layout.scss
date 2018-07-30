@@ -30,6 +30,7 @@
     display: inline-block;
     padding-left: 100px;
     vertical-align: middle;
+    z-index: 2;
 
     .menu-icon {
         display: none;
@@ -52,6 +53,7 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+        z-index: 2;
 
         .menu-icon {
             display: block;
