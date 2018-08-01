@@ -8,11 +8,19 @@ tags: [events, gvenck]
 
 ---
 
-<center><h1>II INTERNATIONAL MEETING ON PLANT BREEDING</h1></center>
+<center><h1>II INTERNATIONAL MEETING ON PLANT BREEDING</h1>
+<br>
+Advances in Experimental Design and Statistical Analysis in Genetics and Plant Breeding</center>
 
-**Theme:** Advances in Experimental Design and Statistical Analysis in Genetics and Plant Breeding
+**Registration**: [Click here](http://fealq.org.br/en/informacoes-do-evento/?id=664)  
+  
+**Abstract submission**: [Click here](https://goo.gl/forms/ykGr8cQysHgb3Hrw2)  
+_(You'll need a Google Account for it)_  
+  
+**Submission deadline**: September 10th, 2018  
 
-**Registration**: [Click here](http://fealq.org.br/en/informacoes-do-evento/?id=664)
+  
+
 
 <center><hr></center>
 
