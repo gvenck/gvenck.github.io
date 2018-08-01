@@ -12,7 +12,7 @@ tags: [events, gvenck]
 
 Abstracts must have the following components:  
   
-**Title:** should be written in uppercase, bold style, Arial 14pt font and centered. Scientific names should have italic style (Eg. Glycine max)  
+**Title:** should be written in uppercase, bold style, Arial 14pt font and centered. Scientific names should have italic style (Eg. _Glycine max_)  
   
 **Authors:** must be written in normal style, Arial 11pt font and justified. All names must be separated by semicolon (;) and referenced with institution and email address. The main author name should be underlined.  
   
