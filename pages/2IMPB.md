@@ -36,9 +36,9 @@ Advances in Experimental Design and Statistical Analysis in Genetics and Plant B
 
 11:15 – 12:00 – Poster Session 1
 
-12:00 – 14:00 – Lunch
+12:00 – 14:00 – Break
 
-14:00 – 15:00 – Lecture 3 – “Artificial Selection in Maize”.  Natalia De Leon – University of Wisconsin - USA
+14:00 – 15:00 – Lecture 3 – “Artificial selection and the genetic architecture of economically important traits in Maize”.  Natalia De Leon – University of Wisconsin - USA
 
 15:00 – 16:00 – Lecture 4 – “Application of Secondary Traits from High-throughput Phenotyping for Yield Prediction”. Jesse Poland – Kansas State University – USA
 
@@ -54,7 +54,7 @@ Advances in Experimental Design and Statistical Analysis in Genetics and Plant B
 
 08:30 – 09:30 – Lecture 6 – “Genomics-Assisted Breeding for Autotetraploid Potato”. Jeffrey Endelman – University of Wisconsin - USA
 
-09:30 – 09:45 – Lecture 7 – “Genomic predictions for abiotic stress tolerance in maize and sorghum”. Maria Marta – Embrapa Maize and Sorghum - Brazil
+09:30 – 09:45 – Lecture 7 – “Genomic predictions for abiotic stress tolerance in maize and sorghum”. Maria Marta Pastina – Embrapa Maize and Sorghum - Brazil
 
 09:45 – 10:15 – Coffee Break
 
@@ -76,7 +76,7 @@ Advances in Experimental Design and Statistical Analysis in Genetics and Plant B
 
 10:15 – 11:45 – Course - “Statistical mechanisms and practical applications of genome-wide association studies, genomic selection, and related analyses”. Alexander Edward Lipka – University of Illinois – USA
 
-12:00 – 14:00 – Lunch
+12:00 – 14:00 – Break
 
 14:00 – 16:00 – Course - “Statistical mechanisms and practical applications of genome-wide association studies, genomic selection, and related analyses”. Alexander Edward Lipka – University of Illinois – USA
 
