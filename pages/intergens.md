@@ -11,9 +11,8 @@ tags: [events, gvenck]
 <center><h1>I INTERGEN's</h1>
 </center>
 <br>
-  
-  
 <center><hr></center>
+<br>
 
 On July 7, 2018, I Intergen's Meeting was held between Genetics and Plant Breeding Groups.  
 

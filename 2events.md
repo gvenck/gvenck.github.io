@@ -16,6 +16,7 @@ tags: [events, gvenck]
 
 <center><hr></center>
 
+<br>
 ### I INTERGEN's
 #### July 7th, 2018
 [More information](../pages/intergens/)  
