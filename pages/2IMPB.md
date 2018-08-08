@@ -54,15 +54,15 @@ Advances in Experimental Design and Statistical Analysis in Genetics and Plant B
 
 08:30 – 09:30 – Lecture 6 – “Genomics-Assisted Breeding for Autotetraploid Potato”. Jeffrey Endelman – University of Wisconsin - USA
 
-09:30 – 09:45 – Lecture 7 – “Genomic predictions for abiotic stress tolerance in maize and sorghum”. Maria Marta Pastina – Embrapa Maize and Sorghum - Brazil
+09:30 – 10:00 – Coffee Break
 
-09:45 – 10:15 – Coffee Break
+10:00 – 11:00 – Lecture 7 – “Genomic predictions for abiotic stress tolerance in maize and sorghum”. Maria Marta Pastina – Embrapa Maize and Sorghum - Brazil
 
-10:15 – 11:15 – Lecture 8 – “Talent acquisition and development, training and leadership in plant breeding and genetics”. Coach from Dow Agrosciences
+11:00 – 12:00 – Lecture 8 – “Talent acquisition and development, training and leadership in plant breeding and genetics”. Coach from Dow Agrosciences
 
-11:15 – 11:30 – Best Poster's Presentation
+12:00 – 12:15 – Best Poster's Presentation
 
-11:30 – 12:00 – Closing Remarks
+12:15 – 12:30 – Closing Remarks
 
 <center><hr></center>
 

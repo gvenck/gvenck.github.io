@@ -16,6 +16,13 @@ tags: [events, gvenck]
 
 <center><hr></center>
 
+### I INTERGEN's
+#### July 7th, 2018
+[More information](../pages/intergens/)  
+<br>
+
+<center><hr></center>
+
 <br>
 ### R INTRODUCTION AND DATA ANALYSIS 
 *"Course"*
