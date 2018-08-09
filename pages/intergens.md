@@ -28,22 +28,22 @@ With this event, it was possible to meet students from different universities an
 
 ## Photos
 
-![](./images/intergens/1.jpg?raw=true)
+![](../images/intergens/1.jpg)
 
-![](./images/intergens/2.jpg?raw=true)
+![](../images/intergens/2.jpg)
 
-![](./images/intergens/3.jpg?raw=true)
+![](../images/intergens/3.jpg)
 
-![](./images/intergens/4.jpg?raw=true)
+![](../images/intergens/4.jpg)
 
-![](./images/intergens/5.jpg?raw=true)
+![](../images/intergens/5.jpg)
 
-![](./images/intergens/6.jpg?raw=true)
+![](../images/intergens/6.jpg)
 
-![](./images/intergens/7.jpg?raw=true)
+![](../images/intergens/7.jpg)
 
-![](./images/intergens/8.jpg?raw=true)
+![](../images/intergens/8.jpg)
 
-![](./images/intergens/9.jpg?raw=true)
+![](../images/intergens/9.jpg?raw=true)
 
 
