@@ -10,6 +10,7 @@ tags: [events, gvenck]
 
 <center><h1>I INTERGEN's</h1>
 July 7th, 2018
+<br>
 <hr>
 </center>
 
@@ -45,6 +46,6 @@ With this event, it was possible to meet students from different universities an
 
 ![](../images/intergens/8.jpg)
 
-![](../images/intergens/9.jpg?raw=true)
+![](../images/intergens/9.jpg)
 
 
