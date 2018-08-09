@@ -14,6 +14,8 @@ Advances in Experimental Design and Statistical Analysis in Genetics and Plant B
   
 **Registration**: [Click here](http://fealq.org.br/en/informacoes-do-evento/?id=664)  
   
+**Abstract rules**: [Click here](./abstract-rules/)  
+  
 **Abstract submission**: [Click here](https://goo.gl/forms/ykGr8cQysHgb3Hrw2) _(You'll need a Google Account for it)_  
   
 **Submission deadline**: September 10th, 2018  

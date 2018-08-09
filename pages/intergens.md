@@ -9,9 +9,9 @@ tags: [events, gvenck]
 ---
 
 <center><h1>I INTERGEN's</h1>
+<hr>
 </center>
-<br>
-<center><hr></center>
+
 <br>
 
 On July 7, 2018, I Intergen's Meeting was held between Genetics and Plant Breeding Groups.  
@@ -24,4 +24,26 @@ We also have the presence of Dr. Fernanda Medeiros who shared her experience in 
 
 To conclude, a dynamic was carried out in order to integrate students from different study groups.   
 
-With this event, it was possible to meet students from different universities and share experiences, in addition to making possible future contacts!
+With this event, it was possible to meet students from different universities and share experiences, in addition to making possible future contacts!  
+
+## Photos
+
+![](./images/intergens/1.jpg?raw=true)
+
+![](./images/intergens/2.jpg?raw=true)
+
+![](./images/intergens/3.jpg?raw=true)
+
+![](./images/intergens/4.jpg?raw=true)
+
+![](./images/intergens/5.jpg?raw=true)
+
+![](./images/intergens/6.jpg?raw=true)
+
+![](./images/intergens/7.jpg?raw=true)
+
+![](./images/intergens/8.jpg?raw=true)
+
+![](./images/intergens/9.jpg?raw=true)
+
+
