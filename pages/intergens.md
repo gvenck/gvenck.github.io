@@ -9,6 +9,7 @@ tags: [events, gvenck]
 ---
 
 <center><h1>I INTERGEN's</h1>
+July 7th, 2018
 <hr>
 </center>
 
@@ -26,7 +27,7 @@ To conclude, a dynamic was carried out in order to integrate students from diffe
 
 With this event, it was possible to meet students from different universities and share experiences, in addition to making possible future contacts!  
 
-## Photos
+<center><h2>Photos</h2></center>
 
 ![](../images/intergens/1.jpg)
 
