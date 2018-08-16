@@ -92,4 +92,4 @@ Advances in Experimental Design and Statistical Analysis in Genetics and Plant B
 
 <center><hr></center>
 
-![banner](../images/poster_2impb.png)
+![banner](../images/poster_2impb2.png)
