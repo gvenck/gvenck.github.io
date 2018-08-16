@@ -10,6 +10,8 @@ tags: [events, gvenck]
 
 <h2>Rules for abstract submissions</h2>
 
+**Maximum number of abstracts per presenter**: 2  
+  
 Abstracts must have the following components:  
   
 **Title:** should be written in uppercase, bold style, Arial 14pt font and centered. Scientific names should have italic style (Eg. _Glycine max_)  
