@@ -86,7 +86,7 @@ Advances in Experimental Design and Statistical Analysis in Genetics and Plant B
 
 16:30 – 17:00 – Course - “Statistical mechanisms and practical applications of genome-wide association studies, genomic selection, and related analyses”. Alexander Edward Lipka – University of Illinois – USA
 
-16:00 – 16:15 – Closing Remarks
+17:00 – 17:15 – Closing Remarks
 
 <center><hr></center>
 
