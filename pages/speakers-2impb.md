@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /pages/2impb/speakers/
+permalink: /pages/speakers2impb/
 title: 
 description: "Description of GVENCK 2nd event speakers"
 modified: 2018-07-12
