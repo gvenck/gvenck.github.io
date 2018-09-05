@@ -23,6 +23,8 @@ Advances in Experimental Design and Statistical Analysis in Genetics and Plant B
 **Submission deadline**: September 10th, 2018  
   
 **About Speakers**: [Click here](../speakers2impb/)  
+
+**Roland Vencovsky Award Rules**: [Click here](../award-rules/)  
   
 <center><hr></center>
 

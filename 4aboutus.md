@@ -86,13 +86,13 @@ Quantitative Genetics and Plant Breeding
 <img src="../images/pedro.jpg" height="120">{: .image-pull-right}  
 **Pedro Augusto Medeiros Barbosa**  
 PhD student Genetics and Plant Breeding  
-Quantitative genetics – Sugarcane and soybean breeding  
+Quantitative genetics – Sugarcane and maize breeding  
 [View Lattes](http://lattes.cnpq.br/3373146082473920)  
   
 <img src="../images/rafael.jpg" height="120">{: .image-pull-right}  
 **Rafael Massahiro Yassue**  
 MSc student in Plant Breeding and Genetics  
-Soybean Breeding  
+Soybean and maize Breeding  
 [View Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4326218Y6)  
   
 <img src="../images/carol.jpg" height="120">{: .image-pull-right}  

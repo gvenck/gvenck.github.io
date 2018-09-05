@@ -47,3 +47,11 @@ tags: [events, gvenck]
 
 **Natalia de Leon** received her MS and PhD in Plant Breeding and Plant Genetics from the University of Wisconsin, Madison followed by a postdoctoral experience at Michigan State University. She then worked in the commercial sector for approximately two years before moving to the University of Wisconsin. She is currently a professor in the Department of Agronomy, Plant Breeding and Plant Genetics program at the University of Wisconsin, Madison. Her research program focuses on integrating different sources of information to accelerate translational research for enhanced crop productivity, specially focusing in maize. 
 
+<center><hr></center>
+<br>
+<center><img src="../images/speakers-2impb/clarice.jpg" height="200"></center>
+
+**Clarice G. B. Demétrio** is a Professor in Experimental Statistics at “Luiz de Queiroz” College of Agriculture, University of São Paulo, Head of Exact Sciences Department. 
+She has Degree in Agronomy, Master and PhD in Applied Statistics to Agriculture and Post-Doctoral at Mathematics Department, Imperial College of Science and Technology, London, England. 
+She teaches for undergraduate and graduate courses and coordinates a research program dealing with Statistics in Agriculture. Clarice has published topics including generalized linear models and extensions and mixed models applied to Agriculture.
+She got the “Herman Callaert Leadership Award in Biostatistical Education”, Center for Statistics, Hasselt University, Diepenbeek, Belgium in May, 2006; the award “Best Contributed Paper from a Special Circumstance for the Americas”, during the IBC 2008, Dublin, Irlanda; the “Premio Anual del Proyecto Juárez Lincoln Marti” in 2009 and the “Rob Kempton Award for Outstanding Contribution to the Development of Biometry in the Developing World", IBC 2010.
