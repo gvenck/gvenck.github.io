@@ -20,7 +20,7 @@ Advances in Experimental Design and Statistical Analysis in Genetics and Plant B
   
 **Poster model**: [Click here](../files/model-poster.pptx)  
   
-**Submission deadline**: September 10th, 2018  
+**Submission deadline**: September 12th, 2018  
   
 **About Speakers**: [Click here](../speakers2impb/)  
 
