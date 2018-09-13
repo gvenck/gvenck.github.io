@@ -66,7 +66,7 @@ Advances in Experimental Design and Statistical Analysis in Genetics and Plant B
 
 10:00 – 11:00 – Lecture 7 – “Genomic predictions for abiotic stress tolerance in maize and sorghum”. Maria Marta Pastina – Embrapa Maize and Sorghum - Brazil
 
-11:00 – 12:00 – Lecture 8 – “Talent acquisition and development, training and leadership in plant breeding and genetics”. Coach from Dow Agrosciences
+11:00 – 12:00 – Lecture 8 – “Negative variance components for non-negative hierarchical data with correlation, over-, and/or underdispersion”. Clarice Garcia Borges Demetrio - ESALQ/USP
 
 12:00 – 12:15 – Best Poster's Presentation
 
