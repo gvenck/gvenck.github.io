@@ -16,15 +16,17 @@ Advances in Experimental Design and Statistical Analysis in Genetics and Plant B
   
 **Abstract rules**: [Click here](../abstract-rules/)  
   
-**Abstract submission**: [Click here](https://goo.gl/forms/ykGr8cQysHgb3Hrw2) _(You'll need a Google Account for it)_  
+**Submission deadline**: September 12th, 2018  
+  
+**Abstract submission**: Expired  
   
 **Poster model**: [Click here](../files/model-poster.pptx)  
-  
-**Submission deadline**: September 12th, 2018  
   
 **About Speakers**: [Click here](../speakers2impb/)  
 
 **Roland Vencovsky Award Rules**: [Click here](../award-rules/)  
+  
+**Poster presentation**: [Click here](../2impbposters/)  
   
 <center><hr></center>
 
@@ -34,7 +36,7 @@ Advances in Experimental Design and Statistical Analysis in Genetics and Plant B
 
 07:00 – 08:00 – Material Delivery
 
-08:00 – 08:45 – Opening Session – Tabare Abadie - DuPont Pioneer - USA
+08:00 – 08:45 – Opening Session – Tabare Abadie - Corteva Agriscience - USA
 
 08:45 – 09:45 – Lecture 1 - “Statistical Quantification of the Genomic Contribution towards Food and Energy-related Crop Traits”. Alexander Edward Lipka – University of Illinois – USA
 
@@ -52,7 +54,7 @@ Advances in Experimental Design and Statistical Analysis in Genetics and Plant B
 
 16:00- 16:30 - Coffe Break
 
-16:30 – 17:30 – Lecture 5 – “Computer Vision Techniques in Agriculture”. Bardia Baigi - winner of Dow Crop Computer Modeling 2018
+16:30 – 17:30 – Lecture 5 – “Negative variance components for non-negative hierarchical data with correlation, over-, and/or underdispersion”. Clarice Garcia Borges Demetrio - ESALQ/USP
 
 17:30 – 18:00 – Poster Session 2
 
@@ -66,11 +68,9 @@ Advances in Experimental Design and Statistical Analysis in Genetics and Plant B
 
 10:00 – 11:00 – Lecture 7 – “Genomic predictions for abiotic stress tolerance in maize and sorghum”. Maria Marta Pastina – Embrapa Maize and Sorghum - Brazil
 
-11:00 – 12:00 – Lecture 8 – “Negative variance components for non-negative hierarchical data with correlation, over-, and/or underdispersion”. Clarice Garcia Borges Demetrio - ESALQ/USP
+11:00 – 11:15 – "Roland Vencovsky" Award
 
-12:00 – 12:15 – Best Poster's Presentation
-
-12:15 – 12:30 – Closing Remarks
+11:15 – 11:30 – Closing Remarks
 
 <center><hr></center>
 
@@ -95,5 +95,8 @@ Advances in Experimental Design and Statistical Analysis in Genetics and Plant B
 17:00 – 17:15 – Closing Remarks
 
 <center><hr></center>
+
+*Requirements for mini-course: basic statistics for plant breeding; familiar to R environment  
+**Program may change according to demand without notification  
 
 ![banner](../images/poster_2impb2.png)
