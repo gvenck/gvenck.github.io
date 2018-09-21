@@ -10,6 +10,8 @@ tags: [events, gvenck]
 
 <center><h2>Selected Posters and Presentation Schedule</h2></center>
   
+<center>All posters will be presented on October 3th (Wednesday)</center>  
+  
 |	Number 	|	Abstract Title 															|	1st session	|	2nd session	|
 |:-------------:|---------------------------------------------------------------------------------------------------------------------------------------|:---------------------:|:---------------------:|
 |	1	|IMAGE ANALYSIS APPLIED IN COMMERCIAL CLASSIFICATION OF "NINJA" BROCCOLI 								|	11:15 – 12:00 	|	17:30 – 18:00	|
