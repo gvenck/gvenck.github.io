@@ -11,7 +11,7 @@ tags: [events, gvenck]
 <center><h2>Selected Posters and Presentation Schedule</h2></center>
   
 |	Number 	|	Abstract Title 															|	1st session	|	2nd session	|
-|---------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------|-----------------------|
+|:-------------:|---------------------------------------------------------------------------------------------------------------------------------------|:---------------------:|:---------------------:|
 |	1	|IMAGE ANALYSIS APPLIED IN COMMERCIAL CLASSIFICATION OF "NINJA" BROCCOLI 								|	11:15 – 12:00 	|	17:30 – 18:00	|
 |	2	|ESTIMATING HERITABILITY OF SEED OIL CONTENT IN F5-DERIVED SOYBEAN RILs 								|	11:15 – 12:00 	|	17:30 – 18:00	|
 |	3	|CHECKING CONTINUOUS PATTERN OF SEED PROTEIN CONTENT IN F5-DERIVED SOYBEAN RILs 							|	11:15 – 12:00 	|	17:30 – 18:00	|
