@@ -8,9 +8,8 @@ tags: [events, gvenck]
 
 ---
   
-<center><h1>Edital POS-01/2018 para seleção de novos membros efetivos GVENCK</h1>
+<center><h1>Edital POS-01/2018 - Seleção de novos membros efetivos</h1>
 </center>
-<br>
 
 **Resumo do processo de candidatura e seleção de novos membros**
 
