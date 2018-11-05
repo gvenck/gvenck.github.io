@@ -36,3 +36,6 @@ tags: [events, gvenck]
 7) Este edital possui validade de 6 meses, podendo ser convocados novos membros conforme a disponibilidade de vagas.   
 
 [Clique aqui para fazer o download do edital](../files/EDITAL_GVENCK_POSGRAD_2018.docx)  
+  
+  
+[Clique aqui para visualizar o nosso estatuto](../files/Estatuto-gvenck.docx)  
