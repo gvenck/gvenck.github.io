@@ -12,6 +12,10 @@ tags: [events, gvenck]
 
 **Editor:**  
 Prof. Dr. José Baldin Pinheiro (Coordinator)  
+Address:  
+Avenida Pádua Dias, 11  
+Agronomia, Piracicaba - SP  
+CEP: 13418-900  
   
 **Organizing committee:**  
 Pedro Augusto Medeiros Barbosa  
