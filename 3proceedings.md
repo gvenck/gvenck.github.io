@@ -10,11 +10,9 @@ tags: [events, gvenck]
 
 #### Proceedings of the INTERNATIONAL MEETING ON PLANT BREEDING
 
-[Events](../events/)
-
-[Rules for abstract submission](../pages/abstract-rules/)
-
-[Expedient](../pages/expedient/)
+[Events](../events/)  
+[Rules for abstract submission](../pages/abstract-rules/)  
+[Expedient](../pages/expedient/)  
 
 <center><hr></center>
 
