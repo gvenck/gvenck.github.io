@@ -8,7 +8,7 @@ tags: [events, gvenck]
 
 ---
 
-<h1>Proceedings of the INTERNATIONAL MEETING ON PLANT BREEDING</h2>
+<h1>Proceedings of the INTERNATIONAL MEETING ON PLANT BREEDING</h1>
 
 <h2>Expedient</h2>
 

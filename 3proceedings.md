@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: about2
 permalink: /proceedings/
 title: Proceedings
 description: "Description of GVENCK proceedings"
