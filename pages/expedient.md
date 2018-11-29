@@ -8,10 +8,16 @@ tags: [events, gvenck]
 
 ---
 
-<h2>Proceedings expedient</h2>
+<h1>Proceedings of the INTERNATIONAL MEETING ON PLANT BREEDING</h2>
+
+<h2>Expedient</h2>
 
 **Corporate author:**  
 "Luiz de Queiroz" College of Agriculture (ESALQ/USP)  
+Address:  
+Avenida Pádua Dias, 11  
+Agronomia, Piracicaba - SP  
+CEP: 13418-900  
 
 **Editor:**  
 Prof. Dr. José Baldin Pinheiro (Coordinator)  

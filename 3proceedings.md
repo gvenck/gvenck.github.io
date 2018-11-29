@@ -8,7 +8,7 @@ tags: [events, gvenck]
 
 ---
 
-#### Proceedings of the INTERNATIONAL MEETING ON PLANT BREEDING
+<h1>Proceedings of the INTERNATIONAL MEETING ON PLANT BREEDING</h1>
 
 [Events](../events/)  
 [Rules for abstract submission](../pages/abstract-rules/)  
