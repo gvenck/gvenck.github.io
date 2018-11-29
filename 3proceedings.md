@@ -9,8 +9,8 @@ tags: [events, gvenck]
 ---
 
 #### Proceedings of the INTERNATIONAL MEETING ON PLANT BREEDING
-[More information](../pages/1impb/)  
-[Rules for abstract submission](../pages/abstract-rules/)  
+[Events](../events/)
+[Rules for abstract submission](../pages/abstract-rules/)
 [Expedient](../pages/expedient/)
 
 <center><hr></center>
@@ -21,12 +21,12 @@ multidisciplinary and dynamic science and the combination of classical and moder
 approaches may constitute an important approach to promote higher genetic gains.
 Based on this idea, our event is focused on fostering discussions with key
 professionals in genetics and plant breeding in order to prepare stakeholders for
-challenges in agriculture.  
+challenges in agriculture.
 The International Meeting on Plant Breeding is one of several events in the "DuPont
 Plant Sciences Symposia" series. Our aim is training new professionals by providing
 the opportunity to interact with researchers from public and private institutions
 through discussions of relevant scientific topics.
-  
+
 Click here to download the ["Proceedings of the International Meeting on Plant Breeding - V.1 - 2017"](../files/impb-proceedings-v1.pdf)
 
 Click here to download the ["Proceedings of the International Meeting on Plant Breeding - V.2 - 2018"](../files/2impb-proceedings-v2.pdf)
