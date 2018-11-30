@@ -10,7 +10,9 @@ tags: [events, gvenck]
 
 <h1>Proceedings of the INTERNATIONAL MEETING ON PLANT BREEDING</h1>
 
+
 <h2>Rules for abstract submissions</h2>
+
 
 **Maximum number of abstracts per presenter**: 2  
   
