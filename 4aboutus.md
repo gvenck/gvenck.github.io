@@ -170,7 +170,7 @@ Citogenomics Lab
 <img src="../images/karina.jpg" height="120">{: .image-pull-right}  
 **Karina Midori**  
 Undergraduate student in Agricultural Engineering  
-Molecular Genetics Lab  
+Statistical Genetics Lab  
 [View Lattes]()  
 
 
