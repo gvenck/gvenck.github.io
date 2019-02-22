@@ -9,7 +9,7 @@ tags: [events, gvenck]
 ---
 
 <center><h1>II INTERNATIONAL MEETING ON PLANT BREEDING</h1>
-Advances in Experimental Design and Statistical Analysis in Genetics and Plant Breeding
+<i>Advances in Experimental Design and Statistical Analysis in Genetics and Plant Breeding</i>
 <br><br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i5kKPzIIvtE?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>

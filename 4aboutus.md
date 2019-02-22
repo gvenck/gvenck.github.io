@@ -141,7 +141,7 @@ Abiotic Stress and Vegetable Breeding
 **Mariana Vianna**  
 Msc student in Genetics and Plant Breeding  
 Diversity and Soybean Breeding Lab  
-[View Lattes]()  
+[View Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8139365U1)  
 
 <img src="../images/renata.jpg" height="120">{: .image-pull-right}  
 **Renata Carvalho**  
