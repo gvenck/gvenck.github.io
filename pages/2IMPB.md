@@ -12,7 +12,7 @@ tags: [events, gvenck]
 Advances in Experimental Design and Statistical Analysis in Genetics and Plant Breeding
 <br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i5kKPzIIvtE?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<iframe width="80%" src="https://www.youtube.com/embed/i5kKPzIIvtE?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 <br>
 
 **Watch all Lectures**: [Click here](https://www.youtube.com/playlist?list=PLQgoXUJx1_7lty9r18f9ESlCeYXJR2tHy)
