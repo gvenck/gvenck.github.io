@@ -165,7 +165,7 @@ Vegetable Breeding Lab
 **Yajahaira Carbajal**  
 PhD student in Genetics and Plant Breeding  
 Citogenomics Lab  
-[View Lattes]()  
+[View Lattes](http://lattes.cnpq.br/7315842000835170)  
 
 <img src="../images/karina.jpg" height="120">{: .image-pull-right}  
 **Karina Midori**  
