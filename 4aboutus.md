@@ -34,18 +34,6 @@ Our main activities are:<br>
 Associate Professor  
 Genetics and Plant Breeding  
 [View Lattes](http://lattes.cnpq.br/7363206320020147)  
-
-<img src="../images/filipe.jpg" height="120">{: .image-pull-right}  
-**Filipe Inácio Matias**  
-PhD candidate in Genetics and Plant Breeding  
-Polypoid Forage Breeding and Genetics  
-[View Lattes](http://lattes.cnpq.br/2242773660025987)  
-  
-<img src="../images/renan.jpg" height="120">{: .image-pull-right}  
-**Renan Silva e Souza**  
-PhD student in Genetics and Plant Breeding  
-Soybean Breeding  
-[View Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4472969P1)  
   
 <img src="../images/alline.jpg" height="120">{: .image-pull-right}  
 **Alline Sekiya**  
@@ -112,13 +100,7 @@ Vegetable Breeding
 PhD candidate in Genetics and Plant Breeding  
 Abiotic Stress in Solanaceae  
 [View Lattes](http://lattes.cnpq.br/3135445773945978)  
-  
-<img src="../images/amanda.jpg" height="120">{: .image-pull-right}  
-**Amanda Avelar**  
-PhD candidate in Genetics and Plant Breeding  
-Quantitative Genetics - Genomic Selection  
-[View Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4449614U0)  
-  
+    
 <img src="../images/elesandro.jpg" height="120">{: .image-pull-right}  
 **Elesandro Bornhofen**  
 PhD candidate in Genetics and Plant Breeding  
@@ -137,23 +119,11 @@ PhD student in Bioenergy
 Bioinformatics  
 [View Lattes](http://lattes.cnpq.br/3794292798447973)  
 
-<img src="../images/gleicy.jpg" height="120">{: .image-pull-right}  
-**Gleicy Kelly de Oliveira**  
-PhD student in Genetics and Plant Breeding  
-Plant Cytogenetics  
-[View Lattes](http://lattes.cnpq.br/8635589966513152)
-
 <img src="../images/letycia.jpg" height="120">{: .image-pull-right}  
 **Ana Letycia Basso Garcia**  
 PhD student in Genetics and Plant Breeding  
 Bioinformatics applied to Bioenergy  
 [View Lattes](http://lattes.cnpq.br/0852214262732752)
-
-<img src="../images/cris.jpg" height="120">{: .image-pull-right}  
-**Cristiane Hayumi Taniguti**  
-PhD student in Genetics and Plant Breeding  
-Statistical Genetics, Molecular Biology and Bioinformatics  
-[View Lattes](http://lattes.cnpq.br/5351325433180836)  
   
 <img src="../images/samu.jpg" height="120">{: .image-pull-right}  
 **João Vitor Nomura**  
@@ -166,6 +136,43 @@ Population genetics and vegetable breeding
 Undergraduate student in Agricultural Engineering  
 Abiotic Stress and Vegetable Breeding  
 [View Lattes](http://lattes.cnpq.br/8897290888698862)  
+
+<img src="../images/mariana.jpg" height="120">{: .image-pull-right}  
+**Mariana Vianna**  
+Msc student in Genetics and Plant Breeding  
+Diversity and Soybean Breeding Lab  
+[View Lattes]()  
+
+<img src="../images/renata.jpg" height="120">{: .image-pull-right}  
+**Renata Carvalho**  
+PhD student in Genetics and Plant Breeding  
+Citogenomics Lab  
+[View Lattes]()  
+
+<img src="../images/marcos.jpg" height="120">{: .image-pull-right}  
+**Marcos Antonio Godoy**  
+Msc student in Genetics and Plant Breeding  
+Diversity and Soybean Breeding Lab  
+[View Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8143296D5)  
+
+<img src="../images/roberta.jpg" height="120">{: .image-pull-right}  
+**Roberta Vidal**  
+PhD student in Genetics and Plant Breeding  
+Vegetable Breeding Lab  
+[View Lattes]()  
+
+<img src="../images/yajahaira.jpg" height="120">{: .image-pull-right}  
+**Yajahaira Carbajal**  
+PhD student in Genetics and Plant Breeding  
+Citogenomics Lab  
+[View Lattes]()  
+
+<img src="../images/karina.jpg" height="120">{: .image-pull-right}  
+**Karina Midori**  
+Undergraduate student in Agricultural Engineering  
+Molecular Genetics Lab  
+[View Lattes]()  
+
 
 ## Former Students
 
@@ -191,5 +198,36 @@ Vegetable Breeding
 **Lucas Rabelo Campos**  
 Undergraduate student in Agricultural Engineering  
 [View Lattes](http://lattes.cnpq.br/4233275413122074)  
+
+<img src="../images/amanda.jpg" height="120">{: .image-pull-right}  
+**Amanda Avelar**  
+PhD candidate in Genetics and Plant Breeding  
+Quantitative Genetics - Genomic Selection  
+[View Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4449614U0)  
+
+<img src="../images/filipe.jpg" height="120">{: .image-pull-right}  
+**Filipe Inácio Matias**  
+PhD candidate in Genetics and Plant Breeding  
+Polypoid Forage Breeding and Genetics  
+[View Lattes](http://lattes.cnpq.br/2242773660025987)  
+  
+<img src="../images/renan.jpg" height="120">{: .image-pull-right}  
+**Renan Silva e Souza**  
+PhD student in Genetics and Plant Breeding  
+Soybean Breeding  
+[View Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4472969P1)  
+
+<img src="../images/cris.jpg" height="120">{: .image-pull-right}  
+**Cristiane Hayumi Taniguti**  
+PhD student in Genetics and Plant Breeding  
+Statistical Genetics, Molecular Biology and Bioinformatics  
+[View Lattes](http://lattes.cnpq.br/5351325433180836)  
+
+<img src="../images/gleicy.jpg" height="120">{: .image-pull-right}  
+**Gleicy Kelly de Oliveira**  
+PhD student in Genetics and Plant Breeding  
+Plant Cytogenetics  
+[View Lattes](http://lattes.cnpq.br/8635589966513152)
+
 
 Click here to download the ["GVENCK's statute"](../files/Estatuto-gvenck.docx)
