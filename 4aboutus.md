@@ -146,7 +146,7 @@ Diversity and Soybean Breeding Lab
 <img src="../images/renata.jpg" height="120">{: .image-pull-right}  
 **Renata Carvalho**  
 PhD student in Genetics and Plant Breeding  
-Citogenomics Lab  
+Citogenomics and Epigenetics Lab  
 [View Lattes]()  
 
 <img src="../images/marcos.jpg" height="120">{: .image-pull-right}  
