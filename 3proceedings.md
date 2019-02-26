@@ -14,6 +14,10 @@ tags: [events, gvenck]
 [Rules for abstract submission](../pages/abstract-rules/)  
 [Expedient](../pages/expedient/)  
 
+
+**ISSN: 2595-8836**
+
+
 <center><hr></center>
 
 The growing demand for food makes breeders pursue more productive, stable and
