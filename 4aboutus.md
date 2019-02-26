@@ -163,7 +163,7 @@ Vegetable Breeding Lab
 
 <img src="../images/yajahaira.jpg" height="120">{: .image-pull-right}  
 **Yajahaira Carbajal**  
-PhD student in Genetics and Plant Breeding  
+Master student in Genetics and Plant Breeding  
 Citogenomics Lab  
 [View Lattes](http://lattes.cnpq.br/7315842000835170)  
 
