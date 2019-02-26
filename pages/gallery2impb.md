@@ -6,16 +6,20 @@ description: "Photos of GVENCK 2nd event"
 modified: 2019-02-26
 tags: [events, gvenck]
 
----
-
-
 (setq markdown-xhtml-header-content
-      "<style type='text/css'>
+      "<style>
 .mySlides {display:none;}
 </style>")
 
+---
+
 <center><h1>II IMPB GALLERY</h1>
 <br><br>
+
+(setq markdown-xhtml-header-content
+      "<style>
+.mySlides {display:none;}
+</style>")
 
 <div>
 <img class="mySlides" src="./images/2impb/0002.jpg" style="max-width:500px">
