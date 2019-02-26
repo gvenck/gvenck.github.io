@@ -17,7 +17,7 @@ tags: [events, gvenck]
 
 **Watch all Lectures**: [Click here](https://www.youtube.com/playlist?list=PLQgoXUJx1_7lty9r18f9ESlCeYXJR2tHy)
 
-**Photo gallery**: [Click here](about:blank)
+**Photo gallery**: [Click here](../gallery2impb/)
 
 <!-- **Registration**: [Click here](http://fealq.org.br/en/informacoes-do-evento/?id=664)   -->
   
