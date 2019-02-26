@@ -8,9 +8,11 @@ tags: [events, gvenck]
 
 ---
 
-<style>
+
+(setq markdown-xhtml-header-content
+      "<style type='text/css'>
 .mySlides {display:none;}
-</style>
+</style>")
 
 <center><h1>II IMPB GALLERY</h1>
 <br><br>
