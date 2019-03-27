@@ -362,7 +362,7 @@ Utilizar essas operações exige conhecimento de álgebra de matrizes, se quiser
 Acessamos os números internos à matriz dando as coordenadas [linha,coluna], como no exemplo:
 
 ```{r}
-W[4,2] # Número posicionado na linha 1 e coluna 4
+W[4,2] # Número posicionado na linha 4 e coluna 2
 ```
 
 As vezes pode ser informativo dar nomes às colunas e às linhas da matriz, fazemos isso com:
