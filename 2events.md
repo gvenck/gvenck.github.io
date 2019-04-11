@@ -10,6 +10,7 @@ tags: [events, gvenck]
 
 ### II INTERNATIONAL MEETING ON PLANT BREEDING
 *"Advances in Experimental Design and Statistical Analysis in Plant Breeding and Genetics"*  
+part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries/)  
 #### October 3-5th, 2018
 [More information](../pages/2impb/)  
 <br>
@@ -36,6 +37,7 @@ tags: [events, gvenck]
 <br>
 ### I INTERNATIONAL MEETING ON PLANT BREEDING
 *"Combining classical and novel breeding approaches to overcome yield plateau"*  
+part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries/)  
 #### October 4-5th, 2017
 [More information](../pages/1impb/)  
 [Proceedings](../proceedings/)  
