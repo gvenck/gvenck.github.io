@@ -25,7 +25,29 @@ Our main activities are:<br>
 </ul>
 </div>
 <br>
-<img src="../images/members.jpg" height="auto" width="auto">
+<img src="../images/2019/gvenckall.jpg" height="auto" width="auto">
+<br>
+<h2>2019 Management:</h2>
+<img src="../images/2019/gestao2019.jpg" height="auto" width="auto">
+<br>
+<h2>Coordination:</h2>
+<img src="../images/2019/coordenacao.jpg" height="auto" width="auto">
+<br>
+<h2>Treasury:</h2>
+<img src="../images/2019/tesouraria.jpg" height="auto" width="auto">
+<br>
+<h2>Secretary:</h2>
+<img src="../images/2019/secretaria.jpg" height="auto" width="auto">
+<br>
+<h2>Communication:</h2>
+<img src="../images/2019/comunicacao.jpg" height="auto" width="auto">
+<br>
+<h2>Scientific:</h2>
+<img src="../images/2019/cientifica.jpg" height="auto" width="auto">
+<br>
+<h2>Logistic:</h2>
+<img src="../images/2019/logistica.jpg" height="auto" width="auto">
+<br>
 
 ## Members
 
