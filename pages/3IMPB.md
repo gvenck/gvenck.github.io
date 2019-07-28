@@ -9,7 +9,7 @@ tags: [events, gvenck]
 ---
 
 <center><h1>III INTERNATIONAL MEETING ON PLANT BREEDING</h1>
-<i>New approaches on plant breeding: insights into artificial intelligence</i>
+<i>New approaches on plant breeding: insights into artificial intelligence</i></center>
 <br><br>
 
 **Registration**: [Click here](http://fealq.org.br/en/informacoes-do-evento/?id=898)  

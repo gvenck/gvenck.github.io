@@ -8,7 +8,7 @@ tags: [events, gvenck]
 
 ---
 
-<center><h1>PYTHON COURSE</h1>
+<center><h1>PYTHON COURSE</h1></center>
 <br><br>
 
 **Schedule**: September 4-6th, 2019 (8am-6pm)  
