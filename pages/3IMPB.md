@@ -18,7 +18,7 @@ tags: [events, gvenck]
   
 **Submission deadline**: September 1st, 2019  
   
-**Abstract submission**: Coming soon  
+**Abstract submission**: [Click here](https://docs.google.com/forms/d/1OVzc0Id82thmRjPqkrf4Tm-v0uMOvFzw-M7WGgHPXyA/edit?ts=5d5c4573)  
   
 **Poster model**: [Click here](../files/model-poster-2019.ppt)  
   
