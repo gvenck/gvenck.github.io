@@ -28,6 +28,10 @@ Abstracts must have the following components:
   
 **Language:** the abstract can be written in English or Portuguese.  
   
-Acknowledgements can be inserted in the end of the abstract. The full text (including title, authors, text, keywords and acknowledgements) must have 2000-3000 characters, including spaces, in only one page. Page formatting: A4, with 2 cm for top, bottom and right margins, and 3cm for the left margin.  
+**Acknowledgements:** can be inserted in the end of the abstract (optional).   
+
+The full text (including title, authors, text, keywords and acknowledgements) must have 2000-3000 characters, including spaces, in only one page. Page formatting: A4, with 2 cm for top, bottom and right margins, and 3cm for the left margin.  
+  
+**File format:** abstract files must be sent in **.docx** format  
   
 **Poster:** should be written in English, in portrait orientation (90×120 cm). The presentation can be done in English or Portuguese. Poster title should be the same as the accepted abstract. The abstract titles, names, and affiliations should appear on the top of the poster. The title font size should be at least 70. The authors’ names and affiliations may be somewhat smaller. Preferably use tables/figures and limit text usage. Lettering for text and illustrations should range in size between 6 mm and 12 mm. On the presentation day, each poster must be affixed to the panel with the identification number corresponding to its work, and must be exposed until the end of the presentation period. The number of each poster, the date, and place for presentation will be announced in the simposium website.  

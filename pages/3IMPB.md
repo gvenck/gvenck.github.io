@@ -20,7 +20,7 @@ tags: [events, gvenck]
   
 **Abstract submission**: Coming soon  
   
-**Poster model**: [Click here](../files/model-poster.pptx)  
+**Poster model**: [Click here](../files/model-poster-2019.ppt)  
   
 **About Speakers**: [Coming soon]()  
 
