@@ -11,7 +11,7 @@ tags: [events, gvenck]
 <center><h1>SMART TOOLS FOR PLANT BREEDING</h1>
 <i>part of Corteva Plant Sciences Symposia Series</i>
 <i>part of the 10th Brazilian Congress of Plant Breeding in Águas de Lindóia - São Paulo</i></center>
-<br><br>
+<br>
 
 The "Smart tools for plant breeding" was a conference at 10º Brasilian Congress on Plant
 Breeding in Àguas de Lindoía - SP. With the partnership of Corteva Agriscience and
