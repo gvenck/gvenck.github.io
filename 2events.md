@@ -28,10 +28,19 @@ part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/hom
 <center><hr></center>
 
 <br>
+### II INTERGEN's
+part of "10th Brazilian Congress of Plant Breeding" in Águas de Lindóia - São Paulo  
+#### July 30th, 2019
+[More information](../pages/intergens2/)  
+<br>
+
+<center><hr></center>
+
+<br>
 ### SMART TOOLS FOR PLANT BREEDING
 part of "10th Brazilian Congress of Plant Breeding" in Águas de Lindóia - São Paulo  
 part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries/)  
-#### July 28th to Augusto 1st, 2019
+#### July 28th to August 1st, 2019
 [More information](../pages/stpb/)  
 <br>
 
