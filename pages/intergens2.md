@@ -43,8 +43,9 @@ See you at the next Intergen's!
 
 <center><h2>Video</h2></center>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KgJMcRjUZcY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/KgJMcRjUZcY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
+<br>
 <center><h2>Photos</h2></center>
 
 Will be available soon
