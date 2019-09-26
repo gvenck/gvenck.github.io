@@ -16,13 +16,13 @@ tags: [events, gvenck]
   
 **Abstract rules**: [Click here](../abstract-rules/)  
   
-**Submission deadline**: **September 15st, 2019** (extended)  
+**Submission deadline**: **September 15st, 2019**  
   
 **Abstract submission**: [Click here](https://docs.google.com/forms/d/1OVzc0Id82thmRjPqkrf4Tm-v0uMOvFzw-M7WGgHPXyA/edit?ts=5d5c4573)  
   
 **Poster model**: [Click here](../files/model-poster-2019.ppt)  
   
-**About Speakers**: [Coming soon]()  
+<!-- **About Speakers**: [Coming soon]()   -->
 
 **Roland Vencovsky Award Rules**: [Click here](../award-rules/)  
   
@@ -34,35 +34,67 @@ tags: [events, gvenck]
 
 **October 1st (Tuesday)**
 
+**Place:** [Anfiteatro do Pavilhão de Engenharia da  ESALQ/USP](https://goo.gl/maps/4ScVQf8eiPLUQ2R48) (click to view map)  
+
 07:30– 8:00 – Registration
 
 08:00 – 08:30 – Opening Session – Tabare Abadie - Corteva Agriscience - USA
 
 08:30 – 09:30 – Lecture 1: André Carlos Ponce de Leon Ferreira de Carvalho – “What is the relation between Big Data and Data Science? And how does Artificial Intelligence fits in this relation?”
 
-09:30 - 10:00 – Coffee Break
+09:30 - 09:50 – Coffee Break
 
-10:00 – 11:00 – Lecture 2: Alencar Xavier – “Good learners, faster learning”
+9:50 – 10:50 – Lecture 2: Alencar Xavier – “Good learners, faster learning”
 
-11:00 – 12:00 – Poster Session
+10:50 – 11:30 – Poster Session
 
-12:00 – 14:00 – Break
+11:30 – 13:30 – Break
 
-14:00 – 15:00 – Lecture 3: Osval A. M. López – “Machine learning and deep learning methods for genomic prediction”
+13:30 – 14:30 – Lecture 3: Osval A. M. López – “Machine learning and deep learning methods for genomic prediction”
 
-15:00 – 16:00 – Lecture 4: Katy Martin Rainey – “Phenomic Inference of Soybean Growth and Development”
+14:30 – 15:30 – Lecture 4: Katy Martin Rainey – “Phenomic Inference of Soybean Growth and Development”
 
-16:00 - 16:30 - Coffee Break
+15:30 - 16:00 - Coffee Break
 
-16:30 – 17:30 – Lecture 5: Rodrigo G. Trevisan - “Deep learning for image-based high throughput plant phenotyping”
+16:00 – 17:00 – Lecture 5: Rodrigo G. Trevisan – “Deep learning for image-based high throughput plant phenotyping”
 
-17:30 – 18:00 – “Roland Vencovsky” Award and Closing Remarks
+17:00 – 18:00 – Lecture 6: Vinícius Silva Junqueira – “How Data Science is changing the on the job experience in industry?”
+
+18:00 – 18:30 – “Roland Vencovsky” Award and Closing Remarks
 
 19:00 – Official Event Dinner
 
+<!-- 07:30– 8:00 – Registration -->
+
+<!-- 08:00 – 08:30 – Opening Session – Tabare Abadie - Corteva Agriscience - USA -->
+
+<!-- 08:30 – 09:30 – Lecture 1: André Carlos Ponce de Leon Ferreira de Carvalho – “What is the relation between Big Data and Data Science? And how does Artificial Intelligence fits in this relation?” -->
+
+<!-- 09:30 - 10:00 – Coffee Break -->
+
+<!-- 10:00 – 11:00 – Lecture 2: Alencar Xavier – “Good learners, faster learning” -->
+
+<!-- 11:00 – 12:00 – Poster Session -->
+
+<!-- 12:00 – 14:00 – Break -->
+
+<!-- 14:00 – 15:00 – Lecture 3: Osval A. M. López – “Machine learning and deep learning methods for genomic prediction” -->
+
+<!-- 15:00 – 16:00 – Lecture 4: Katy Martin Rainey – “Phenomic Inference of Soybean Growth and Development” -->
+
+<!-- 16:00 - 16:30 - Coffee Break -->
+
+<!-- 16:30 – 17:30 – Lecture 5: Rodrigo G. Trevisan - “Deep learning for image-based high throughput plant phenotyping” -->
+
+<!-- 17:30 – 18:00 – “Roland Vencovsky” Award and Closing Remarks -->
+
+<!-- 19:00 – Official Event Dinner -->
+
 <center><hr></center> 
 
-### MINI-COURSE: MACHINE LEARNING FOR PLANT BREEDING
+### MINI-COURSES
+
+**Place:** [Anfiteatro do Departamento de Genética da ESALQ/USP](https://goo.gl/maps/A9jqH4UprfkbomWd6) (click to view map)  
  
 **October 2nd (Wednesday): Minicourse I**
 
@@ -145,5 +177,5 @@ Results of the competition and final considerations (2h):
 *Requirements for mini-courses: basic statistics for plant breeding; familiar to R environment  
 **Program may change according to demand without notification  
 
-![banner](../images/poster_3impb.jpg)
+![banner](../images/poster_3impb2.png)
 
