@@ -35,3 +35,5 @@ through discussions of relevant scientific topics.
 Click here to download the ["Proceedings of the International Meeting on Plant Breeding - V.1 - 2017"](../files/impb-proceedings-v1.pdf)
 
 Click here to download the ["Proceedings of the International Meeting on Plant Breeding - V.2 - 2018"](../files/2impb-proceedings-v2.pdf)
+
+Click here to download the ["Proceedings of the International Meeting on Plant Breeding - V.3 - 2019"](../files/3impb-proceedings-v3.pdf)
