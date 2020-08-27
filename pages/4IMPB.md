@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /pages/3impb/
+permalink: /pages/4impb/
 title: 
-description: "Description of GVENCK 3nd event"
-modified: 2019-07-27
+description: "Description of GVENCK 4th event"
+modified: 2020-08-27
 tags: [events, gvenck]
 
 ---
