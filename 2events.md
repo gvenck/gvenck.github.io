@@ -8,6 +8,17 @@ tags: [events, gvenck]
 
 ---
 
+### 4th INTERNATIONAL MEETING ON PLANT BREEDING
+*"Uncovering the power and the secrets behind DNA modifications"*  
+part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries/)  
+#### September 30th and October 1st, 2020
+[More information](../pages/4impb/)  
+<br>
+
+<center><hr></center>
+
+<br>
+
 ### III INTERNATIONAL MEETING ON PLANT BREEDING
 *"New approaches on plant breeding: insights into artificial intelligence"*  
 part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries/)  
