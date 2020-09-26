@@ -30,4 +30,39 @@ tags: [events, gvenck]
 
 ## Program:
 
-**Coming soon**
+**September 30th, 2020**
+
+13:30 - 14:00 → Jason Rauscher - Opening session (Corteva)
+
+14:00 - 15:00 → Agustin Zsögön - "De novo domestication of wild species: a platform to create more nutritious and resilient crops"  (Federal University of Viçosa - UFV)
+
+15:00 - 16:00 → Daniel Voytas - “Overcoming Bottlenecks in Editing Plant Genomes” (University of Minnesota)
+
+16:00 - 16:20 → Research Presentation
+
+16:20 - 16:40 → Break
+
+16:40 - 17:40 → Yinong Yang - "CRISPR/Cas-enabled plant genome editing and precision breeding" (Pennsylvania State University)
+
+17:40 - 18:00 → Research Presentation
+
+
+**October 1st, 2020**
+
+13:30 - 14:30 → Antonio Costa de Oliveira - “New Challenges for Cereal Breeding in Southern Brazil” (Federal University of Pelotas - UFPel)
+
+14:30 - 15:30 → Sandra Milach -  “Predictive Breeding in the Era of Genome Editing” (Corteva)
+
+15:30 - 15:50 → Research Presentation
+
+15:50 - 16:20 → Break
+
+16:20 - 17:20 → Lázaro Eustáquio Pereira Peres - “Domestication and de novo domestication: tomato as a model.” (Luiz de Queiroz College of Agriculture - ESALQ/USP)
+
+17:20 - 17:40 → “Roland Vencovsky” Award
+
+17:40 - 18:00 → Closing remarks
+
+<center><hr></center>
+
+![banner](../images/poster_4impb.jpg)
