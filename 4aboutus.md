@@ -195,6 +195,12 @@ Undergraduate student in Agricultural Engineering
 Statistical Genetics Lab  
 [View Lattes]()  
 
+<img src="../images/karina.jpg" height="120">{: .image-pull-right}  
+**Vitória Bizão**  
+Master student in Genetics and Plant Breeding  
+Statistical Genetics Lab  
+[View Lattes]()  
+
 
 ## Former Students
 
