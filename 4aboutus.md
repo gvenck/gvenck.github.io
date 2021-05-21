@@ -31,22 +31,22 @@ Our main activities are:<br>
 <img src="../images/2019/gestao2019.jpg" height="auto" width="auto">
 <br>
 <h2>Coordination:</h2>
-<img src="../images/2021/coordination.jpg" height="auto" width="auto">
+<img src="../images/2021/coordination.png" height="auto" width="auto">
 <br>
 <h2>Treasury:</h2>
-<img src="../images/2021/treasury.jpg" height="auto" width="auto">
+<img src="../images/2021/treasury.png" height="auto" width="auto">
 <br>
 <h2>Secretary:</h2>
-<img src="../images/2021/secretary.jpg" height="auto" width="auto">
+<img src="../images/2021/secretary.png" height="auto" width="auto">
 <br>
 <h2>Communication:</h2>
-<img src="../images/2021/comunication.jpg" height="auto" width="auto">
+<img src="../images/2021/comunication.png" height="auto" width="auto">
 <br>
 <h2>Scientific:</h2>
-<img src="../images/2021/scientific.jpg" height="auto" width="auto">
+<img src="../images/2021/scientific.png" height="auto" width="auto">
 <br>
 <h2>Logistic:</h2>
-<img src="../images/2021/logistic.jpg" height="auto" width="auto">
+<img src="../images/2021/logistic.png" height="auto" width="auto">
 <br>
 
 ## Members
@@ -57,13 +57,13 @@ Associate Professor
 Genetics and Plant Breeding  
 [View Lattes](http://lattes.cnpq.br/7363206320020147)  
   
-<img src="../images/patriciab.jpg" height="120">{: .image-pull-right}  
+<img src="../images/patriciab.jpeg" height="120">{: .image-pull-right}  
 **Patricia Braga**  
 PhD student in Genetics and Plant Breeding  
 Quantitative Genetics and Autogamous Plant Breeding
 [View Lattes](http://lattes.cnpq.br/4418901360405098)
 
-<img src="../images/melinap.jpg" height="120">{: .image-pull-right}  
+<img src="../images/melinap.jpeg" height="120">{: .image-pull-right}  
 **Melina Prado**  
 PhD student in Genetics and Plant Breeding  
  
@@ -81,13 +81,13 @@ Master student in Genetics and Plant Breeding
 Statistical Genetics - Genotype-by-Environment Interaction
 [View Lattes](http://lattes.cnpq.br/9957782887703497)
 
-<img src="../images/fernandac.jpg" height="120">{: .image-pull-right}  
+<img src="../images/fernandac.jpeg" height="120">{: .image-pull-right}  
 **Fernanda Smaniotto Campion**  
 Master student in Genetics and Plant Breeding  
 Quantitative Genetics and Autogamous Plant Breeding
 [View Lattes](http://lattes.cnpq.br/7363164788569250)
 
-<img src="../images/adrianom.jpg" height="120">{: .image-pull-right}  
+<img src="../images/adrianom.jpeg" height="120">{: .image-pull-right}  
 **Adriano Abreu Moreira**  
 Master student in Genetics and Plant Breeding  
 Quantitative Genetics and Autogamous Plant Breeding
@@ -117,7 +117,7 @@ PhD student in Genetics and Plant Breeding
  
 [View Lattes](http://lattes.cnpq.br/4851731402742550)
 
-<img src="../images/melissam.jpg" height="120">{: .image-pull-right}  
+<img src="../images/melissam.jpeg" height="120">{: .image-pull-right}  
 **Melissa Cristina de Carvalho Miranda**  
 PhD student in Genetics and Plant Breeding  
  
@@ -147,13 +147,13 @@ PhD student in Forest Resources
 Population Genetics and Conservation of Forest Species
 [View Lattes](http://lattes.cnpq.br/7347089552565172)
 
-<img src="../images/gabriels.jpg" height="120">{: .image-pull-right}  
+<img src="../images/gabriels.jpeg" height="120">{: .image-pull-right}  
 **Gabriel Henrique S. S. Salgado**  
 PhD student in Genetics and Plant Breeding  
 Plant-Insect-Pathogen Interactions
 [View Lattes](https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=205BC0047111CEE0B04CC0F6B765C8D6#)
 
-<img src="../images/eriks.jpg" height="120">{: .image-pull-right}  
+<img src="../images/eriks.JPG" height="120">{: .image-pull-right}  
 **Erik Micael da Silva Souza**  
 PhD student in Genetics and Plant Breeding  
 Quantitative genetics and Horticultural Breeding
@@ -171,13 +171,13 @@ PhD student in Genetics and Plant Breeding
 
 [View Lattes]()
 
-<img src="../images/leandrol.jpg" height="120">{: .image-pull-right}  
+<img src="../images/leandrol.jpeg" height="120">{: .image-pull-right}  
 **Leandro Luis Lavandosque**  
 Undergraduate student in Agricultural Engineering  
 
 [View Lattes](http://lattes.cnpq.br/3384624719720013)
 
-<img src="../images/juliaw.jpg" height="120">{: .image-pull-right}  
+<img src="../images/juliaw.jpeg" height="120">{: .image-pull-right}  
 **Julia Wisnieski**  
 Undergraduate student in Agricultural Engineering  
 
