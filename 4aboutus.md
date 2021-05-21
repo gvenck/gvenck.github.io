@@ -69,17 +69,17 @@ PhD student in Genetics and Plant Breeding
  
 [View Lattes](https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=9A7DC42CC831AAEC8DFAD077227E3E70)
   
-<img src="../images/vitoriab.jpg" height="120">{: .image-pull-right}  
-**Vitória Bizão**  
-Master student in Genetics and Plant Breeding  
-Statistical Genetics - Genotype-by-Environment Interaction
-[View Lattes](http://lattes.cnpq.br/9957782887703497)  
-
 <img src="../images/gustavon.jpg" height="120">{: .image-pull-right}  
 **Gustavo Nandi**  
 Master student in Genetics and Plant Breeding  
 Tomato Breeding
 [View Lattes](http://lattes.cnpq.br/9516630603241808)
+
+<img src="../images/vitoriab.jpg" height="120">{: .image-pull-right}  
+**Vitória Bizão**  
+Master student in Genetics and Plant Breeding  
+Statistical Genetics - Genotype-by-Environment Interaction
+[View Lattes](http://lattes.cnpq.br/9957782887703497)
 
 <img src="../images/fernandac.jpg" height="120">{: .image-pull-right}  
 **Fernanda Smaniotto Campion**  
