@@ -66,7 +66,7 @@ Quantitative Genetics and Autogamous Plant Breeding
 <img src="../images/melinap.jpeg" height="120">{: .image-pull-right}  
 **Melina Prado**  
 PhD student in Genetics and Plant Breeding  
- 
+Quantitative genetics and allogamous plant breeding  
 [View Lattes](https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=9A7DC42CC831AAEC8DFAD077227E3E70)
   
 <img src="../images/gustavon.jpg" height="120">{: .image-pull-right}  
@@ -84,7 +84,7 @@ Statistical Genetics - Genotype-by-Environment Interaction
 <img src="../images/fernandac.jpeg" height="120">{: .image-pull-right}  
 **Fernanda Smaniotto Campion**  
 Master student in Genetics and Plant Breeding  
-Quantitative Genetics and Autogamous Plant Breeding
+Quantitative Genetics and Autogamous Plant Breeding  
 [View Lattes](http://lattes.cnpq.br/7363164788569250)
 
 <img src="../images/adrianom.jpeg" height="120">{: .image-pull-right}  
@@ -117,7 +117,7 @@ PhD student in Genetics and Plant Breeding
  
 [View Lattes](http://lattes.cnpq.br/4851731402742550)
 
-<img src="../images/melissam.jpeg" height="120">{: .image-pull-right} 
+<img src="../images/melissam.jpeg" height="120">{: .image-pull-right}  
 **Melissa Cristina de Carvalho Miranda**  
 PhD student in Genetics and Plant Breeding  
  
@@ -149,7 +149,7 @@ Population Genetics and Conservation of Forest Species
 **Gabriel Henrique S. S. Salgado**  
 PhD student in Genetics and Plant Breeding  
 Plant-Insect-Pathogen Interactions  
-[View Lattes](https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=205BC0047111CEE0B04CC0F6B765C8D6#)
+[View Lattes](http://lattes.cnpq.br/9988648744425103)
 
 <img src="../images/eriks.JPG" height="120">{: .image-pull-right}  
 **Erik Micael da Silva Souza**  
@@ -165,8 +165,8 @@ Horticultural plant breeding
 
 <img src="../images/wendya.jpg" height="120">{: .image-pull-right}  
 **Wendy Abregu**  
-PhD student in Genetics and Plant Breeding   
-
+Master student in Genetics and Plant Breeding   
+Molecular Genetics Laboratory of Cultivated Plants  
 [View Lattes]()
 
 <img src="../images/leandrol.jpeg" height="120">{: .image-pull-right}  
