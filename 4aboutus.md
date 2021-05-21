@@ -1,4 +1,4 @@
----
+  ---
 layout: about
 permalink: /aboutus/
 title: About Us
@@ -31,22 +31,22 @@ Our main activities are:<br>
 <img src="../images/2019/gestao2019.jpg" height="auto" width="auto">
 <br>
 <h2>Coordination:</h2>
-<img src="../images/2019/coordenacao.jpg" height="auto" width="auto">
+<img src="../images/2021/coordination.jpg" height="auto" width="auto">
 <br>
 <h2>Treasury:</h2>
-<img src="../images/2019/tesouraria.jpg" height="auto" width="auto">
+<img src="../images/2021/treasury.jpg" height="auto" width="auto">
 <br>
 <h2>Secretary:</h2>
-<img src="../images/2019/secretaria.jpg" height="auto" width="auto">
+<img src="../images/2021/secretary.jpg" height="auto" width="auto">
 <br>
 <h2>Communication:</h2>
-<img src="../images/2019/comunicacao.jpg" height="auto" width="auto">
+<img src="../images/2021/comunication.jpg" height="auto" width="auto">
 <br>
 <h2>Scientific:</h2>
-<img src="../images/2019/cientifica.jpg" height="auto" width="auto">
+<img src="../images/2021/scientific.jpg" height="auto" width="auto">
 <br>
 <h2>Logistic:</h2>
-<img src="../images/2019/logistica.jpg" height="auto" width="auto">
+<img src="../images/2021/logistic.jpg" height="auto" width="auto">
 <br>
 
 ## Members
@@ -57,24 +57,146 @@ Associate Professor
 Genetics and Plant Breeding  
 [View Lattes](http://lattes.cnpq.br/7363206320020147)  
   
-<img src="../images/alline.jpg" height="120">{: .image-pull-right}  
-**Alline Sekiya**  
+<img src="../images/patriciab.jpg" height="120">{: .image-pull-right}  
+**Patricia Braga**  
 PhD student in Genetics and Plant Breeding  
-Biotic Stress in Eucalyptus and Doubled Haploids in maize  
-[View Lattes](http://lattes.cnpq.br/1740606517629321)  
-  
-<img src="../images/mari.jpg" height="120">{: .image-pull-right}  
-**Mariana Niederheitmann**  
+Quantitative Genetics and Autogamous Plant Breeding
+[View Lattes](http://lattes.cnpq.br/4418901360405098)
+
+<img src="../images/melinap.jpg" height="120">{: .image-pull-right}  
+**Melina Prado**  
 PhD student in Genetics and Plant Breeding  
-Vegetable Breeding  
-[View Lattes](http://lattes.cnpq.br/8752923211210599)  
+ 
+[View Lattes](https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=9A7DC42CC831AAEC8DFAD077227E3E70)
   
-<img src="../images/maiara.jpg" height="120">{: .image-pull-right}  
+<img src="../images/vitoriab.jpg" height="120">{: .image-pull-right}  
+**Vitória Bizão**  
+Master student in Genetics and Plant Breeding  
+Statistical Genetics - Genotype-by-Environment Interaction
+[View Lattes](http://lattes.cnpq.br/9957782887703497)  
+
+<img src="../images/gustavon.jpg" height="120">{: .image-pull-right}  
+**Gustavo Nandi**  
+Master student in Genetics and Plant Breeding  
+Tomato Breeding
+[View Lattes](http://lattes.cnpq.br/9516630603241808)
+
+<img src="../images/fernandac.jpg" height="120">{: .image-pull-right}  
+**Fernanda Smaniotto Campion**  
+Master student in Genetics and Plant Breeding  
+Quantitative Genetics and Autogamous Plant Breeding
+[View Lattes](http://lattes.cnpq.br/7363164788569250)
+
+<img src="../images/adrianom.jpg" height="120">{: .image-pull-right}  
+**Adriano Abreu Moreira**  
+Master student in Genetics and Plant Breeding  
+Quantitative Genetics and Autogamous Plant Breeding
+[View Lattes](http://lattes.cnpq.br/3915414237857476)
+
+<img src="../images/talieisse.jpg" height="120">{: .image-pull-right}  
+**Talieisse Gomes Fagundes**  
+PhD student in Genetics and Plant Breeding  
+Quantitative Genetics and Autogamous Plant Breeding
+[View Lattes](http://lattes.cnpq.br/7911641059149454)
+
+<img src="../images/jessicaf.jpg" height="120">{: .image-pull-right}  
+**Jessica Aparecida Ferrarezi**  
+PhD student in Genetics and Plant Breeding  
+Genetics of plant-microbe interactions
+[View Lattes](http://lattes.cnpq.br/6198697257487157)
+
+<img src="../images/maiarao.jpg" height="120">{: .image-pull-right}  
 **Maiara de Oliveira**  
-MSc student in Genetics and Plant Breeding  
-Soybean Breeding  
+PhD student in Genetics and Plant Breeding  
+Quantitative Genetics and Autogamous Plant Breeding
 [View Lattes](http://lattes.cnpq.br/4034287686617912)  
   
+<img src="../images/robertav.jpg" height="120">{: .image-pull-right}  
+**Roberta Vidal**  
+PhD student in Genetics and Plant Breeding  
+ 
+[View Lattes](http://lattes.cnpq.br/4851731402742550)
+
+<img src="../images/melissam.jpg" height="120">{: .image-pull-right}  
+**Melissa Cristina de Carvalho Miranda**  
+PhD student in Genetics and Plant Breeding  
+ 
+[View Lattes](http://lattes.cnpq.br/5790065585486077)
+
+<img src="../images/elleng.jpg" height="120">{: .image-pull-right}  
+**Ellen Grous**  
+Undergraduate student in Agricultural Engineering  
+ 
+[View Lattes](http://lattes.cnpq.br/5203742893016033)
+
+<img src="../images/eduardov.jpg" height="120">{: .image-pull-right}  
+**Eduardo Velloso de Oliveira**  
+Undergraduate student in Agricultural Engineering  
+ 
+[View Lattes](https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=C770EFD89FE12937DD80560FFD1E78FF)
+
+<img src="../images/felipek.jpg" height="120">{: .image-pull-right}  
+**Felipe Augusto Krause**  
+Master student in Genetics and Plant Breeding  
+Quantitative Genetics and Autogamous Plant Breeding
+[View Lattes](http://lattes.cnpq.br/1374315899395717)
+
+<img src="../images/rafaelr.jpg" height="120">{: .image-pull-right}  
+**Rafael Roque**  
+PhD student in Forest Resources  
+Population Genetics and Conservation of Forest Species
+[View Lattes](http://lattes.cnpq.br/7347089552565172)
+
+<img src="../images/gabriels.jpg" height="120">{: .image-pull-right}  
+**Gabriel Henrique S. S. Salgado**  
+PhD student in Genetics and Plant Breeding  
+Plant-Insect-Pathogen Interactions
+[View Lattes](https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=205BC0047111CEE0B04CC0F6B765C8D6#)
+
+<img src="../images/eriks.jpg" height="120">{: .image-pull-right}  
+**Erik Micael da Silva Souza**  
+PhD student in Genetics and Plant Breeding  
+Quantitative genetics and Horticultural Breeding
+[View Lattes]()
+
+<img src="../images/givanildo.jpg" height="120">{: .image-pull-right}  
+**Givanildo Rodrigues da Silva**  
+PhD student in Genetics and Plant Breeding  
+
+[View Lattes](http://lattes.cnpq.br/8593969618027896)
+
+<img src="../images/wendya.jpg" height="120">{: .image-pull-right}  
+**Wendy Abregu**  
+PhD student in Genetics and Plant Breeding   
+
+[View Lattes]()
+
+<img src="../images/leandrol.jpg" height="120">{: .image-pull-right}  
+**Leandro Luis Lavandosque**  
+Undergraduate student in Agricultural Engineering  
+
+[View Lattes](http://lattes.cnpq.br/3384624719720013)
+
+<img src="../images/juliaw.jpg" height="120">{: .image-pull-right}  
+**Julia Wisnieski**  
+Undergraduate student in Agricultural Engineering  
+
+[View Lattes]()
+
+## Former Students
+
+<img src="../images/yajahaira.jpg" height="120">{: .image-pull-right}  
+**Yajahaira Carbajal**  
+Master student in Genetics and Plant Breeding  
+Citogenomics Lab  
+[View Lattes](http://lattes.cnpq.br/7315842000835170)  
+
+<img src="../images/karina.jpg" height="120">{: .image-pull-right}  
+**Karina Midori**  
+Undergraduate student in Agricultural Engineering  
+Statistical Genetics Lab  
+[View Lattes]() 
+
 <img src="../images/willian.jpg" height="120">{: .image-pull-right}  
 **Willian Giordani**  
 PhD student in Genetics and Plant Breeding  
@@ -175,34 +297,19 @@ Citogenomics and Epigenetics Lab
 **Marcos Antonio Godoy**  
 Msc student in Genetics and Plant Breeding  
 Diversity and Soybean Breeding Lab  
-[View Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8143296D5)  
+[View Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8143296D5)
 
-<img src="../images/roberta.jpg" height="120">{: .image-pull-right}  
-**Roberta Vidal**  
+<img src="../images/mari.jpg" height="120">{: .image-pull-right}  
+**Mariana Niederheitmann**  
 PhD student in Genetics and Plant Breeding  
-Vegetable Breeding Lab  
-[View Lattes]()  
+Vegetable Breeding  
+[View Lattes](http://lattes.cnpq.br/8752923211210599)
 
-<img src="../images/yajahaira.jpg" height="120">{: .image-pull-right}  
-**Yajahaira Carbajal**  
-Master student in Genetics and Plant Breeding  
-Citogenomics Lab  
-[View Lattes](http://lattes.cnpq.br/7315842000835170)  
-
-<img src="../images/karina.jpg" height="120">{: .image-pull-right}  
-**Karina Midori**  
-Undergraduate student in Agricultural Engineering  
-Statistical Genetics Lab  
-[View Lattes]()  
-
-<img src="../images/karina.jpg" height="120">{: .image-pull-right}  
-**Vitória Bizão**  
-Master student in Genetics and Plant Breeding  
-Statistical Genetics Lab  
-[View Lattes]()  
-
-
-## Former Students
+<img src="../images/alline.jpg" height="120">{: .image-pull-right}  
+**Alline Sekiya**  
+PhD student in Genetics and Plant Breeding  
+Biotic Stress in Eucalyptus and Doubled Haploids in maize  
+[View Lattes](http://lattes.cnpq.br/1740606517629321)
 
 <img src="../images/danilo.jpg" height="120">{: .image-pull-right}  
 **Danilo Hottis Lyra**  
