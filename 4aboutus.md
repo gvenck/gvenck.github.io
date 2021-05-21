@@ -1,4 +1,4 @@
-  ---
+---
 layout: about
 permalink: /aboutus/
 title: About Us
