@@ -162,7 +162,7 @@ Quantitative genetics and Horticultural Breeding
 <img src="../images/givanildo.jpg" height="120">{: .image-pull-right}  
 **Givanildo Rodrigues da Silva**  
 PhD student in Genetics and Plant Breeding  
-
+Horticultural plant breeding
 [View Lattes](http://lattes.cnpq.br/8593969618027896)
 
 <img src="../images/wendya.jpg" height="120">{: .image-pull-right}  
