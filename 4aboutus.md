@@ -40,7 +40,7 @@ Our main activities are:<br>
 <img src="../images/2021/secretary.png" height="auto" width="auto">
 <br>
 <h2>Communication:</h2>
-<img src="../images/2021/comunication.png" height="auto" width="auto">
+<img src="../images/2021/communication.png" height="auto" width="auto">
 <br>
 <h2>Scientific:</h2>
 <img src="../images/2021/scientific.png" height="auto" width="auto">
