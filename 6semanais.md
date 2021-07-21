@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /Semanais/
-title: Posts Semanais
-description: "Posts Semanais"
+title: Weekly Posts
+description: "Weekly Posts"
 modified: 2021-07-21
-tags: [semanais, gvenck]
+tags: [weekly, gvenck]
 
 ---
 
