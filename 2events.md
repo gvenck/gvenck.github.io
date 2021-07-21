@@ -18,6 +18,16 @@ tags: [events, gvenck]
 
 <br>
 
+### WEBINAR SERIES
+*"Challenges in career development, people management and innovation in science"*  
+#### Live on YouTube every 15 days
+[More information](https://www.youtube.com/channel/UCtktI38h0tEL6u8ryPoncnQ)  
+<br>
+
+<center><hr></center>
+
+<br>
+
 ### 4th INTERNATIONAL MEETING ON PLANT BREEDING
 *"Uncovering the power and the secrets behind DNA modifications"*  
 part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries/)  
