@@ -8,6 +8,16 @@ tags: [events, gvenck]
 
 ---
 
+### PYTHON COURSE
+*"Python programming course"*  
+#### September 9-13th, 2021
+[More information](https://fealq.org.br/eventos/introducao-a-programacao-em-python/)  
+<br>
+
+<center><hr></center>
+
+<br>
+
 ### 4th INTERNATIONAL MEETING ON PLANT BREEDING
 *"Uncovering the power and the secrets behind DNA modifications"*  
 part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries/)  
@@ -39,6 +49,7 @@ part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/hom
 <center><hr></center>
 
 <br>
+
 ### II INTERGEN's
 part of "10th Brazilian Congress of Plant Breeding" in Águas de Lindóia - São Paulo  
 #### July 30th, 2019
