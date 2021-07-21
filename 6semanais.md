@@ -39,6 +39,16 @@ tags: [weekly, gvenck]
 
 <br>
 
+### Mapeamento de QTLs
+*O que é e aplicações no melhoramento*
+
+[**Leia aqui a thread completa**](https://threadreaderapp.com/thread/1417908063101726725.html)  
+<br>
+
+<center><hr></center>
+
+<br>
+
 ### Seleção Recorrente
 *Sua técnicas e aplicações no melhoramento*
 
