@@ -10,7 +10,7 @@ tags: [weekly, gvenck]
 
 
 ### Fenotipagem de Alto Rendimento
-*Sua ferramentas e aplicações no melhoramento*
+*Suas ferramentas e aplicações no melhoramento*
 
 [**Leia aqui a thread completa**](https://threadreaderapp.com/thread/1399384916165541899.html)  
 <br>
@@ -30,7 +30,7 @@ tags: [weekly, gvenck]
 <br>
 
 ### Cultura de Tecidos Vegetais
-*Sua técnicas e aplicações no melhoramento*
+*Suas técnicas e aplicações no melhoramento*
 
 [**Leia aqui a thread completa**](https://threadreaderapp.com/thread/1404447707608014853.html)  
 <br>
@@ -50,7 +50,7 @@ tags: [weekly, gvenck]
 <br>
 
 ### Seleção Recorrente
-*Sua técnicas e aplicações no melhoramento*
+*Suas técnicas e aplicações no melhoramento*
 
 [**Leia aqui a thread completa**](https://threadreaderapp.com/thread/1409561390994575363.html)  
 <br>
@@ -83,6 +83,16 @@ tags: [weekly, gvenck]
 *O que é e quais implicações no melhoramento*
 
 [**Leia aqui a thread completa**](https://threadreaderapp.com/thread/1417535964377931776.html)  
+<br>
+
+<center><hr></center>
+
+<br>
+
+### Valor de Cultivo
+*O que é e seu impacto no melhoramento*
+
+[**Leia aqui a thread completa**](https://threadreaderapp.com/thread/1420144366635692033.html)  
 <br>
 
 <center><hr></center>
