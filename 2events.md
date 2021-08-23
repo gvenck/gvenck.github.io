@@ -6,11 +6,32 @@ description: "Description of GVENCK events"
 modified: 2018-04-18
 tags: [events, gvenck]
 
----
+--
+
+### 5th INTERNATIONAL MEETING ON PLANT BREEDING
+*"Integrated Data Analysis as a Tool to Revolutionize Plant Breeding"*  
+part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries/)  
+#### October 5-7st, 2021
+## More information coming soon 
+<br>
+
+<center><hr></center>
+
+<br>
+
+### WORKSHOP ON BIOMETRICS
+*"Workshop on Biometrics Applied to Plant Breeding"*  
+#### August 30th, 2021
+[Access]( https://lnkd.in/dj5KvQQP)  
+<br>
+
+<center><hr></center>
+
+<br>
 
 ### PYTHON COURSE
 *"Python programming course"*  
-#### September 9-13th, 2021
+#### August 9-13th, 2021
 [More information](https://fealq.org.br/eventos/introducao-a-programacao-em-python/)  
 <br>
 
@@ -21,7 +42,7 @@ tags: [events, gvenck]
 ### WEBINAR SERIES
 *"Challenges in career development, people management and innovation in science"*  
 #### Live on YouTube every 15 days
-[More information](https://www.youtube.com/channel/UCtktI38h0tEL6u8ryPoncnQ)  
+[Access](https://www.youtube.com/channel/UCtktI38h0tEL6u8ryPoncnQ)  
 <br>
 
 <center><hr></center>
