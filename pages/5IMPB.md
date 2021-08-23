@@ -17,4 +17,4 @@ tags: [events, gvenck]
 ## More information will come soon!!
 
 
-![banner](../images/poster_5impb.jpg)
+![banner](../images/poster_5impb.ppg)
