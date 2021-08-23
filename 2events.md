@@ -6,7 +6,7 @@ description: "Description of GVENCK events"
 modified: 2018-04-18
 tags: [events, gvenck]
 
---
+---
 
 ### 5th INTERNATIONAL MEETING ON PLANT BREEDING
 *"Integrated Data Analysis as a Tool to Revolutionize Plant Breeding"*  
