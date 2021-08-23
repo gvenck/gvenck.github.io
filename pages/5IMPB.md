@@ -2,7 +2,7 @@
 layout: page
 permalink: /pages/5impb/
 title: 
-description: "Description of GVENCK 4th event"
+description: "Description of GVENCK 5th event"
 modified: 2021-08-23
 tags: [events, gvenck]
 
