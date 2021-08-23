@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+<div class="FeaturedImgBanner" {% if page.featured-img %} style="background-image: url('{{ page.featured-img }}');  background-repeat: no-repeat, no-repeat; background-size: cover; background-position:center; position: relative; height: auto; width: 100vw; padding-top: 30px; padding-bottom: 30px;" {% endif %}>
+	<div style="margin: auto; display: block; width: 45vw; background-color: #2b2b2b; opacity: 0.85; position: relative; z-index: 1; padding: 10px; border-radius: 5px;">
+		<font style="color: white; align: center;">
+		<center>
+		  <!-- <h1>GVENCK</h1> -->
+                  <img src="../images/small-logo.png" style="width:20vw;"><br>
+		  <i>Genetics and Plant Breeding Group "Prof. Roland Vencovsky"</i>
+			<br>
+			<br>
+			<b>ESALQ/USP</b>
+			<br>
+			<br>
+			<hr>
+			<br>
+			<!-- <p>Program is coming soon. You can follow us on <a href="https://facebook.com/gvenck" rel="nofollow" target="_blank">Facebook</a> to receive more informations! -->
+			<!-- <br><a href="https://facebook.com/gvenck" rel="nofollow" target="_blank" class="button" style="color: black;">Follow us on Facebook</a> -->
+                        <p><b>4<sup>th</sup> International Meeting on Plant Breeding</b> will be held on August 5-7<sup>th</sup> 2021,<br /> featuring the theme <i>"Integrated Data Analysis as a Tool to Revolutionize Plant Breeding"</i>.<br><br>
+			<a href="../pages/5impb/" rel="nofollow" target="_self" class="button" style="color: black;">More information</a>
+                        <!-- <p>The admission process for new members is open!<br><br> -->
+			<!-- <a href="../pages/procsel2019/" rel="nofollow" target="_self" class="button" style="color: black;">Admission process</a> -->
+			<!-- For more information, please go to <b>Events</b> tab -->
+			<br>
+			<br>
+			</font>
+			</center>
+		</div>
+</div>
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
