@@ -14,10 +14,10 @@ tags: [events, gvenck]
 
 
 <center>
-<img src="../images/poster_5impb.png" height="500" width="auto">
+<img src="../images/poster_5impb.png" height="450" width="auto">
 <center>
 
 
 <center>
-# More information will come soon!!
+#### More information will come soon!!
 <center>
