@@ -33,5 +33,5 @@ tags: [events, gvenck]
 **Coming Soon**
 
 <center>
-<img src="../images/poster_5impb.png" height="450" width="auto">
+<img src="../images/poster_5impb.png" height="500" width="auto">
 <center>

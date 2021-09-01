@@ -8,11 +8,22 @@ tags: [events, gvenck]
 
 ---
 
+<br>
 ### 5th INTERNATIONAL MEETING ON PLANT BREEDING
 *"Integrated Data Analysis as a Tool to Revolutionize Plant Breeding"*  
 part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries/)  
 #### October 5 and 6th, 2021
 [More information](../pages/5impb/)  
+<br>
+
+<center><hr></center>
+
+<br>
+
+### PYTHON COURSE
+*"Introduction to Machine Larning"*  
+#### September 13 and 14th, 2021
+[More information soon]()  
 <br>
 
 <center><hr></center>
