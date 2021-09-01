@@ -13,7 +13,7 @@ tags: [events, gvenck]
 <br><br>
 
 **Registration deadline**: **October 4th, 2021**  
-**Registration**: [Coming soon]()  
+**Registration**: [Click here](https://fealq.org.br/eventos/5th-international-meeting-on-plant-breeding-integrated-data-analysis-as-a-tool-to-revolutionize-plant-breeding/)  
   
 **Abstract rules**: [Click here](../files/Rules_for_abstract_submissions.docx)  
   
