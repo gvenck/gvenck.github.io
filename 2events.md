@@ -21,7 +21,7 @@ part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/hom
 <br>
 
 ### PYTHON COURSE
-*"Introduction to Machine Larning"*  
+*"Introduction to Machine Learning"*  
 #### September 13 and 14th, 2021
 [More information soon]()  
 <br>
