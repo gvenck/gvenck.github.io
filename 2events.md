@@ -24,7 +24,7 @@ part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/hom
 ### PYTHON COURSE
 *"Introduction to Machine Learning"*  
 #### September 13 and 14th, 2021
-[More information soon]()  
+[More information](https://fealq.org.br/eventos/introducao-ao-aprendizado-de-maquinas-com-python/)  
 <br>
 
 <center><hr></center>
