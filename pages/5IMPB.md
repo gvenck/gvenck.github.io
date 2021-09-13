@@ -15,11 +15,14 @@ tags: [events, gvenck]
 **Registration deadline**: **October 4th, 2021**  
 **Registration**: [Click here](https://fealq.org.br/eventos/5th-international-meeting-on-plant-breeding-integrated-data-analysis-as-a-tool-to-revolutionize-plant-breeding/)  
   
-**Abstract rules**: [Click here](../files/Rules_for_abstract_submissions.docx)  
   
 **Submission deadline**: **September 15th, 2021**  
   
 **Abstract submission**: [Click here](https://docs.google.com/forms/d/e/1FAIpQLSchpuIXosALDSOyvZUSJFCYW3TT_8xK2NLi8Itg6GI4Xhx2Tw/viewform)  
+
+**Abstract rules**: [Click here](../files/Rules_for_abstract_submissions.docx)
+
+**Abstract example**: [Click here](../files/ABSTRACT_EXAMPLE.docx)
   
 **Poster model**: [Click here](../files/model-poster-2021.pptx)  
 
