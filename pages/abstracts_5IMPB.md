@@ -82,7 +82,7 @@ tags: [events, gvenck]
 <br>
 *"ACCESSING THE GENETIC DIVERSITY AND DRY MATTER YIELD PERSISTENCE IN ALFALFA GERMPLASM WITHIN BRAZIL"*  
 **Iara G. Santos - Federal University of Viçosa**   
-[Click here to view](../files/5thIMPB_abstracts/Iara_Santos.pdf)
+[Click here to view](../files/5thIMPB_abstracts/Iara_Santos_5thIMPB.pdf)
 <br>
 
 <center><hr></center>
@@ -90,7 +90,7 @@ tags: [events, gvenck]
 <br>
 *"VARIATION OF TEMPERATURE AND RADIATION AT FLOWERING RESPONSE IN RICE"*  
 **Ines Rebollo - Instituto Nacional de Investigación Agropecuaria**   
-[Click here to view](../files/5thIMPB_abstracts/Ines_Rebollo.pdf)
+[Click here to view](../files/5thIMPB_abstracts/Ines_Rebollo_5thIMPB.pdf)
 <br>
 
 <center><hr></center>
@@ -122,7 +122,7 @@ tags: [events, gvenck]
 <br>
 *"POTENTIAL USE OF PREDICTION FOR SELECTION OF SOYBEAN GENOTYPES WITH RESISTANCE TO THE STINK BUG COMPLEX"*  
 **Maiara de Oliveira - University of São Paulo/College of Agriculture “Luiz de Queiroz**   
-[Click here to view](../files/5thIMPB_abstracts/.pdf)
+[Click here to view](../files/5thIMPB_abstracts/Maiara_Oliveira.pdf)
 <br>
 
 <center><hr></center>
