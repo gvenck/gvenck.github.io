@@ -1,15 +1,11 @@
 ---
-title: 'null'
 layout: page
-modified: '2021-08-23'
-output:
-  html_document:
-    df_print: paged
 permalink: /pages/5impb/
-tags:
-- events
-- gvenck
-description: Description of GVENCK 5th event
+title: 
+description: "Description of GVENCK 5th event"
+modified: 2021-09-27
+tags: [events, gvenck]
+
 ---
 
 <center><h1>5<sup>th</sup> INTERNATIONAL MEETING ON PLANT BREEDING</h1>
