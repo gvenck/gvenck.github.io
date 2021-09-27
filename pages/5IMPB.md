@@ -17,6 +17,7 @@ tags: [events, gvenck]
 
 **Registration**: [Click here](https://fealq.org.br/eventos/5th-international-meeting-on-plant-breeding-integrated-data-analysis-as-a-tool-to-revolutionize-plant-breeding/)  
   
+<center><hr></center>
   
 ## Abstracts Submission:
 **Submission deadline**: **September 15th, 2021**
@@ -31,10 +32,12 @@ tags: [events, gvenck]
 
 **Roland Vencovsky Award Rules**: [Click here](../files/Rules_Roland_Vencovsky_Award.docx)
 
+<center><hr></center>
 
 ## Xtreme Gain Breeding Simulation Game:
 **Registration**: [Click here](https://docs.google.com/forms/d/e/1FAIpQLSehL5zqOekg4JQgImz_HXt7tZj7iFeFozo1Mrnek9g0PFp4Ww/viewform) 
 
+<center><hr></center>
 
 ## Posters Presentation:
 **Poster presentation**: [Coming soon]()  
@@ -43,4 +46,6 @@ tags: [events, gvenck]
 
 ## Program:
 **Coming Soon**
-<img src="../images/5thIMPB_Flyer.png" height="250"> <img src="../images/5thIMPB_Awards.png" height="250"> <img src="../images/5thIMPB_XtremeGain.png" height="250">
+
+
+<img src="../images/5thIMPB_Flyer.png" height="300"> <img src="../images/5thIMPB_Awards.png" height="300"> <img src="../images/5thIMPB_XtremeGain.png" height="300">
