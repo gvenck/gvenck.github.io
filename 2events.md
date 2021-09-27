@@ -14,7 +14,11 @@ tags: [events, gvenck]
 *"Integrated Data Analysis as a Tool to Revolutionize Plant Breeding"*  
 part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries/)  
 #### October 5 and 6th, 2021
-[More information](../pages/5impb/)  
+[More information](../pages/5impb/)
+
+*"Xtreme Gain Breeding Simulation Game"*
+#### October 7th, 2021
+[Register on](https://docs.google.com/forms/d/e/1FAIpQLSehL5zqOekg4JQgImz_HXt7tZj7iFeFozo1Mrnek9g0PFp4Ww/viewform)
 <br>
 
 <center><hr></center>
