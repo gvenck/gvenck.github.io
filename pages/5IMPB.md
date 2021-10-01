@@ -40,7 +40,7 @@ tags: [events, gvenck]
 <center><hr></center>
 
 ## Posters Presentation:
-**Poster presentation**: [Coming soon]()  
+**Poster presentation**: [Click Here](https://gvenck.github.io//pages/5impbabstracts/)  
   
 <center><hr></center>
 
