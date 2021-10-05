@@ -25,28 +25,28 @@ Our main activities are:<br>
 </ul>
 </div>
 <br>
-<img src="../images/2019/gvenckall.jpg" height="auto" width="auto">
+<img src="../images/2019/4_Todos.jpg" height="auto" width="auto">
 <br>
-<h2>2019 Management:</h2>
-<img src="../images/2019/gestao2019.jpg" height="auto" width="auto">
+<h2>2021 Management:</h2>
+<img src="../images/2021/9_Todos.jpg" height="auto" width="auto">
 <br>
 <h2>Coordination:</h2>
-<img src="../images/2021/coordination.png" height="auto" width="auto">
+<img src="../images/2021/6_Coordenação_editada.jpg" height="auto" width="auto">
 <br>
 <h2>Treasury:</h2>
-<img src="../images/2021/treasury.png" height="auto" width="auto">
+<img src="../images/2021/11_Tesouraria_editada.jpg" height="auto" width="auto">
 <br>
 <h2>Secretary:</h2>
-<img src="../images/2021/secretary.png" height="auto" width="auto">
+<img src="../images/2021/10_Secretaria_editada.jpg" height="auto" width="auto">
 <br>
 <h2>Communication:</h2>
-<img src="../images/2021/communication.png" height="auto" width="auto">
+<img src="../images/2021/7_Comunicação_editada.jpg" height="auto" width="auto">
 <br>
 <h2>Scientific:</h2>
-<img src="../images/2021/scientific.png" height="auto" width="auto">
+<img src="../images/2021/8_Científica_editada.jpg" height="auto" width="auto">
 <br>
 <h2>Logistic:</h2>
-<img src="../images/2021/logistic.png" height="auto" width="auto">
+<img src="../images/2021/logistic.jpg" height="auto" width="auto">
 <br>
 
 ## Members
