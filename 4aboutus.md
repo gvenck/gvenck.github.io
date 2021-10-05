@@ -46,7 +46,7 @@ Our main activities are:<br>
 <img src="../images/2021/8_Científica_editada.jpg" height="auto" width="auto">
 <br>
 <h2>Logistic:</h2>
-<img src="../images/2021/logistic.jpg" height="auto" width="auto">
+<img src="../images/2021/logistic.png" height="auto" width="auto">
 <br>
 
 ## Members
