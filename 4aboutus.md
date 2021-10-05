@@ -25,7 +25,7 @@ Our main activities are:<br>
 </ul>
 </div>
 <br>
-<img src="../images/2019/4_Todos.jpg" height="auto" width="auto">
+<img src="../images/2021/4_Todos.jpg" height="auto" width="auto">
 <br>
 <h2>2021 Management:</h2>
 <img src="../images/2021/9_Todos.jpg" height="auto" width="auto">
