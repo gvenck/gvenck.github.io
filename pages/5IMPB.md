@@ -12,12 +12,15 @@ tags: [events, gvenck]
 <i>Integrated Data Analysis as a Tool to Revolutionize Plant Breeding</i></center>
 <br><br>
 
+
 ## Registration:
 **Registration deadline**: **October 4th, 2021**  
 
 **Registration**: [Click here](https://fealq.org.br/eventos/5th-international-meeting-on-plant-breeding-integrated-data-analysis-as-a-tool-to-revolutionize-plant-breeding/)  
   
+  
 <center><hr></center>
+  
   
 ## Abstracts Submission:
 **Submission deadline**: **September 15th, 2021**
@@ -39,13 +42,48 @@ tags: [events, gvenck]
 
 <center><hr></center>
 
+
 ## Posters Presentation:
 **Poster presentation**: [Click Here](https://gvenck.github.io//pages/5impbabstracts/)  
   
 <center><hr></center>
 
+
 ## Program:
-**Coming Soon**
+
+**October 5th, 2021**
+
+1:30 - 2:00 PM → Dr. Jason Rauscher - Opening session (Corteva Agriscience)
+
+2:00 - 3:00 PM → Dr. Kevin Hayes - Digital agriculture at Corteva (Corteva Agriscience) 
+
+3:00 - 4:00 PM → Dr. Guilherme Rosa – Combining big data analytics and omics techniques to improve beef cattle selection and production (University of Wisconsin-Madison) 
+
+4:00 - 4:20 PM → PhD student Maiara de Oliveira - Potential use of prediction for selection of soybean genotypes with resistance to the stink bug complex.
+
+4:20 - 4:40 PM → Break
+
+4:40 - 5:40 PM → Dr. Fernando Correr – Unravelling functional genomics of polyploids species through transcriptomics - an application in Saccharum (Montana State University)
+
+5:40 - 6:00 PM → PhD student Iara Gonçalves dos Santos - Accessing the genetic diversity and dry matter yield persistence in alfalfa germplasm within Brazil.
+
+
+
+**October 6th, 2021**
+
+1:30 - 2:30 PM → Dr. Amy Marshall-Colon – Integrative and multiscale modeling to guide crop ideotype design (University of Illinois Urbana-Champaign) 
+
+2:30 - 3:30 PM → Dr. Carlos Alberto Labate – The genetic improvement of plants in the age of Omics (Luiz de Queiroz College of Agriculture/USP)
+
+3:30 - 3:50 PM → PhD student Gustavo Schiavone Crestana - Genomics insights from the first chromosome-scale genome of the sourgrass smut fungus using Oxford Nanopore reads.
+
+3:50 - 4:20 PM → Break
+
+4:20 - 5:20 PM → Dr. Flávia Winck – Advances and challenges of systems biology in plants and microalgae (Center for Nuclear Energy in Agriculture/USP) 
+
+5:20 - 5:40 PM → Award “Roland Vencovsky”
+
+5:40 - 6:00 PM → Closing remarks
 
 
 <img src="../images/5thIMPB_Flyer.png" height="300"> <img src="../images/5thIMPB_Awards.png" height="300"> <img src="../images/5thIMPB_XtremeGain.png" height="300">
