@@ -86,4 +86,5 @@ tags: [events, gvenck]
 5:40 - 6:00 PM → Closing remarks
 
 
-<img src="../images/5thIMPB_Flyer.png" height="300"> <img src="../images/5thIMPB_Awards.png" height="300"> <img src="../images/5thIMPB_XtremeGain.png" height="300">
+<img src="../images/5thIMPB_Flyer.png" height="300"> <img src="../images/5thIMPB_Awards.png" height="300"> <img src="../images/5thIMPB_XtremeGain.png" height="300"> src="../images/Flyer_5IMPB_programation.png" height="300">
+
