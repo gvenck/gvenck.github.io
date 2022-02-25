@@ -12,7 +12,7 @@ tags: [weekly, gvenck]
 ### Fenotipagem de Alto Rendimento
 *Suas ferramentas e aplicações no melhoramento*
 
-[**Leia aqui a thread completa**](https://threadreaderapp.com/thread/1399384916165541899.html)  
+[**Leia aqui a thread completa**](../files/Semanais/fentipagem.pdf)  
 <br>
 
 <center><hr></center>
@@ -22,7 +22,7 @@ tags: [weekly, gvenck]
 ### A técnica CRISPR
 *A mais recente ferramenta de edição gênica*
 
-[**Leia aqui a thread completa**](https://threadreaderapp.com/thread/1401916047121338375.html)  
+[**Leia aqui a thread completa**](../files/Semanais/crispr.pdf)  
 <br>
 
 <center><hr></center>
@@ -32,7 +32,7 @@ tags: [weekly, gvenck]
 ### Cultura de Tecidos Vegetais
 *Suas técnicas e aplicações no melhoramento*
 
-[**Leia aqui a thread completa**](https://threadreaderapp.com/thread/1404447707608014853.html)  
+[**Leia aqui a thread completa**](../files/Semanais/tecidos.pdf)  
 <br>
 
 <center><hr></center>
@@ -42,7 +42,7 @@ tags: [weekly, gvenck]
 ### Mapeamento de QTLs
 *O que é e aplicações no melhoramento*
 
-[**Leia aqui a thread completa**](https://threadreaderapp.com/thread/1417908063101726725.html)  
+[**Leia aqui a thread completa**](../files/Semanais/qtl.pdf)  
 <br>
 
 <center><hr></center>
@@ -52,7 +52,7 @@ tags: [weekly, gvenck]
 ### Seleção Recorrente
 *Suas técnicas e aplicações no melhoramento*
 
-[**Leia aqui a thread completa**](https://threadreaderapp.com/thread/1409561390994575363.html)  
+[**Leia aqui a thread completa**](../files/Semanais/recorrente.pdf)  
 <br>
 
 <center><hr></center>
@@ -62,7 +62,7 @@ tags: [weekly, gvenck]
 ### Poliploidia
 *O que é e quais implicações no melhoramento*
 
-[**Leia aqui a thread completa**](https://threadreaderapp.com/thread/1412139297222926338.html)  
+[**Leia aqui a thread completa**](../files/Semanais/poliploidia.pdf)  
 <br>
 
 <center><hr></center>
@@ -72,7 +72,7 @@ tags: [weekly, gvenck]
 ### Domesticação de Espécies Vegetais
 *O que é e quais processos envolvidos*
 
-[**Leia aqui a thread completa**](https://threadreaderapp.com/thread/1414641348892823558.html)  
+[**Leia aqui a thread completa**](../files/Semanais/selvagens.pdf)  
 <br>
 
 <center><hr></center>
@@ -82,7 +82,7 @@ tags: [weekly, gvenck]
 ### Epigenética
 *O que é e quais implicações no melhoramento*
 
-[**Leia aqui a thread completa**](https://threadreaderapp.com/thread/1417535964377931776.html)  
+[**Leia aqui a thread completa**](../files/Semanais/epigenetica.pdf)  
 <br>
 
 <center><hr></center>
@@ -92,7 +92,37 @@ tags: [weekly, gvenck]
 ### Valor de Cultivo
 *O que é e seu impacto no melhoramento*
 
-[**Leia aqui a thread completa**](https://threadreaderapp.com/thread/1420144366635692033.html)  
+[**Leia aqui a thread completa**](../files/Semanais/valor.pdf)  
+<br>
+
+<center><hr></center>
+
+<br>
+
+### Interações Planta-Microorganismo
+*O que é e seu impacto no melhoramento*
+
+[**Leia aqui a thread completa**](../files/Semanais/interaçao_pm.pdf)  
+<br>
+
+<center><hr></center>
+
+<br>
+
+### Microbiota do Solo na Agricultura
+*O que é e seu impacto no melhoramento*
+
+[**Leia aqui a thread completa**](../files/Semanais/microbiota.pdf)  
+<br>
+
+<center><hr></center>
+
+<br>
+
+### Recombinant Inbred Lines (RILs)
+*O que é e seu impacto no melhoramento*
+
+[**Leia aqui a thread completa**](../files/Semanais/RILS.pdf)  
 <br>
 
 <center><hr></center>
