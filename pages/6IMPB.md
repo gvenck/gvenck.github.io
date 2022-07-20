@@ -85,4 +85,5 @@ Understand the plant-microbe interactions as a way to improve and provide new to
 
 
 **October 7th, 2022**
+
 09:00 - 16:00 PM → Dr. MiniCourse - Marco Antônio Nogueira (EMBRAPA/Brazil)
