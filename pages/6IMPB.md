@@ -14,7 +14,12 @@ tags: [events, gvenck]
 
 <br>
 <center><img src="../images/Flyer_VI_IMPB.png" height="300""></center>
-<br><br>
+<br>
+
+<br>
+
+<center><hr></center>
+<br>
 
 
 <p>Understand the plant-microbe interactions as a way to improve and provide new tools for plant breeding. The lectures and minicourses will present the new findings and studies on the subject, plus the basis for the audience to comprehend and hopefully be interested in the theme.</p>
