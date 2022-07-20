@@ -10,24 +10,26 @@ tags: [events, gvenck]
 
 <center><h1>6<sup>th</sup> INTERNATIONAL MEETING ON PLANT BREEDING</h1>
 <i>Understanding the plant-microbe interaction to innovative plant breeding</i></center>
-<br><br>
+<br>
 
 <center><img src="../images/6thIMPB.png" height="300" width="auto"></center>
-<br><br>
+<br>
 
 <p>Understand the plant-microbe interactions as a way to improve and provide new tools for plant breeding. The lectures and minicourses will present the new findings and studies on the subject, plus the basis for the audience to comprehend and hopefully be interested in the theme.</p>
 
+<br>
 <center><hr></center>
 
+<br>
 ## Registration:
 **Registration deadline** - _October 4th, 2022_  
 
 **Registration**: [Click here](https://fealq.org.br/eventos/6th-international-meeting-on-plant-breeding-integrated-data-analysis-as-a-tool-to-revolutionize-plant-breeding-2/)  
-  
-  
+<br>  
+
 <center><hr></center>
   
-  
+<br>  
 ## Abstracts Submission:
 **Submission deadline** - _September 11th, 2022_
 
@@ -40,10 +42,11 @@ tags: [events, gvenck]
 **Poster model**: [More Information Soon]()  
 
 **Roland Vencovsky Award Rules**: [Click here](../files/Rules_Roland_Vencovsky_Award.docx)
+<br>
 
 <center><hr></center>
 
-
+<br>
 ## Program:
 
 **October 5th, 2022**
@@ -80,13 +83,12 @@ tags: [events, gvenck]
 
 17:50 - 18:00 → Closing remarks
 
-
-
+<br>
 **October 6th, 2022**
 
 09:00 - 16:00 PM → MiniCourse - Dr. Juan E. Perez-Jaramillo (University of Antioquia, Medellín/Colombia) 
 
-
+<br>
 **October 7th, 2022**
 
 09:00 - 16:00 PM → Dr. MiniCourse - Marco Antônio Nogueira (EMBRAPA/Brazil)
