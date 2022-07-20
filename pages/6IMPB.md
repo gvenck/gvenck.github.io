@@ -12,7 +12,7 @@ tags: [events, gvenck]
 <i>Understanding the plant-microbe interaction to innovative plant breeding</i></center>
 <br>
 
-<center><img src="../images/6thIMPB.png" height="300" width="auto"></center>
+<center><img src="../images/6thIMPB.png" height="350" width="auto"></center>
 <br>
 
 <p>Understand the plant-microbe interactions as a way to improve and provide new tools for plant breeding. The lectures and minicourses will present the new findings and studies on the subject, plus the basis for the audience to comprehend and hopefully be interested in the theme.</p>
@@ -51,44 +51,42 @@ tags: [events, gvenck]
 
 **October 5th, 2022**
 
-8:00 - 8:30 AM → Jason Rauscher - Opening session (Corteva Agriscience)
+08:00 - 08:30 AM → Jason Rauscher - Opening session (Corteva Agriscience)
 
-8:30 - 9:30 AM → 1st Lecture - Marcio de Castro Silva Filho (ESALQ/Brazil) 
+08:30 - 09:30 AM → Marcio de Castro Silva Filho (ESALQ/Brazil) 
 
-9:30 - 9:45 AM → Research Presentation 
+09:30 - 09:45 AM → Research Presentation 
 
-9:45 - 10:45 AM → Juan E. Perez-Jaramillo (University of Antioquia, Medellín/Colombia)
+09:45 - 10:45 AM → Juan E. Perez-Jaramillo (University of Antioquia, Medellín/Colombia)
 
-10:45 - 11:00 AM → Break
+10:45 - 11:00 AM → **Break**
 
 11:00 - 11:15 AM → Research Presentation
 
 11:15 - 12:15 AM →  Marco Antônio Nogueira (EMBRAPA/Brazil)
 
+12:15 - 14:00 PM → **Lunch Break**
 
-12:15 - 14:00 → Lunch Break
+14:00 - 15:00 PM → Cristiana Argueso (Colorado State University/USA)
 
+15:00 - 15:15 PM → Research Presentation
 
-14:00 - 15:00 → Cristiana Argueso (Colorado State University/USA)
+15:15 - 16:15 PM → Steve Clough (University of Illinois at Urbana-Champaign)
 
-15:00 - 15:15 → Research Presentation
+16:15 - 16:40 PM → **Break**
 
-15:15 - 16:15 → Steve Clough (University of Illinois at Urbana-Champaign)
+16:40 - 17:40 PM → CORTEVA’s representative
 
-16:15 - 16:40 → Break
+17:40 - 17:50 PM → “Roland Vencovsky” Award
 
-16:40 - 17:40 → CORTEVA’s representative
-
-17:40 - 17:50 → Award “Roland Vencovsky”
-
-17:50 - 18:00 → Closing remarks
+17:50 - 18:00 PM → Closing remarks
 
 <br>
 **October 6th, 2022**
 
-09:00 - 16:00 PM → MiniCourse - Dr. Juan E. Perez-Jaramillo (University of Antioquia, Medellín/Colombia) 
+09:00 - 16:00 PM → **MiniCourse** - Dr. Juan E. Perez-Jaramillo (University of Antioquia, Medellín/Colombia) 
 
 <br>
 **October 7th, 2022**
 
-09:00 - 16:00 PM → Dr. MiniCourse - Marco Antônio Nogueira (EMBRAPA/Brazil)
+09:00 - 16:00 PM → **MiniCourse** - Dr. Marco Antônio Nogueira (EMBRAPA/Brazil)
