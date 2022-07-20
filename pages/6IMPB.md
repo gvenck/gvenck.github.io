@@ -12,6 +12,8 @@ tags: [events, gvenck]
 <i>Understanding the plant-microbe interaction to innovative plant breeding</i></center>
 <br><br>
 
+<center><img src="../images/Flyer_VI_IMPB.png" height="300"> 
+
 Understand the plant-microbe interactions as a way to improve and provide new tools for plant breeding. The lectures and minicourses will present the new findings and studies on the subject, plus the basis for the audience to comprehend and hopefully be interested in the theme.
 
 ## Registration:
@@ -84,6 +86,3 @@ Understand the plant-microbe interactions as a way to improve and provide new to
 
 **October 7th, 2022**
 09:00 - 16:00 PM → Dr. MiniCourse - Marco Antônio Nogueira (EMBRAPA/Brazil)
-
-
-<img src="../images/Flyer_VI_IMPB.png" height="300"> 
