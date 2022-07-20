@@ -15,8 +15,10 @@ part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/hom
 #### October 5th, 2022
 [More information](../pages/6impb/)
 <br>
+
 <center><hr></center>
 
+<br>
 ### 5th INTERNATIONAL MEETING ON PLANT BREEDING
 *"Integrated Data Analysis as a Tool to Revolutionize Plant Breeding"*  
 part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries/)  
