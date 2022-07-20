@@ -13,10 +13,10 @@ tags: [events, gvenck]
 <br><br>
 
 <br>
-<center><img src="../images/Flyer_VI_IMPB.png" height="300" class="center">
+<center><img src="../images/Flyer_VI_IMPB.png" height="300""></center>
 <br>
 
-Understand the plant-microbe interactions as a way to improve and provide new tools for plant breeding. The lectures and minicourses will present the new findings and studies on the subject, plus the basis for the audience to comprehend and hopefully be interested in the theme.
+<p>Understand the plant-microbe interactions as a way to improve and provide new tools for plant breeding. The lectures and minicourses will present the new findings and studies on the subject, plus the basis for the audience to comprehend and hopefully be interested in the theme.</p>
 
 ## Registration:
 **Registration deadline**: **October 4th, 2022**  
