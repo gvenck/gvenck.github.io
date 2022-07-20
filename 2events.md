@@ -7,6 +7,13 @@ modified: 2018-04-18
 tags: [events, gvenck]
 
 ---
+<br>
+
+### 6th INTERNATIONAL MEETING ON PLANT BREEDING
+*"Understanding the plant-microbe interaction to innovative plant breeding"*  
+part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries/)  
+#### October 5th, 2022
+[More information](../pages/6impb/)
 
 <br>
 
