@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: main_5th
+layout: main_6th
 featured-img: ../images/banner.jpg
 ---
 
