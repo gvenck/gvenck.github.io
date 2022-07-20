@@ -7,15 +7,15 @@ modified: 2018-04-18
 tags: [events, gvenck]
 
 ---
-<br>
 
+<br>
 ### 6th INTERNATIONAL MEETING ON PLANT BREEDING
 *"Understanding the plant-microbe interaction to innovative plant breeding"*  
 part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries/)  
 #### October 5th, 2022
 [More information](../pages/6impb/)
-
 <br>
+<center><hr></center>
 
 ### 5th INTERNATIONAL MEETING ON PLANT BREEDING
 *"Integrated Data Analysis as a Tool to Revolutionize Plant Breeding"*  
@@ -31,7 +31,6 @@ part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/hom
 <center><hr></center>
 
 <br>
-
 ### PYTHON COURSE
 *"Introduction to Machine Learning"*  
 #### September 13 and 14th, 2021
@@ -41,7 +40,6 @@ part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/hom
 <center><hr></center>
 
 <br>
-
 ### WORKSHOP ON BIOMETRICS
 *"Workshop on Biometrics Applied to Plant Breeding"*  
 #### August 30th, 2021
@@ -51,7 +49,6 @@ part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/hom
 <center><hr></center>
 
 <br>
-
 ### PYTHON COURSE
 *"Python programming course"*  
 #### August 9-13th, 2021
@@ -61,7 +58,6 @@ part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/hom
 <center><hr></center>
 
 <br>
-
 ### WEBINAR SERIES
 *"Challenges in career development, people management and innovation in science"*  
 #### Live on YouTube every 15 days
@@ -71,7 +67,6 @@ part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/hom
 <center><hr></center>
 
 <br>
-
 ### 4th INTERNATIONAL MEETING ON PLANT BREEDING
 *"Uncovering the power and the secrets behind DNA modifications"*  
 part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries/)  
@@ -82,7 +77,6 @@ part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/hom
 <center><hr></center>
 
 <br>
-
 ### III INTERNATIONAL MEETING ON PLANT BREEDING
 *"New approaches on plant breeding: insights into artificial intelligence"*  
 part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries/)  
@@ -93,7 +87,6 @@ part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/hom
 <center><hr></center>
 
 <br>
-
 ### PYTHON COURSE
 *"Python programming course"*  
 #### September 4-6th, 2019
@@ -103,7 +96,6 @@ part of [**Corteva Plant Sciences Symposia Series**](https://www.pioneer.com/hom
 <center><hr></center>
 
 <br>
-
 ### II INTERGEN's
 part of "10th Brazilian Congress of Plant Breeding" in Águas de Lindóia - São Paulo  
 #### July 30th, 2019
