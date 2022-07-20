@@ -86,4 +86,4 @@ Understand the plant-microbe interactions as a way to improve and provide new to
 09:00 - 16:00 PM → Dr. MiniCourse - Marco Antônio Nogueira (EMBRAPA/Brazil)
 
 
-<img src="../images/Flyee_VI_IMPB.png" height="300"> 
+<img src="../images/Flyer_VI_IMPB.png" height="300"> 
