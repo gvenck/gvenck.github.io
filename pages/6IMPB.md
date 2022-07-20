@@ -12,20 +12,15 @@ tags: [events, gvenck]
 <i>Understanding the plant-microbe interaction to innovative plant breeding</i></center>
 <br><br>
 
-<br>
-<center><img src="../images/Flyer_VI_IMPB.png" height="300""></center>
-<br>
-
-<br>
-
-<center><hr></center>
-<br>
-
+<center><img src="../images/6thIMPB.png" height="200" width="auto"></center>
+<br><br>
 
 <p>Understand the plant-microbe interactions as a way to improve and provide new tools for plant breeding. The lectures and minicourses will present the new findings and studies on the subject, plus the basis for the audience to comprehend and hopefully be interested in the theme.</p>
 
+<center><hr></center>
+
 ## Registration:
-**Registration deadline**: **October 4th, 2022**  
+**Registration deadline** - _October 4th, 2022_  
 
 **Registration**: [Click here](https://fealq.org.br/eventos/6th-international-meeting-on-plant-breeding-integrated-data-analysis-as-a-tool-to-revolutionize-plant-breeding-2/)  
   
@@ -34,7 +29,7 @@ tags: [events, gvenck]
   
   
 ## Abstracts Submission:
-**Submission deadline**: **September 11th, 2022**
+**Submission deadline** - _September 11th, 2022_
 
 **Abstract submission**: [More Information Soon]() 
 
