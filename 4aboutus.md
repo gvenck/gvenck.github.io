@@ -34,9 +34,7 @@ Our main activities are:<br>
 # Members
 
 ## Coordination
-
-<br>
-     <div style="flex:1;padding-right:10px;">
+<div style="flex:1;padding-right:10px;">
           <img src="../images/baldin.jpg" width="200"/>
           <br>José Baldin Pinheiro<br>
           <br>Associate Professor<br>
@@ -45,13 +43,15 @@ Our main activities are:<br>
      </div>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/fernandac.jpeg" width="200"/>
+          <br>Fernanda Smaniotto Campion<br>
           <br>Master Student in Genetics and Plant Breeding<br>
           <br>Coordinator<br>
           <a 
-          href="http://lattes.cnpq.br/7363206320020147">View Lattes</a>
+          href="http://lattes.cnpq.br/7363164788569250">View Lattes</a>
      </div>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/Givanildo.jpeg" width="200"/>
+          <br>Givanildo Rodrigues da Silva<br>
           <br>PhD student in Genetics and Plant Breeding<br>
           <br>Coordinator<br>
           <a 
@@ -89,6 +89,31 @@ Our main activities are:<br>
 </div>
 	  
 ## Communication
+<div style="display:flex">
+     <div style="flex:1;padding-right:10px;">
+          <img src="../images/2022/leandrol.jpeg" width="200"/>
+          Master Student in Genetics and Plant Breeding<br>
+          Secretary Coordinator<br>
+          <a href="http://lattes.cnpq.br/8803120627880450">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/vitoriab.jpg" width="200"/>
+          Master Student in Genetics and Plant Breeding<br>
+          Communication Member<br>
+          <a href="http://lattes.cnpq.br/8803120627880450">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/brendam.jpeg" width="200"/>
+          Undergraduate student in Agricultural Engineering<br>
+          Secretary Member<br>
+     </div>
+</div>
+
+
+
+
+
+
 <table rules="none" align="center">
 	<tr>
 		<td>
@@ -114,18 +139,18 @@ Our main activities are:<br>
 <div style="display:flex">
      <div style="flex:1;padding-right:10px;">
           <img src="../images/2022/wendya.jpg" width="200"/>
-          <br>Undergraduate student in Agricultural Engineering<br>
-          <br>Secretary Coordinator<br>
+          Master Student in Genetics and Plant Breeding<br>
+          Secretary Coordinator<br>
      </div>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/Pedro_Souza.JPG" width="200"/>
-          <br>Undergraduate student in Agricultural Engineering<br>
-          <br>Secretary Member<br>
+          PhD Student in Genetics and Plant Breeding<br>
+          Secretary Member<br>
      </div>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/brendam.jpeg" width="200"/>
-          <br>Undergraduate student in Agricultural Engineering<br>
-          <br>Secretary Member<br>
+          Undergraduate student in Agricultural Engineering<br>
+          Secretary Member<br>
      </div>
 </div>
 
