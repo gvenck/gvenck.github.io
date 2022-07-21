@@ -33,13 +33,15 @@ tags: [events, gvenck]
 ## Abstracts Submission:
 **Submission deadline** - _September 11th, 2022_
 
-**Abstract submission**: [More Information Soon]() 
+**Abstract submission**: [Click Here](https://docs.google.com/forms/d/e/1FAIpQLSctiq2ZBX44H4zsbY4r2gemh0LfE31DB4plGo23_fCPV_E3rg/viewform?vc=0&c=0&w=1&flr=0) 
 
 **Abstract rules**: [Click here](../files/Rules_for_abstract_submissions.docx)
 
 **Abstract example**: [Click here](../files/ABSTRACT_EXAMPLE.docx)
 
-**Poster model**: [More Information Soon]()  
+**Poster model for PRESENTIAL presentation**: [Click Here](../files/6IMPB_POSTER_PRESENCIAL.pptx)
+
+**Poster model for ONLINE presentation**: [Click Here](../files/6IMPB_POSTER_ONLINE.pptx)  
 
 **Roland Vencovsky Award Rules**: [Click here](../files/Rules_Roland_Vencovsky_Award.docx)
 <br>
@@ -71,7 +73,7 @@ tags: [events, gvenck]
 
 15:00 - 15:15 PM → Research Presentation
 
-15:15 - 16:15 PM → Steve Clough (University of Illinois at Urbana-Champaign)
+15:15 - 16:15 PM → Steve Clough (USDA-ARS on the University of Illinois campus, Urbana, IL)
 
 16:15 - 16:40 PM → **Break**
 
