@@ -94,9 +94,9 @@ href="http://lattes.cnpq.br/7363206320020147">View Lattes</a></div>
 		</td>
 		<td>
 			<center>
-				<img src="../images/2022/vitoriab.jpg" height="200" />
+				<img src="../images/2022/vitoriab.jpg" height="150" />
 				<br/>
-				<font color="AAAAAA">Vitória Bizão</font>
+				<font color="AAAAAA">Vitória Bizão<br>(Master Student)</font>
 			</center>
 		</td>
 	</tr>
@@ -114,6 +114,8 @@ href="http://lattes.cnpq.br/7363206320020147">View Lattes</a></div>
      </div>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/brendam.jpeg" width="400"/>
+          <br>
+          Undergraduate student in Agricultural Engineering <br>Scientific Member
      </div>
 </div>
 
