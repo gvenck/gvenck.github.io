@@ -34,105 +34,126 @@ Our main activities are:<br>
 # Members
 
 ## Coordination
-<div style="flex:1;padding-right:10px;">
-          <img src="../images/baldin.jpg" width="200"/>
-          <br>José Baldin Pinheiro<br>
-          <br>Associate Professor<br>
-          <a 
-          href="http://lattes.cnpq.br/7363206320020147">View Lattes</a>
+<br>
+
+<div style="display:flex">
+     <div style="flex:1;padding-right:10px;">
+          <img src="../images/2022/leandrol.jpeg" width="200"/>
+          Leandro Luis Lavandosque<br>
+          Undergraduate student in Agricultural Engineering<br>
+          Communication Coordinator<br>
+          <a href="http://lattes.cnpq.br/3384624719720013">View Lattes</a>
      </div>
      <div style="flex:1;padding-left:10px;">
-          <img src="../images/2022/fernandac.jpeg" width="200"/>
-          <br>Fernanda Smaniotto Campion<br>
-          <br>Master Student in Genetics and Plant Breeding<br>
-          <br>Coordinator<br>
-          <a 
-          href="http://lattes.cnpq.br/7363164788569250">View Lattes</a>
+          <img src="../images/2022/vitoriab.jpg" width="200"/>
+          Vitória Bizão Murakami<br>
+          Master Student in Genetics and Plant Breeding<br>
+          Communication Member<br>
+          <a href="http://lattes.cnpq.br/9957782887703497">View Lattes</a>
      </div>
      <div style="flex:1;padding-left:10px;">
-          <img src="../images/2022/Givanildo.jpeg" width="200"/>
-          <br>Givanildo Rodrigues da Silva<br>
-          <br>PhD student in Genetics and Plant Breeding<br>
-          <br>Coordinator<br>
-          <a 
-          href="http://lattes.cnpq.br/8593969618027896">View Lattes</a>
+          <img src="../images/2022/heloisad.jpeg" width="200"/>
+          Heloisa Defant
+          Master Student in Genetics and Plant Breeding<br>
+          Communication Member<br>
+          <a href="http://lattes.cnpq.br/3654246179107508">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/guilhermel.jpeg" width="200"/>
+          Guilherme Alexandre Luz da Costa
+          PhD Student in Genetics and Plant Breeding<br>
+          Communication Member<br>
+          <a href="http://lattes.cnpq.br/3369602915210119">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/Eloisa.jpg" width="200"/>
+          Eloísa Torrezan
+          Master Student in Genetics and Plant Breeding<br>
+          Communication Member<br>
+          <a href="http://lattes.cnpq.br/2859175331353261">View Lattes</a>
      </div>
 </div>
 
 
 ## Scientific
 <br>
-<div id="featured">
-	      <div class="column1">
-	<br>	
-    <div class="column1"><img src="../images/2022/gabriels.jpeg" style="align: center; width: 40%; height: 40%;"></div>
-    <div class="column2"><strong>Gabriel Henrique S. S. Salgado</strong><br>PhD student in Genetics and Plant Breeding<br>Scientific Coordinator<br><a href="http://lattes.cnpq.br/9988648744425103">View Lattes</a></div>
-  </div>
-  
-	<div class="column2">
-	  <br>
-    <div class="column1"><img src="../images/2022/Gabriel_Mamedio.jpeg" style="align: center; width: 40%; height: 40%;"></div>
-    <div class="column2"><strong>Gabriel Mamedio de Freitas</strong><br>PhD student in Genetics and Plant Breeding<br>Sientific Member<br><a href="http://lattes.cnpq.br/8803120627880450">View Lattes</a></div>
-  </div>
 
-	<div class="column3">
-	  <br>
-        <div class="column1"><img src="../images/2022/talissaf.jpeg" style="align: center; width: 40%; height: 40%;"></div>
-        <div class="column2"><strong>Talissa de Oliveira Floriani</strong><br>Master student in Genetics and Plant Breeding<br>Scientific Member<br><a href="http://lattes.cnpq.br/7372990970696637">View Lattes</a></div>
-  </div>
-
-	    <div class="column4">
-	    <br>  
-        <div class="column1"><img src="../images/2022/Marina_Cunha.jpg" style="align: center; width: 40%; height: 40%;"></div>
-        <div class="column2"><strong>Marina Cunha Bernardes</strong><br>Undergraduate student in Agricultural Engineering <br>Scientific Member<br><a href="http://lattes.cnpq.br/6651383213767329">View Lattes</a></div>
-	    </div>
+<div style="display:flex">
+     <div style="flex:1;padding-right:10px;">
+          <img src="../images/2022/leandrol.jpeg" width="200"/>
+          Leandro Luis Lavandosque<br>
+          Undergraduate student in Agricultural Engineering<br>
+          Communication Coordinator<br>
+          <a href="http://lattes.cnpq.br/3384624719720013">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/vitoriab.jpg" width="200"/>
+          Vitória Bizão Murakami<br>
+          Master Student in Genetics and Plant Breeding<br>
+          Communication Member<br>
+          <a href="http://lattes.cnpq.br/9957782887703497">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/heloisad.jpeg" width="200"/>
+          Heloisa Defant
+          Master Student in Genetics and Plant Breeding<br>
+          Communication Member<br>
+          <a href="http://lattes.cnpq.br/3654246179107508">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/guilhermel.jpeg" width="200"/>
+          Guilherme Alexandre Luz da Costa
+          PhD Student in Genetics and Plant Breeding<br>
+          Communication Member<br>
+          <a href="http://lattes.cnpq.br/3369602915210119">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/Eloisa.jpg" width="200"/>
+          Eloísa Torrezan
+          Master Student in Genetics and Plant Breeding<br>
+          Communication Member<br>
+          <a href="http://lattes.cnpq.br/2859175331353261">View Lattes</a>
+     </div>
 </div>
 	  
 ## Communication
 <div style="display:flex">
      <div style="flex:1;padding-right:10px;">
           <img src="../images/2022/leandrol.jpeg" width="200"/>
-          Master Student in Genetics and Plant Breeding<br>
-          Secretary Coordinator<br>
-          <a href="http://lattes.cnpq.br/8803120627880450">View Lattes</a>
+          Leandro Luis Lavandosque<br>
+          Undergraduate student in Agricultural Engineering<br>
+          Communication Coordinator<br>
+          <a href="http://lattes.cnpq.br/3384624719720013">View Lattes</a>
      </div>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/vitoriab.jpg" width="200"/>
+          Vitória Bizão Murakami<br>
           Master Student in Genetics and Plant Breeding<br>
           Communication Member<br>
-          <a href="http://lattes.cnpq.br/8803120627880450">View Lattes</a>
+          <a href="http://lattes.cnpq.br/9957782887703497">View Lattes</a>
      </div>
      <div style="flex:1;padding-left:10px;">
-          <img src="../images/2022/brendam.jpeg" width="200"/>
-          Undergraduate student in Agricultural Engineering<br>
-          Secretary Member<br>
+          <img src="../images/2022/heloisad.jpeg" width="200"/>
+          Heloisa Defant
+          Master Student in Genetics and Plant Breeding<br>
+          Communication Member<br>
+          <a href="http://lattes.cnpq.br/3654246179107508">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/guilhermel.jpeg" width="200"/>
+          Guilherme Alexandre Luz da Costa
+          PhD Student in Genetics and Plant Breeding<br>
+          Communication Member<br>
+          <a href="http://lattes.cnpq.br/3369602915210119">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/Eloisa.jpg" width="200"/>
+          Eloísa Torrezan
+          Master Student in Genetics and Plant Breeding<br>
+          Communication Member<br>
+          <a href="http://lattes.cnpq.br/2859175331353261">View Lattes</a>
      </div>
 </div>
-
-
-
-
-
-
-<table rules="none" align="center">
-	<tr>
-		<td>
-			<center>
-				<img src="../images/2022/leandrol.jpeg" height="150" />
-				<br/>
-				<font color="AAAAAA">Leandro Lavandosque</font>
-			</center>
-		</td>
-		<td>
-			<center>
-				<img src="../images/2022/vitoriab.jpg" height="150" />
-				<br/>
-				<font color="AAAAAA">Vitória Bizão<br>(Master Student)</font>
-			</center>
-		</td>
-	</tr>
-</table>
-
 
 
 ## Secretary
