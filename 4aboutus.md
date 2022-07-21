@@ -87,14 +87,14 @@ href="http://lattes.cnpq.br/7363206320020147">View Lattes</a></div>
 	<tr>
 		<td>
 			<center>
-				<img src="../images/2022/leandrol.jpeg" />
+				<img src="../images/2022/leandrol.jpeg" height="150" />
 				<br/>
 				<font color="AAAAAA">Leandro Lavandosque</font>
 			</center>
 		</td>
 		<td>
 			<center>
-				<img src="../images/2022/vitoriab.jpg" width="60%" />
+				<img src="../images/2022/vitoriab.jpg" height="200" />
 				<br/>
 				<font color="AAAAAA">Vitória Bizão</font>
 			</center>
