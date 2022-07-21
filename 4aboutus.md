@@ -49,13 +49,40 @@ href="http://lattes.cnpq.br/7363206320020147">View Lattes</a></div>
   </div>
   
   <div class="column3">
-    <div class="column1"><img src="images/Givanildo.jpeg" style="align: center; width: 40%; height: 40%;"></div>
+    <div class="column1"><img src="../images/2022/Givanildo.jpeg" style="align: center; width: 40%; height: 40%;"></div>
     <div class="column2"><strong>Givanildo Rodrigues da Silva</strong><br>PhD student in Genetics and Plant Breeding<br>Coordinator<br><a href="http://lattes.cnpq.br/8593969618027896">View Lattes</a></div>
   </div>
-  </div>
+  
+</div>
 
 ### Scientific
+<div id="featured">
+	      <div class="column1">
+	<br>	
+    <div class="column1"><img src="../images/2022/gabriels.jpeg" style="align: center; width: 40%; height: 40%;"></div>
+    <div class="column2"><strong>Gabriel Henrique S. S. Salgado</strong><br>PhD student in Genetics and Plant Breeding<br>Scientific Coordinator<br><a href="http://lattes.cnpq.br/9988648744425103">View Lattes</a></div>
+  </div>
+  
+	<div class="column2">
+	  <br>
+    <div class="column1"><img src="../images/2022/Gabriel_Mamedio.jpeg" style="align: center; width: 40%; height: 40%;"></div>
+    <div class="column2"><strong>Gabriel Mamedio de Freitas</strong><br>PhD student in Genetics and Plant Breeding<br>Sientific Member<br><a href="http://lattes.cnpq.br/8803120627880450">View Lattes</a></div>
+  </div>
 
+	<div class="column3">
+	  <br>
+        <div class="column1"><img src="../images/2022/talissaf.jpeg" style="align: center; width: 40%; height: 40%;"></div>
+        <div class="column2"><strong>Talissa de Oliveira Floriani</strong><br>Master student in Genetics and Plant Breeding<br>Scientific Member<br><a href="http://lattes.cnpq.br/7372990970696637">View Lattes</a></div>
+  </div>
+
+	    <div class="column4">
+	    <br>  
+        <div class="column1"><img src="../images/2022/Marina_Cunha.jpg" style="align: center; width: 40%; height: 40%;"></div>
+        <div class="column2"><strong>Marina Cunha Bernardes</strong><br>Undergraduate student in Agricultural Engineering <br>Scientific Member<br><a href="http://lattes.cnpq.br/6651383213767329">View Lattes</a></div>
+	    </div>
+
+	  </div>
+	  
 ### Communication
 
 ### Secretary
@@ -63,6 +90,8 @@ href="http://lattes.cnpq.br/7363206320020147">View Lattes</a></div>
 ### Logistic
 
 ### Treasury
+
+### Former Members
 
 <img src="../images/baldin.jpg" height="120">{: .image-pull-right}  
 **José Baldin Pinheiro**  
