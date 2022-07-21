@@ -94,7 +94,7 @@ href="http://lattes.cnpq.br/7363206320020147">View Lattes</a></div>
 		</td>
 		<td>
 			<center>
-				<img src="vitoriab.jpg" width="60%" />
+				<img src="../images/2022/vitoriab.jpg" width="60%" />
 				<br/>
 				<font color="AAAAAA">Vitória Bizão</font>
 			</center>
@@ -105,6 +105,18 @@ href="http://lattes.cnpq.br/7363206320020147">View Lattes</a></div>
 
 
 ### Secretary
+<div style="display:flex">
+     <div style="flex:1;padding-right:10px;">
+          <img src="../images/2022/wendya.jpg" width="200"/>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/Pedro_Souza.JPG" width="300"/>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/brendam.jpeg" width="400"/>
+     </div>
+</div>
+
 
 ### Logistic
 
