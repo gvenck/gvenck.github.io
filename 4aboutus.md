@@ -34,254 +34,266 @@ Our main activities are:<br>
 # Members
 
 ## Coordination
-<br>
-
 <div style="display:flex">
      <div style="flex:1;padding-right:10px;">
-          <img src="../images/2022/leandrol.jpeg" width="200"/>
-          Leandro Luis Lavandosque<br>
-          Undergraduate student in Agricultural Engineering<br>
-          Communication Coordinator<br>
-          <a href="http://lattes.cnpq.br/3384624719720013">View Lattes</a>
+          <img src="../images/baldin.jpg" width="200"/>
+          <b>José Baldin Pinheiro</b><br>
+          Associate Professor<br>
+          Coordinator<br>
+          <a href="http://lattes.cnpq.br/7363206320020147">View Lattes</a>
      </div>
      <div style="flex:1;padding-left:10px;">
-          <img src="../images/2022/vitoriab.jpg" width="200"/>
-          Vitória Bizão Murakami<br>
+          <img src="../images/2022/fernandac.jpeg" width="200"/>
+          <b>Fernanda Smaniotto Campion</b><br>
           Master Student in Genetics and Plant Breeding<br>
-          Communication Member<br>
-          <a href="http://lattes.cnpq.br/9957782887703497">View Lattes</a>
+          Cooordinator<br>
+          <a href="http://lattes.cnpq.br/7363164788569250">View Lattes</a>
      </div>
      <div style="flex:1;padding-left:10px;">
-          <img src="../images/2022/heloisad.jpeg" width="200"/>
-          Heloisa Defant
-          Master Student in Genetics and Plant Breeding<br>
-          Communication Member<br>
-          <a href="http://lattes.cnpq.br/3654246179107508">View Lattes</a>
-     </div>
-     <div style="flex:1;padding-left:10px;">
-          <img src="../images/2022/guilhermel.jpeg" width="200"/>
-          Guilherme Alexandre Luz da Costa
+          <img src="../images/2022/Givanildo.jpeg" width="200"/>
+          <b>Givanildo Rodrigues da Silva</b>
           PhD Student in Genetics and Plant Breeding<br>
-          Communication Member<br>
-          <a href="http://lattes.cnpq.br/3369602915210119">View Lattes</a>
-     </div>
-     <div style="flex:1;padding-left:10px;">
-          <img src="../images/2022/Eloisa.jpg" width="200"/>
-          Eloísa Torrezan
-          Master Student in Genetics and Plant Breeding<br>
-          Communication Member<br>
-          <a href="http://lattes.cnpq.br/2859175331353261">View Lattes</a>
+          Coordinator<br>
+          <a href="http://lattes.cnpq.br/8593969618027896">View Lattes</a>
      </div>
 </div>
 
+<br>
 
 ## Scientific
-<br>
-
 <div style="display:flex">
      <div style="flex:1;padding-right:10px;">
-          <img src="../images/2022/leandrol.jpeg" width="200"/>
-          Leandro Luis Lavandosque<br>
-          Undergraduate student in Agricultural Engineering<br>
-          Communication Coordinator<br>
-          <a href="http://lattes.cnpq.br/3384624719720013">View Lattes</a>
-     </div>
-     <div style="flex:1;padding-left:10px;">
-          <img src="../images/2022/vitoriab.jpg" width="200"/>
-          Vitória Bizão Murakami<br>
-          Master Student in Genetics and Plant Breeding<br>
-          Communication Member<br>
-          <a href="http://lattes.cnpq.br/9957782887703497">View Lattes</a>
-     </div>
-     <div style="flex:1;padding-left:10px;">
-          <img src="../images/2022/heloisad.jpeg" width="200"/>
-          Heloisa Defant
-          Master Student in Genetics and Plant Breeding<br>
-          Communication Member<br>
-          <a href="http://lattes.cnpq.br/3654246179107508">View Lattes</a>
-     </div>
-     <div style="flex:1;padding-left:10px;">
-          <img src="../images/2022/guilhermel.jpeg" width="200"/>
-          Guilherme Alexandre Luz da Costa
+          <img src="../images/2022/gabriels.jpeg" width="200"/>
+          <b>Gabriel Henrique S. S. Salgado</b><br>
           PhD Student in Genetics and Plant Breeding<br>
-          Communication Member<br>
-          <a href="http://lattes.cnpq.br/3369602915210119">View Lattes</a>
+          Scientific Coordinator<br>
+          <a href="http://lattes.cnpq.br/9988648744425103">View Lattes</a>
      </div>
      <div style="flex:1;padding-left:10px;">
-          <img src="../images/2022/Eloisa.jpg" width="200"/>
-          Eloísa Torrezan
+          <img src="../images/2022/talissaf.jpeg" width="200"/>
+          <b>Talissa de Oliveira Floriani</b><br>
           Master Student in Genetics and Plant Breeding<br>
-          Communication Member<br>
-          <a href="http://lattes.cnpq.br/2859175331353261">View Lattes</a>
+          Scientific Member<br>
+          <a href="http://lattes.cnpq.br/7372990970696637">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/Gabriel_Mamedio.jpeg" width="200"/>
+          <b>Gabriel Mamedio de Freitas</b><br>
+          PhD Student in Genetics and Plant Breeding<br>
+          Scientific Member<br>
+          <a href="http://lattes.cnpq.br/8803120627880450">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/Marina_Cunha.jpg" width="200"/>
+          <b>Marina Cunha Bernardes</b><br>
+          Undergraduate student in Agricultural Engineering<br>
+          Scientific Member<br>
+          <a href="http://lattes.cnpq.br/6651383213767329">View Lattes</a>
      </div>
 </div>
+
+<br>
 	  
 ## Communication
 <div style="display:flex">
      <div style="flex:1;padding-right:10px;">
           <img src="../images/2022/leandrol.jpeg" width="200"/>
-          Leandro Luis Lavandosque<br>
+          <b>Leandro Luis Lavandosque</b><br>
           Undergraduate student in Agricultural Engineering<br>
           Communication Coordinator<br>
           <a href="http://lattes.cnpq.br/3384624719720013">View Lattes</a>
      </div>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/vitoriab.jpg" width="200"/>
-          Vitória Bizão Murakami<br>
+          <b>Vitória Bizão Murakami</b><br>
           Master Student in Genetics and Plant Breeding<br>
           Communication Member<br>
           <a href="http://lattes.cnpq.br/9957782887703497">View Lattes</a>
      </div>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/heloisad.jpeg" width="200"/>
-          Heloisa Defant
+          <b>Heloisa Defant</b><br>
           Master Student in Genetics and Plant Breeding<br>
           Communication Member<br>
           <a href="http://lattes.cnpq.br/3654246179107508">View Lattes</a>
      </div>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/guilhermel.jpeg" width="200"/>
-          Guilherme Alexandre Luz da Costa
+          <b>Guilherme Alexandre Luz da Costa</b><br>
           PhD Student in Genetics and Plant Breeding<br>
           Communication Member<br>
           <a href="http://lattes.cnpq.br/3369602915210119">View Lattes</a>
      </div>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/Eloisa.jpg" width="200"/>
-          Eloísa Torrezan
+          <b>Eloísa Torrezan</b><br>
           Master Student in Genetics and Plant Breeding<br>
           Communication Member<br>
           <a href="http://lattes.cnpq.br/2859175331353261">View Lattes</a>
      </div>
 </div>
 
+<br>
 
 ## Secretary
 <div style="display:flex">
      <div style="flex:1;padding-right:10px;">
           <img src="../images/2022/wendya.jpg" width="200"/>
+          <b>Wendy Abregu Olarte</b><br>
           Master Student in Genetics and Plant Breeding<br>
           Secretary Coordinator<br>
+          <a href="http://lattes.cnpq.br/5054842534213220">View Lattes</a>
      </div>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/Pedro_Souza.JPG" width="200"/>
+          <b>Pedro Henrique de Souza</b><br>
           PhD Student in Genetics and Plant Breeding<br>
           Secretary Member<br>
+          <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do;jsessionid=CE9066DC57B601F0FCF413688F7BFF17">View Lattes</a>
      </div>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/brendam.jpeg" width="200"/>
+          <b>Brenda Monis Moreno</b><br>
           Undergraduate student in Agricultural Engineering<br>
           Secretary Member<br>
+          <a href="http://lattes.cnpq.br/8361394259270500">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/Daniele.jpg" width="200"/>
+          <b>Daniele Cristine de Lima Bononi</b><br>
+          Master Student in Genetics and Plant Breeding<br>
+          Secretary Member<br>
+          <a href="http://lattes.cnpq.br/9170720787370202">View Lattes</a>
      </div>
 </div>
 
+<br>
 
 ### Logistic
+<div style="display:flex">
+     <div style="flex:1;padding-right:10px;">
+          <img src="../images/2022/rafaelr.jpg" width="200"/>
+          <b>Rafael Henrique Roque</b><br>
+          PhD Student in Forest Resources<br>
+          Logistic Coordinator<br>
+          <a href="http://lattes.cnpq.br/7347089552565172">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/Fabio_Rangel.jpeg" width="200"/>
+          <b>Fábio Rangel</b><br>
+          Master Student in Forest Resources<br>
+          Logistic Member<br>
+          <a href="http://lattes.cnpq.br/2138561830798520">View Lattes</a>
+     </div>
+</div>
+
+<br>
 
 ### Treasury
+<div style="display:flex">
+     <div style="flex:1;padding-right:10px;">
+          <img src="../images/2022/adrianom.jpeg" width="200"/>
+          <b>Adriano Abreu Moreira</b><br>
+          Master Student in Genetics and Plant Breeding<br>
+          Treasury Coordinator<br>
+          <a href="http://lattes.cnpq.br/3915414237857476">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/maiarao.jpg" width="200"/>
+          <b>Maiara de Oliveira</b><br>
+          PhD Student in Genetics and Plant Breeding<br>
+          Treasury Member<br>
+          <a href="http://lattes.cnpq.br/4034287686617912">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/2022/Leonardo_Martins.jpg" width="200"/>
+          <b>Leonardo Martins Brandão</b><br>
+          Master Student in Genetics and Plant Breeding<br>
+          Treasury Member<br>
+          <a href="http://lattes.cnpq.br/2592847505428836">View Lattes</a>
+     </div>
+</div>
 
+<br>
 ### Former Members
+<div style="display:flex">
+     <div style="flex:1;padding-right:10px;">
+          <img src="../images/patriciab.jpeg" width="200"/>
+          <b>Patricia Braga</b><br>
+          PhD student in Agricultural Engineering<br>
+          Quantitative Genetics and Autogamous Plant Breeding<br>
+          <a href="http://lattes.cnpq.br/7363206320020147">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/melinap.jpeg" width="200"/>
+          <b>Melina Prado</b><br>
+          PhD Student in Genetics and Plant Breeding<br>
+          Quantitative genetics and allogamous plant breeding<br>
+          <a href="https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=9A7DC42CC831AAEC8DFAD077227E3E70">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/gustavon.jpg" width="200"/>
+          <b>Gustavo Nandi</b><br>
+          Master Student in Genetics and Plant Breeding<br>
+          Tomato Breeding<br>
+          <a href="http://lattes.cnpq.br/9516630603241808">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/talieisse.jpg" width="200"/>
+          <b>Talieisse Gomes Fagundes</b><br>
+          PhD Student in Genetics and Plant Breeding<br>
+          Quantitative Genetics and Autogamous Plant Breeding<br>
+          <a href="http://lattes.cnpq.br/7911641059149454">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/jessicaf.jpg" width="200"/>
+          <b>Jessica Aparecida Ferrarezi</b><br>
+          PhD Student in Genetics and Plant Breeding<br>
+          Genetics of plant-microbe interactions<br>
+          <a href="http://lattes.cnpq.br/2859175331353261">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/robertav.jpg" width="200"/>
+          <b>Roberta Vidal</b><br>
+          PhD Student in Genetics and Plant Breeding<br>
+          <a href="http://lattes.cnpq.br/4851731402742550">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/melissam.jpeg" width="200"/>
+          <b>Melissa Cristina de Carvalho Miranda</b><br>
+          PhD Student in Genetics and Plant Breeding<br>
+          <a href="http://lattes.cnpq.br/5790065585486077">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src=../images/elleng.jpg" width="200"/>
+          <b>Ellen Grous</b><br>
+          Undergraduate student in Agricultural Engineering<br>
+          <a href="http://lattes.cnpq.br/5203742893016033">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src=../images/eduardov.jpg" width="200"/>
+          <b>Eduardo Velloso de Oliveira</b><br>
+          Undergraduate student in Agricultural Engineering<br>
+          <a href="https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=C770EFD89FE12937DD80560FFD1E78FF">View Lattes</a>
+     </div> 
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/felipek.jpg" width="200"/>
+          <b>Felipe Augusto Krause</b><br>
+          Master student in Genetics and Plant Breeding<br>
+          Quantitative Genetics and Autogamous Plant Breeding<br>
+          <a href="http://lattes.cnpq.br/1374315899395717">View Lattes</a>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="../images/felipek.jpg" width="200"/>
+          <b>Felipe Augusto Krause</b><br>
+          Master student in Genetics and Plant Breeding<br>
+          Quantitative Genetics and Autogamous Plant Breeding<br>
+          <a href="http://lattes.cnpq.br/2859175331353261">View Lattes</a>
+     </div>
+</div>
 
-<img src="../images/baldin.jpg" height="120">{: .image-pull-right}  
-**José Baldin Pinheiro**  
-Associate Professor  
-Genetics and Plant Breeding  
-[View Lattes](http://lattes.cnpq.br/7363206320020147)  
-  
+<br>
 
-<img src="../images/patriciab.jpeg" height="120">{: .image-pull-right}  
-**Patricia Braga**  
-PhD student in Genetics and Plant Breeding  
-Quantitative Genetics and Autogamous Plant Breeding   
-[View Lattes](http://lattes.cnpq.br/4418901360405098)
-
-<img src="../images/melinap.jpeg" height="120">{: .image-pull-right}  
-**Melina Prado**  
-PhD student in Genetics and Plant Breeding  
-Quantitative genetics and allogamous plant breeding  
-[View Lattes](https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=9A7DC42CC831AAEC8DFAD077227E3E70)
-  
-<img src="../images/gustavon.jpg" height="120">{: .image-pull-right}  
-**Gustavo Nandi**  
-Master student in Genetics and Plant Breeding  
-Tomato Breeding  
-[View Lattes](http://lattes.cnpq.br/9516630603241808)
-
-<img src="../images/vitoriab.jpg" height="120">{: .image-pull-right}  
-**Vitória Bizão**  
-Master student in Genetics and Plant Breeding  
-Statistical Genetics - Genotype-by-Environment Interaction  
-[View Lattes](http://lattes.cnpq.br/9957782887703497)
-
-<img src="../images/fernandac.jpeg" height="120">{: .image-pull-right}  
-**Fernanda Smaniotto Campion**  
-Master student in Genetics and Plant Breeding  
-Quantitative Genetics and Autogamous Plant Breeding  
-[View Lattes](http://lattes.cnpq.br/7363164788569250)
-
-<img src="../images/adrianom.jpeg" height="120">{: .image-pull-right}  
-**Adriano Abreu Moreira**  
-Master student in Genetics and Plant Breeding  
-Quantitative Genetics and Autogamous Plant Breeding  
-[View Lattes](http://lattes.cnpq.br/3915414237857476)
-
-<img src="../images/talieisse.jpg" height="120">{: .image-pull-right}  
-**Talieisse Gomes Fagundes**  
-PhD student in Genetics and Plant Breeding  
-Quantitative Genetics and Autogamous Plant Breeding  
-[View Lattes](http://lattes.cnpq.br/7911641059149454)
-
-<img src="../images/jessicaf.jpg" height="120">{: .image-pull-right}  
-**Jessica Aparecida Ferrarezi**  
-PhD student in Genetics and Plant Breeding  
-Genetics of plant-microbe interactions  
-[View Lattes](http://lattes.cnpq.br/6198697257487157)
-
-<img src="../images/maiarao.jpg" height="120">{: .image-pull-right}  
-**Maiara de Oliveira**  
-PhD student in Genetics and Plant Breeding  
-Quantitative Genetics and Autogamous Plant Breeding  
-[View Lattes](http://lattes.cnpq.br/4034287686617912)  
-  
-<img src="../images/robertav.jpg" height="120">{: .image-pull-right}  
-**Roberta Vidal**  
-PhD student in Genetics and Plant Breeding  
- 
-[View Lattes](http://lattes.cnpq.br/4851731402742550)
-
-<img src="../images/melissam.jpeg" height="120">{: .image-pull-right}  
-**Melissa Cristina de Carvalho Miranda**  
-PhD student in Genetics and Plant Breeding  
- 
-[View Lattes](http://lattes.cnpq.br/5790065585486077)
-
-<img src="../images/elleng.jpg" height="120">{: .image-pull-right}  
-**Ellen Grous**  
-Undergraduate student in Agricultural Engineering  
-[View Lattes](http://lattes.cnpq.br/5203742893016033)
-
-<img src="../images/eduardov.jpg" height="120">{: .image-pull-right}  
-**Eduardo Velloso de Oliveira**  
-Undergraduate student in Agricultural Engineering  
-[View Lattes](https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=C770EFD89FE12937DD80560FFD1E78FF)
-
-<img src="../images/felipek.jpg" height="120">{: .image-pull-right}  
-**Felipe Augusto Krause**  
-Master student in Genetics and Plant Breeding  
-Quantitative Genetics and Autogamous Plant Breeding  
-[View Lattes](http://lattes.cnpq.br/1374315899395717)
-
-<img src="../images/rafaelr.jpg" height="120">{: .image-pull-right}  
-**Rafael Roque**  
-PhD student in Forest Resources  
-Population Genetics and Conservation of Forest Species  
-[View Lattes](http://lattes.cnpq.br/7347089552565172)
-
-<img src="../images/gabriels.jpeg" height="120">{: .image-pull-right}  
-**Gabriel Henrique S. S. Salgado**  
-PhD student in Genetics and Plant Breeding  
-Plant-Insect-Pathogen Interactions  
-[View Lattes](http://lattes.cnpq.br/9988648744425103)
 
 <img src="../images/eriks.JPG" height="120">{: .image-pull-right}  
 **Erik Micael da Silva Souza**  
@@ -289,22 +301,6 @@ PhD student in Genetics and Plant Breeding
 Quantitative genetics and Horticultural Breeding  
 [View Lattes]()
 
-<img src="../images/givanildo.jpg" height="120">{: .image-pull-right}  
-**Givanildo Rodrigues da Silva**  
-PhD student in Genetics and Plant Breeding  
-Horticultural plant breeding  
-[View Lattes](http://lattes.cnpq.br/8593969618027896)
-
-<img src="../images/wendya.jpg" height="120">{: .image-pull-right}  
-**Wendy Abregu**  
-Master student in Genetics and Plant Breeding   
-Molecular Genetics Laboratory of Cultivated Plants  
-[View Lattes]()
-
-<img src="../images/leandrol.jpeg" height="120">{: .image-pull-right}  
-**Leandro Luis Lavandosque**  
-Undergraduate student in Agricultural Engineering  
-[View Lattes](http://lattes.cnpq.br/3384624719720013)
 
 <img src="../images/juliaw.jpeg" height="120">{: .image-pull-right}  
 **Julia Wisnieski**  
