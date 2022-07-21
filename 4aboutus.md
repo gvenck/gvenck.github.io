@@ -37,16 +37,14 @@ Our main activities are:<br>
     <div id="featured">
   <div class="column1">
     <div class="column1"><img src="../images/baldin.jpg" style="align: center; width: 40%; height: 40%;"></div>
-      <div class="column2"><strong>José Baldin Pinheiro</strong><br>Associate Professor<br>Genetics and Plant Breeding<br><a href="">View Lattes</a></div>
+      <div class="column2"><strong>José Baldin Pinheiro</strong><br>Associate Professor<br>Genetics and Plant Breeding<br><a href="http://lattes.cnpq.br/7363206320020147">View Lattes</a></div>
   </div>
 
-<div style="font-size: 1.5em; text-align: center;">
-    <div id="featured">
-  <div class="column1">
-    <div class="column1"><img src="../images/baldin.jpg" style="align: center; width: 40%; height: 40%;"></div>
-      <div class="column2"><strong>José Baldin Pinheiro</strong><br>Associate Professor<br>Genetics and Plant Breeding<br><a [View Lattes](http://lattes.cnpq.br/7363206320020147)</a></div>
+  <div class="column2">
+    <div class="column1"><img src="../images/2022/adrianom.jpeg" style="align: center; width: 40%; height: 40%;"></div>
+    <div class="column2"><strong>Renan Silva e Souza</strong><br>PhD student in Genetics and Plant Breeding<br>Soybean Breeding<br><a href="">View Lattes</a></div>
   </div>
-
+  
 <img src="../images/baldin.jpg" height="120">{: .image-pull-right}  
 **José Baldin Pinheiro**  
 Associate Professor  
