@@ -33,8 +33,8 @@ Our main activities are:<br>
 
 ## Members
 
-### Coordination
-
+## Coordination
+<br>
 <div style="font-size: 1.5em; text-align: center;">
     <div id="featured">
   <div class="column1">
@@ -52,10 +52,10 @@ href="http://lattes.cnpq.br/7363206320020147">View Lattes</a></div>
     <div class="column1"><img src="../images/2022/Givanildo.jpeg" style="align: center; width: 40%; height: 40%;"></div>
     <div class="column2"><strong>Givanildo Rodrigues da Silva</strong><br>PhD student in Genetics and Plant Breeding<br>Coordinator<br><a href="http://lattes.cnpq.br/8593969618027896">View Lattes</a></div>
   </div>
-  
 </div>
 
-### Scientific
+## Scientific
+<br>
 <div id="featured">
 	      <div class="column1">
 	<br>	
@@ -80,8 +80,7 @@ href="http://lattes.cnpq.br/7363206320020147">View Lattes</a></div>
         <div class="column1"><img src="../images/2022/Marina_Cunha.jpg" style="align: center; width: 40%; height: 40%;"></div>
         <div class="column2"><strong>Marina Cunha Bernardes</strong><br>Undergraduate student in Agricultural Engineering <br>Scientific Member<br><a href="http://lattes.cnpq.br/6651383213767329">View Lattes</a></div>
 	    </div>
-
-	  </div>
+</div>
 	  
 ### Communication
 
