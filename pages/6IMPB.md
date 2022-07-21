@@ -39,7 +39,7 @@ tags: [events, gvenck]
 
 **Abstract example**: [Click here](../files/ABSTRACT_EXAMPLE.docx)
 
-**Poster model for PRESENTIAL presentation**: [Click Here](../files/6IMPB_POSTER_PRESENCIAL.pptx)
+**Poster model for PRESENTIAL presentation**: [Click Here](../files/6thimpb_presencial.pptx)
 
 **Poster model for ONLINE presentation**: [Click Here](../files/6IMPB_POSTER_ONLINE.pptx)  
 
