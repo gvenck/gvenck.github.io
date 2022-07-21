@@ -83,6 +83,26 @@ href="http://lattes.cnpq.br/7363206320020147">View Lattes</a></div>
 </div>
 	  
 ### Communication
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="../images/2022/leandrol.jpeg" />
+				<br/>
+				<font color="AAAAAA">Leandro Lavandosque</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="vitoriab.jpg" width="60%" />
+				<br/>
+				<font color="AAAAAA">Vitória Bizão</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
+
 
 ### Secretary
 
