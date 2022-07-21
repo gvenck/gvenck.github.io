@@ -33,24 +33,44 @@ Our main activities are:<br>
 
 ## Members
 
+### Coordination
+
 <div style="font-size: 1.5em; text-align: center;">
     <div id="featured">
   <div class="column1">
     <div class="column1"><img src="../images/baldin.jpg" style="align: center; width: 40%; height: 40%;"></div>
-      <div class="column2"><strong>José Baldin Pinheiro</strong><br>Associate Professor<br>Genetics and Plant Breeding<br><a href="http://lattes.cnpq.br/7363206320020147">View Lattes</a></div>
+      <div class="column2"><strong>José Baldin Pinheiro</strong><br>Associate Professor<br>Genetics and Plant Breeding<br><a
+href="http://lattes.cnpq.br/7363206320020147">View Lattes</a></div>
   </div>
 
   <div class="column2">
-    <div class="column1"><img src="../images/2022/adrianom.jpeg" style="align: center; width: 40%; height: 40%;"></div>
-    <div class="column2"><strong>Renan Silva e Souza</strong><br>PhD student in Genetics and Plant Breeding<br>Soybean Breeding<br><a href="">View Lattes</a></div>
+    <div class="column1"><img src="../images/2022/fernandac.jpeg" style="align: center; width: 40%; height: 40%;"></div>
+    <div class="column2"><strong>Fernanda Smaniotto Campion</strong><br>Master student in Genetics and Plant Breeding<br>Coordinator<br><a href="http://lattes.cnpq.br/7363164788569250">View Lattes</a></div>
   </div>
   
+  <div class="column3">
+    <div class="column1"><img src="images/Givanildo.jpeg" style="align: center; width: 40%; height: 40%;"></div>
+    <div class="column2"><strong>Givanildo Rodrigues da Silva</strong><br>PhD student in Genetics and Plant Breeding<br>Coordinator<br><a href="http://lattes.cnpq.br/8593969618027896">View Lattes</a></div>
+  </div>
+  </div>
+
+### Scientific
+
+### Communication
+
+### Secretary
+
+### Logistic
+
+### Treasury
+
 <img src="../images/baldin.jpg" height="120">{: .image-pull-right}  
 **José Baldin Pinheiro**  
 Associate Professor  
 Genetics and Plant Breeding  
 [View Lattes](http://lattes.cnpq.br/7363206320020147)  
   
+
 <img src="../images/patriciab.jpeg" height="120">{: .image-pull-right}  
 **Patricia Braga**  
 PhD student in Genetics and Plant Breeding  
