@@ -63,7 +63,7 @@ Our main activities are:<br>
 ## Scientific
 <div style="display:flex">
      <div style="flex:1;padding-right:10px;">
-          <img src="../images/2022/gabriels.jpeg" width="200"/>
+          <img src="../images/2022/gabriels.jpeg" width="200" height="auto"/>
           <b>Gabriel Henrique S. S. Salgado</b><br>
           PhD Student in Genetics and Plant Breeding<br>
           Scientific Coordinator<br>
@@ -124,6 +124,11 @@ Our main activities are:<br>
           Communication Member<br>
           <a href="http://lattes.cnpq.br/3369602915210119">View Lattes</a>
      </div>
+</div>
+
+<br>
+
+<div style="display:flex">
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/Eloisa.jpg" width="200"/>
           <b>Eloísa Torrezan</b><br>
@@ -551,7 +556,7 @@ Our main activities are:<br>
 
 <div style="display:flex">
      <div style="flex:1;padding-left:10px;">
-          <img src="../images/gleicy.jpg" width="200"/>
+          <img src="../images/gleicy.jpg" width="200"/><br>
           <b>Gleicy Kelly de Oliveira</b><br>
           PhD student Genetics and Plant Breeding<br>
           Plant Cytogenetics<br>
@@ -559,5 +564,6 @@ Our main activities are:<br>
      </div>
 </div>
 
+<br><br>
 
 Click here to download the ["GVENCK's statute"](../files/Estatuto-gvenck.docx)
