@@ -45,7 +45,7 @@ Our main activities are:<br>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/fernandac.jpeg" width="200"/>
           <b>Fernanda Smaniotto Campion</b><br>
-          Master Student in Genetics and Plant Breeding<br>
+          MSc Student in Genetics and Plant Breeding<br>
           Cooordinator<br>
           <a href="http://lattes.cnpq.br/7363164788569250">View Lattes</a>
      </div>
@@ -72,7 +72,7 @@ Our main activities are:<br>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/talissaf.jpeg" width="200"/>
           <b>Talissa de Oliveira Floriani</b><br>
-          Master Student in Genetics and Plant Breeding<br>
+          MSc Student in Genetics and Plant Breeding<br>
           Scientific Member<br>
           <a href="http://lattes.cnpq.br/7372990970696637">View Lattes</a>
      </div>
@@ -106,14 +106,14 @@ Our main activities are:<br>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/vitoriab.jpg" width="200"/>
           <b>Vitória Bizão Murakami</b><br>
-          Master Student in Genetics and Plant Breeding<br>
+          MSc Student in Genetics and Plant Breeding<br>
           Communication Member<br>
           <a href="http://lattes.cnpq.br/9957782887703497">View Lattes</a>
      </div>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/heloisad.jpeg" width="200"/>
           <b>Heloisa Defant</b><br>
-          Master Student in Genetics and Plant Breeding<br>
+          MSc Student in Genetics and Plant Breeding<br>
           Communication Member<br>
           <a href="http://lattes.cnpq.br/3654246179107508">View Lattes</a>
      </div>
@@ -127,7 +127,7 @@ Our main activities are:<br>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/Eloisa.jpg" width="200"/>
           <b>Eloísa Torrezan</b><br>
-          Master Student in Genetics and Plant Breeding<br>
+          MSc Student in Genetics and Plant Breeding<br>
           Communication Member<br>
           <a href="http://lattes.cnpq.br/2859175331353261">View Lattes</a>
      </div>
@@ -140,7 +140,7 @@ Our main activities are:<br>
      <div style="flex:1;padding-right:10px;">
           <img src="../images/2022/wendya.jpg" width="200"/>
           <b>Wendy Abregu Olarte</b><br>
-          Master Student in Genetics and Plant Breeding<br>
+          MSc Student in Genetics and Plant Breeding<br>
           Secretary Coordinator<br>
           <a href="http://lattes.cnpq.br/5054842534213220">View Lattes</a>
      </div>
@@ -161,7 +161,7 @@ Our main activities are:<br>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/Daniele.jpg" width="200"/>
           <b>Daniele Cristine de Lima Bononi</b><br>
-          Master Student in Genetics and Plant Breeding<br>
+          MSc Student in Genetics and Plant Breeding<br>
           Secretary Member<br>
           <a href="http://lattes.cnpq.br/9170720787370202">View Lattes</a>
      </div>
@@ -181,7 +181,7 @@ Our main activities are:<br>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/Fabio_Rangel.jpeg" width="150"/><br>
           <b>Fábio Rangel</b><br>
-          Master Student in Forest Resources<br>
+          MSc Student in Forest Resources<br>
           Logistic Member<br>
           <a href="http://lattes.cnpq.br/2138561830798520">View Lattes</a>
      </div>
@@ -194,7 +194,7 @@ Our main activities are:<br>
      <div style="flex:1;padding-right:10px;">
           <img src="../images/2022/adrianom.jpeg" width="200"/>
           <b>Adriano Abreu Moreira</b><br>
-          Master Student in Genetics and Plant Breeding<br>
+          MSc Student in Genetics and Plant Breeding<br>
           Treasury Coordinator<br>
           <a href="http://lattes.cnpq.br/3915414237857476">View Lattes</a>
      </div>
@@ -208,7 +208,7 @@ Our main activities are:<br>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/2022/Leonardo_Martins.jpg" width="200"/>
           <b>Leonardo Martins Brandão</b><br>
-          Master Student in Genetics and Plant Breeding<br>
+          MSc Student in Genetics and Plant Breeding<br>
           Treasury Member<br>
           <a href="http://lattes.cnpq.br/2592847505428836">View Lattes</a>
      </div>
@@ -235,7 +235,7 @@ Our main activities are:<br>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/gustavon.jpg" width="200"/>
           <b>Gustavo Nandi</b><br>
-          Master Student in Genetics and Plant Breeding<br>
+          MSc Student in Genetics and Plant Breeding<br>
           Tomato Breeding<br>
           <a href="http://lattes.cnpq.br/9516630603241808">View Lattes</a>
      </div>
@@ -290,7 +290,7 @@ Our main activities are:<br>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/felipek.jpg" width="200"/>
           <b>Felipe Augusto Krause</b><br>
-          Master student in Genetics and Plant Breeding<br>
+          MSc student in Genetics and Plant Breeding<br>
           Quantitative Genetics and Autogamous Plant Breeding<br>
           <a href="http://lattes.cnpq.br/1374315899395717">View Lattes</a>
      </div>
@@ -310,7 +310,7 @@ Our main activities are:<br>
      <div style="flex:1;padding-left:10px;">
           <img src="../images/yajahaira.jpg" width="200"/>
           <b>Yajahaira Carbajal</b><br>
-          Master student in Genetics and Plant Breeding<br>
+          MSc student in Genetics and Plant Breeding<br>
           Citogenomics Lab<br>
           <a href="http://lattes.cnpq.br/7315842000835170">View Lattes</a>
      </div>
