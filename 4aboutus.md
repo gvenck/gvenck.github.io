@@ -130,7 +130,7 @@ Our main activities are:<br>
 
 <div style="display:flex">
      <div style="flex:1;padding-left:10px;">
-          <img src="../images/2022/Eloisa.jpg" width="200"/>
+          <img src="../images/2022/Eloisa.jpg" width="200"/><br>
           <b>Eloísa Torrezan</b><br>
           MSc Student in Genetics and Plant Breeding<br>
           Communication Member<br>
