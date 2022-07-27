@@ -31,7 +31,7 @@ tags: [events, gvenck]
   
 <br>  
 ## Abstracts Submission:
-**Submission deadline** - _September 11th, 2022_
+**Submission deadline** - _August 12th, 2022_
 
 **Abstract submission**: [Click Here](https://docs.google.com/forms/d/e/1FAIpQLSctiq2ZBX44H4zsbY4r2gemh0LfE31DB4plGo23_fCPV_E3rg/viewform?vc=0&c=0&w=1&flr=0) 
 
