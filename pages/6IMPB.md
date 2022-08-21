@@ -89,6 +89,3 @@ tags: [events, gvenck]
 09:00 - 16:00 PM → **MiniCourse** - Dr. Juan E. Perez-Jaramillo (University of Antioquia, Medellín/Colombia) 
 
 <br>
-**October 7th, 2022**
-
-09:00 - 16:00 PM → **MiniCourse** - Dr. Marco Antônio Nogueira (EMBRAPA/Brazil)
