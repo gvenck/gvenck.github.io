@@ -73,7 +73,7 @@ tags: [events, gvenck]
 
 15:00 - 15:15 PM → Research Presentation
 
-15:15 - 16:15 PM → Steve Clough (USDA-ARS on the University of Illinois campus, Urbana, IL)
+15:15 - 16:15 PM → Matthew Hudson (University of Illinois campus, Urbana, IL)
 
 16:15 - 16:40 PM → **Break**
 
