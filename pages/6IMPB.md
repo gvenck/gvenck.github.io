@@ -97,4 +97,4 @@ tags: [events, gvenck]
 
 <br>
 
-<center><img src="../images/Flyer_VI_IMPB_logos.png" height="auto" width="350"></center>
+<center><img src="../images/Flyer_VI_IMPB_logos.png" height="auto" width="355"></center>
