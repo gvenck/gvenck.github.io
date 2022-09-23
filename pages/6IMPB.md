@@ -84,8 +84,15 @@ tags: [events, gvenck]
 17:50 - 18:00 PM → Closing remarks
 
 <br>
+
 **October 6th, 2022**
 
 09:00 - 16:00 PM → **MiniCourse** - Dr. Juan E. Perez-Jaramillo (University of Antioquia, Medellín/Colombia) 
 
 <br>
+
+**October 7th, 2022**
+
+09:00 - 16:00 PM → **MiniCourse** -“Lights, camera, {pliman}! Analyzing plant images in R” - Tiago Olivoto (UFSC/Brazil).
+
+
