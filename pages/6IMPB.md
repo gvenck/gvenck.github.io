@@ -95,4 +95,6 @@ tags: [events, gvenck]
 
 09:00 - 16:00 PM → **MiniCourse** -“Lights, camera, {pliman}! Analyzing plant images in R” - Tiago Olivoto (UFSC/Brazil).
 
+<br>
+
 <center><img src="../images/Flyer_VI_IMPB_logos.png" height="350" width="auto"></center>
