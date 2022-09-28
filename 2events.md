@@ -9,7 +9,7 @@ tags: [events, gvenck]
 ---
   
 <br>
-### Multi-Omics-Data-Assisted Genomic Prediction Incorporating Genotype-by-Environment Interaction
+### MULTI-OMICS-DATA-ASSISTED GENOMIC PREDICTION INCORPORATING GENOTYPE-BY-ENVIRONMENT INTERACTION
 *Juan Diego Jarquim*  
 #### October 13 and 14 th, 2022
 [More information](https://fealq.org.br/eventos/multi-omics-data-assisted-genomic-prediction-incorporating-genotype-by-environment-interaction/)
