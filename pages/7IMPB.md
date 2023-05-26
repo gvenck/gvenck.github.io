@@ -8,8 +8,16 @@ tags: [events, gvenck]
 
 ---
 
-<center><h1>6<sup>th</sup> INTERNATIONAL MEETING ON PLANT BREEDING</h1>
-<i>Understanding the plant-microbe interaction to innovative plant breeding</i></center>
+<center><h1>7<sup>th</sup> INTERNATIONAL MEETING ON PLANT BREEDING</h1>
+<i>Plant breeding for the ESG world: preparing for climate changes, food security, sustainability and quality</i></center>
+
+<br>
+Comming soon!
+<br>  
+
+<!-->
+
+
 <br>
 
 <center><img src="../images/6thIMPB.png" height="350" width="auto"></center>
