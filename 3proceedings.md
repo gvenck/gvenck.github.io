@@ -27,7 +27,7 @@ approaches may constitute an important approach to promote higher genetic gains.
 Based on this idea, our event is focused on fostering discussions with key
 professionals in genetics and plant breeding in order to prepare stakeholders for
 challenges in agriculture.
-The International Meeting on Plant Breeding is one of several events in the "DuPont
+The International Meeting on Plant Breeding is one of several events in the "Corteva
 Plant Sciences Symposia" series. Our aim is training new professionals by providing
 the opportunity to interact with researchers from public and private institutions
 through discussions of relevant scientific topics.

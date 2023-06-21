@@ -10,7 +10,7 @@ tags: [contact, gvenck]
 
 If you want to contact us, please send a message here: 
 
-<form action="mailto:gvenck.esalq@gmail.com" method="post" enctype="text/plain">
+<form action="mailto:gvenck@usp.br" method="post" enctype="text/plain">
 Name:<br>
 <input type="text" name="name"><br>
 E-mail:<br>
