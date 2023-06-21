@@ -7,7 +7,7 @@
 
 # Site settings
 title: GVENCK
-email: gvenck.esalq@gmail.com
+email: gvenck@usp.br
 description: > # this means to ignore newlines until "baseurl:"
   Copyright© 2020. All rights reserved.
 baseurl: "" # the subpath of your site, e.g. /blog
